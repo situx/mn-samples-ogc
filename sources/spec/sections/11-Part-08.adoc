@@ -299,7 +299,7 @@ GeoSPARQL presents specializations of the `geo:hasSerialization` property for in
 
 GeoSPARQL does present some requirements for literal structure which extend the serialization-defining standards, for example the requirement to allow indications of spatial reference systems within WKT geometry representations.
 
-[[NOTE]]
+[NOTE]
 ====
 GeoSPARQL's expectation of RDF literal representations of geometry data is that it is related to the _Simple Features Access_ (SFA) <<ISO19125-1>> standard's conceptualization of geometry which defines classes such as `Point`, `Curve` and `Surface` and specialised variants of them which it presents in a hierarchy. All SFA classes are represented in OWL in the _Simple Features Vocabulary_ presented within GeoSPARQL as an independent profile element, see <<GeoSPARQL Standard structure, GeoSPARQL Standard structure>>.
 
