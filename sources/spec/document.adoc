@@ -54,13 +54,6 @@
 :local-cache-only:
 :data-uri-image:
 
-++++
-<style>
-  .imageblock > .title {
-    text-align: inherit;
-  }
-</style>
-++++
 
 <<<
 [cols = ">",frame = "none",grid = "none"]
