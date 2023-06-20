@@ -17,15 +17,32 @@
 :chapter-refsig: Clause
 :committee: technical
 :workingGroup: OGC GeoSPARQL Working Group
-:fullname: Matthias Mueller
+:fullname: Nicholas J. Car, Timo Homburg, Matthew Perry, John Herring, Frans Knibbe, Simon J.D. Cox, Joseph Abhayaratna and Mathias Bonduel
 :role: editor
-:fullname_2: Benjamin Pross
+:fullname_2: Timo Homburg
 :role_2: editor
+:fullname_3: Matthew Perry
+:role_3: editor
+:fullname_4: John Herring
+:role_4: editor
+:fullname_4: Frans Knibbe
+:role_4: editor
+:fullname_5: Simon J.D. Cox
+:role_5: editor
+:fullname_6: Joseph Abhayaratna
+:role_6: editor
+:fullname_7: Mathias Bonduel
+:role_7: editor
+:fullname_8: Paul J. Cripps
+:role_8: contributor
+:fullname_9: Krzysztof Janowicz
+:role_9: contributor
+:table-caption!:
 :docnumber: 14-065r2
-:external-id: http://www.opengis.net/doc/IS/wps/2.0.2
-:received-date: 2014-11-25
+:external-id: http://www.opengis.net/doc/IS/geosparql/1.1
+:received-date: <yyyy-mm-dd>
 :issued-date: 2015-01-27
-:published-date: 2015-03-05
+:published-date: <yyyy-mm-dd>
 :confirmed-date: 2018-02-16
 :copyright-year: 2015
 :mn-document-class: ogc
