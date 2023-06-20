@@ -2,28 +2,8 @@
 metanorma:
   source:
     files:
-      - sources/00-027/document.adoc
-      - repos/ogc-tcpnp/sources/ogc-tcpnp.adoc
-      - sources/05-020r27/document.adoc
-      - sources/08-062r7/document.adoc
-      - sources/10-091r3/document.adoc
-      - sources/10-100r3/document.adoc
-      - sources/12-077r1/document.adoc
-      - sources/14-065r2/document.adoc
-      - sources/15-104r5/document.adoc
-      - sources/15-120r5/document.adoc
-      - sources/16-080/document.adoc
-      - sources/16-114r3/document.adoc
-      - sources/16-131r2/document.adoc
-      - repos/ogc-wfs/sources/core/standard/17-069.adoc
-      - sources/17-069r3/document.adoc
-      - sources/18-016r1/document.adoc
-      - sources/18-046/document.adoc
-      - sources/18-053r2/document.adoc
-      - sources/18-095r7/document.adoc
-      - sources/19-004/document.adoc
-      - sources/style-sample/document.adoc
-
+      - sources/spec/document.adoc
+      
   collection:
     organization: "OGC: The Open Geospatial Consortium"
     name: "OGC deliverable samples in Metanorma"
