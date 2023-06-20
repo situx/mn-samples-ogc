@@ -38,6 +38,7 @@
 :fullname_9: Krzysztof Janowicz
 :role_9: contributor
 :table-caption!:
+:figure-caption!:
 :docnumber: 14-065r2
 :external-id: http://www.opengis.net/doc/IS/geosparql/1.1
 :received-date: <yyyy-mm-dd>
@@ -49,7 +50,7 @@
 :status: published
 :language: en
 :keywords: TBD, geoprocessing, ogcdoc, OGC document, processes, processing, WPS
-:submitting-organizations: TU Dresden; 52°North; Intergraph Corporation; Image Matters LLC; CRP Henri Tudor; Airbus Defence and Space
+:submitting-organizations: CSIRO; Cubewerx Inc; Defence Science and Technology Laboratory (DSTL); Geonovum; Geoscape Australia; Geoscience Australia; Mainz University Of Applied Sciences; Oracle America; OSGeo; SURROUND Australia Pty Ltd.
 :imagesdir: images
 :local-cache-only:
 :data-uri-image:
