@@ -263,7 +263,8 @@ geo:isEmpty
 
 The property http://www.opengis.net/ont/geosparql#isSimple[`geo:isSimple`] will indicate a Boolean object set to `true`, only if the Geometry contains no self-intersections, with the possible exception of its boundary.
 
-```turtle
+[source,turtle]
+---
 geo:isSimple 
     a rdf:Property, owl:DatatypeProperty ;
     rdfs:isDefinedBy geo: ;
@@ -273,13 +274,14 @@ geo:isSimple
     rdfs:domain geo:Geometry ;
     rdfs:range xsd:boolean ;
 .    
-```
+---
 
 ==== Property: geo:hasSerialization
 
 The property http://www.opengis.net/ont/geosparql#hasSerialization[`geo:hasSerialization`] is defined to connect a Geometry with its text-based serialization (e.g., its WKT serialization).
 
-```turtle
+[source,turtle]
+---
 geo:hasSerialization 
     a rdf:Property, owl:DatatypeProperty ;
     rdfs:isDefinedBy geo: ; 
@@ -288,7 +290,7 @@ geo:hasSerialization
     rdfs:domain geo:Geometry ; 
     rdfs:range rdfs:Literal ;
 .
-```
+---
 
 NOTE: this property is the generic property used to connect a Geometry with its serialization. GeoSPARQL also contains a number of sub properties of this one for connecting serializations of common types with geometries, for example <<Property: geo:asGeoJSON, as GeoJSON>> which can be used for GeoJSON <<GEOJSON>> literals.
 

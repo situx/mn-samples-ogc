@@ -2,6 +2,7 @@
 :edition: 1.1
 :doctype: standard
 :docsubtype: profile
+:mn-document-class: ogc
 :status: draft
 :encoding: utf-8
 :lang: en
@@ -47,7 +48,7 @@
 :published-date: <yyyy-mm-dd>
 :confirmed-date: 2018-02-16
 :copyright-year: 2023
-:mn-document-class: ogc
+
 :status: published
 :language: en
 :keywords: GeoSPARQL, Semantic Web, OGC document, OGC
