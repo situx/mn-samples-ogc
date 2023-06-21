@@ -1,5 +1,5 @@
 = OGC GeoSPARQL - A Geographic Query Language for RDF Data
-:edition: 2.0.2
+:edition: 1.1
 :doctype: standard
 :docsubtype: implementation
 :encoding: utf-8
@@ -17,7 +17,7 @@
 :chapter-refsig: Clause
 :committee: technical
 :workingGroup: OGC GeoSPARQL Working Group
-:fullname: Nicholas J. Car, Timo Homburg, Matthew Perry, John Herring, Frans Knibbe, Simon J.D. Cox, Joseph Abhayaratna and Mathias Bonduel
+:fullname: Nicholas J. Car
 :role: editor
 :fullname_2: Timo Homburg
 :role_2: editor
