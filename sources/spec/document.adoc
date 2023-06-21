@@ -1,7 +1,8 @@
 = OGC GeoSPARQL - A Geographic Query Language for RDF Data
 :edition: 1.1
 :doctype: standard
-:docsubtype: implementation
+:docsubtype: profile
+:status: draft
 :encoding: utf-8
 :lang: en
 :table-stripes: odd
@@ -45,11 +46,11 @@
 :issued-date: 2015-01-27
 :published-date: <yyyy-mm-dd>
 :confirmed-date: 2018-02-16
-:copyright-year: 2015
+:copyright-year: 2023
 :mn-document-class: ogc
 :status: published
 :language: en
-:keywords: TBD, geoprocessing, ogcdoc, OGC document, processes, processing, WPS
+:keywords: GeoSPARQL, Semantic Web, OGC document, OGC
 :submitting-organizations: CSIRO; Cubewerx Inc; Defence Science and Technology Laboratory (DSTL); Geonovum; Geoscape Australia; Geoscience Australia; Mainz University Of Applied Sciences; Oracle America; OSGeo; SURROUND Australia Pty Ltd.
 :imagesdir: images
 :local-cache-only:
@@ -72,26 +73,6 @@ This document has the role of _specification_ and authoritatively defines many o
 
 
 
-<<<
-[cols = ">",frame = "none",grid = "none"]
-|===
-|{set:cellbgcolor:#FFFFFF}
-|[big]*Open Geospatial Consortium*
-|Submission Date: <yyyy-mm-dd>
-|Approval Date: <yyyy-mm-dd>
-|Publication Date: <yyyy-mm-dd>
-|External identifier of this OGC(R) document: http://www.opengis.net/doc/IS/geosparql/1.1
-|Internal reference number of this OGC(R) document: YY-DOC
-|Version: 1.1
-|Category: OGC(R) Implementation Specification
-|Editors: Nicholas J. Car, Timo Homburg, Matthew Perry, John Herring, Frans Knibbe, Simon J.D. Cox, Joseph Abhayaratna and Mathias Bonduel 
-|Contributors: Paul J. Cripps, Krzysztof Janowicz
-|===
-
-[cols = "^", frame = "none"]
-|===
-|[big]*{titletext}*
-|===
 
 [cols = "^", frame = "none", grid = "none"]
 |===
