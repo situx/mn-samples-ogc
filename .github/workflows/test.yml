@@ -4,7 +4,7 @@ name: gems-test
 
 on:
   repository_dispatch:
-    types: [ metanorma/metanorma-* ]
+    types: [ metanorma/metanorma-ubuntu ]
 
 jobs:
   test-docker:
