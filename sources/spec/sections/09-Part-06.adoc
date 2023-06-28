@@ -78,7 +78,8 @@ geo:Feature
 ```
 
 [#req_core_feature-class]
-[requirement]
+[requirement,type="class",label="http://www.opengis.net/spec/geosparql/1.0/req/core/feature-class",obligation="requirement"]
+[%unnumbered]
 |===
 | *Req 3* Implementations shall allow the RDFS class <<Class: geo:Feature, `geo:Feature`>> to be used in SPARQL graph patterns.
 |http://www.opengis.net/spec/geosparql/1.0/req/core/feature-class[`http://www.opengis.net/spec/geosparql/1.0/req/core/feature-class`]
@@ -108,7 +109,8 @@ geo:SpatialObjectCollection
 The restriction imposed on the generic `rdfs:Container` that defines this class is that only instances of <<Class: SpatialObject, Spatial Object>> are allowed to be members of it and these are indicated with the `rdfs:member` property.
 
 [#req_core_spatial-object-collection-class]
-[requirement]
+[requirement,type="class",label="http://www.opengis.net/spec/geosparql/1.1/req/core/spatial-object-collection-class",obligation="requirement"]
+[%unnumbered]
 |===
 | *Req 5* Implementations shall allow the RDFS class <<Class: geo:SpatialObjectCollection, `geo:SpatialObjectCollection`>> to be used in SPARQL graph patterns.
 |http://www.opengis.net/spec/geosparql/1.1/req/core/spatial-object-collection-class[`http://www.opengis.net/spec/geosparql/1.1/req/core/spatial-object-collection-class`]
