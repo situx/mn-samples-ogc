@@ -4,6 +4,9 @@
 
 == Core
 
+[[core]]
+
+
 This clause establishes the *core* requirements class, with IRI `/req/core`, which has a single corresponding conformance class, *core*, with IRI `/conf/core`. This requirements class defines a set of classes and properties for representing geospatial data. The resulting vocabulary - an ontology - can be used to construct SPARQL graph patterns for querying appropriately modeled geospatial data. RDFS and OWL vocabulary have both been used so that the vocabulary can be understood by systems that support only RDFS entailment and by systems that support OWL-based reasoning.
 
 The figure below overviews the classes and properties defined by GeoSPARQL in the *core*, *Topology Vocabulary Extension* and *Geometry Extension*, *Geometry Topology Extension* and *RDFS Entailment Extension* requirements classes. 
@@ -15,7 +18,8 @@ image::ont-overview.png[GeoSPARQL Ontology overview,align="center"]
 === SPARQL
 
 [#req_core_sparql-protocol]
-[requirement]
+[requirement,type="class",label="http://www.opengis.net/spec/geosparql/1.0/req/core/sparql-protocol",obligation="requirement"]
+[%unnumbered]
 |===
 | *Req 1* Implementations shall support the SPARQL Query Language for RDF <<SPARQL>>, the SPARQL Protocol <<SPARQLPROT>> and the SPARQL Query Results XML <<SPARQLRESX>> and JSON <<SPARQLRESJ>> Formats.
 | http://www.opengis.net/spec/geosparql/1.0/req/core/sparql-protocol[`http://www.opengis.net/spec/geosparql/1.0/req/core/sparql-protocol`]
@@ -41,7 +45,8 @@ geo:SpatialObject
                     and geometry"@en .
 ```
 [#req_core_spatial_object_class]
-[requirement]
+[requirement,type="class",label="http://www.opengis.net/spec/geosparql/1.0/req/core/spatial-object-class",obligation="requirement"]
+[%unnumbered]
 |===
 | *Req 2* Implementations shall allow the RDFS class <<Class: geo:SpatialObject, `geo:SpatialObject`>> to be used in SPARQL graph patterns.
 |http://www.opengis.net/spec/geosparql/1.0/req/core/spatial-object-class[`http://www.opengis.net/spec/geosparql/1.0/req/core/spatial-object-class`]
