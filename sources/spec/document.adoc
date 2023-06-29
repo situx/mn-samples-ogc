@@ -138,20 +138,20 @@ include::sections/14-query_rewrite_extension.adoc[]
 
 include::sections/15-future_work.adoc[]
 
-include::sections/aa_abstract_test_suite.adoc[]
+include::sections/aa-abstract_test_suite.adoc[]
 
-include::sections/ab_functions_summary.adoc[]
+include::sections/ab-functions_summary.adoc[]
 
-include::sections/ac_examples.adoc[]
+include::sections/ac-examples.adoc[]
 
-include::sections/ad_shacl_shapes.adoc[]
+include::sections/ad-shacl_shapes.adoc[]
 
-include::sections/ae_alignments.adoc[]
+include::sections/ae-alignments.adoc[]
 
-include::sections/af_cql_geosparql_mapping.adoc[]
+include::sections/af-cql_geosparql_mapping.adoc[]
 
-include::sections/ag_revision_history.adoc[]
+include::sections/ag-revision_history.adoc[]
 
-include::sections/az_bibliography.adoc[]
+include::sections/az-bibliography.adoc[]
 
 <<<
