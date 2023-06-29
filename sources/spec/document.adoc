@@ -169,6 +169,8 @@ include::sections/20-Annex-E.adoc[]
 
 include::sections/21-Annex-F.adoc[]
 
-include::sections/22-Bibliography.adoc[]
+include::sections/22-Annex-G.adoc[]
+
+include::sections/23-Bibliography.adoc[]
 
 <<<
