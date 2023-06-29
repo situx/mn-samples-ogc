@@ -1,4 +1,11 @@
-=== iii. Submission contact points
+[abstract]
+== Abstract
+
+This OGC document provides the formal specification of GeoSPARQL, a semantic web standard enabling the representation and querying of geospatial data on the Semantic Web. It consists of vocabularies to represent geospatial data, SHACL shapes to validate geospatial data provided in the GeoSPARQL vocabulary and various extensions to the SPARQL query languages for processing geospatial data. 
+
+[.preface]
+== Submitters
+
 All questions regarding this submission should be directed to the editor or the submitters:
 
 [frame=none, grid=none, cols="1, 3"]
