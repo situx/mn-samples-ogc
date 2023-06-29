@@ -1,5 +1,5 @@
 [abstract]
-== Abstract
+== Preface
 The OGC GeoSPARQL Standard defines:
 
 * A formal _profile_;
