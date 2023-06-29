@@ -1,4 +1,4 @@
-[appendix]
+[appendix,obligation="infomative"]
 = Annex C - GeoSPARQL Examples (informative)
 
 == C.0 Overview
