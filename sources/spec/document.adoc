@@ -58,23 +58,6 @@
 :data-uri-image:
 
 
-== Preface
-The GeoSPARQL standard defines:
-
-* a formal _profile_
-* **this specification document**
-** a core RDF/OWL ontology for geographic information representation
-* a set of SPARQL extension functions
-* a Functions & Rules vocabulary, derived from the ontology
-* a Simple Features geometry types vocabulary
-* a set of RIF rules, and
-* SHACL shapes for RDF data validation
-
-This document has the role of _specification_ and authoritatively defines many of the standard's elements, including the ontology classes and properties, SPARQL functions and function and rule vocabulary concepts. Complete descriptions of the standard's parts and their roles are given in the Introduction in the section <<GeoSPARQL Standard structure>>.
-
-
-
-
 [cols = "^", frame = "none", grid = "none"]
 |===
 |*Copyright notice*
@@ -123,52 +106,54 @@ toc::[]
 
 :sectnums!:
 
-include::sections/01-Preamble.adoc[]
+include::sections/01-preface.adoc[]
 
-include::sections/02-Introduction.adoc[]
+include::sections/02-introduction.adoc[]
 
-include::sections/03-Part-00.adoc[]
+include::sections/03-scope.adoc[]
 
 :sectnums:
 
-include::sections/04-Part-01.adoc[]
+include::sections/04-conformance.adoc[]
 
-include::sections/05-Part-02.adoc[]
+include::sections/05-references.adoc[]
 
-include::sections/06-Part-03.adoc[]
+include::sections/06-terms_and_definitions.adoc[]
 
-include::sections/07-Part-04.adoc[]
+include::sections/07-conventions.adoc[]
 
-include::sections/08-Part-05.adoc[]
+include::sections/08-title.adoc[]
 
-include::sections/09-Part-06.adoc[]
+include::sections/09-core.adoc[]
 
-include::sections/10-Part-07.adoc[]
+include::sections/10-topology_extension.adoc[]
 
-include::sections/11-Part-08.adoc[]
+include::sections/11-geometry_extension.adoc[]
 
-include::sections/12-Part-09.adoc[]
+include::sections/12-geometry_topology_extension.adoc[]
 
-include::sections/13-Part-10.adoc[]
+include::sections/13-rdfs_entailment_extension.adoc[]
 
-include::sections/14-Part-11.adoc[]
+include::sections/14-query_rewrite_extension.adoc[]
 
-include::sections/15-Part-12.adoc[]
+include::sections/15-future_work.adoc[]
 
 :sectnums!:
 
-include::sections/16-Annex-A.adoc[]
+include::sections/aa-abstract_test_suite.adoc[]
 
-include::sections/17-Annex-B.adoc[]
+include::sections/ab-functions_summary.adoc[]
 
-include::sections/18-Annex-C.adoc[]
+include::sections/ac-examples.adoc[]
 
-include::sections/19-Annex-D.adoc[]
+include::sections/ad-shacl_shapes.adoc[]
 
-include::sections/20-Annex-E.adoc[]
+include::sections/ae-alignments.adoc[]
 
-include::sections/21-Annex-F.adoc[]
+include::sections/af-cql_geosparql_mapping.adoc[]
 
-include::sections/22-Bibliography.adoc[]
+include::sections/ag-revision_history.adoc[]
+
+include::sections/az-bibliography.adoc[]
 
 <<<
