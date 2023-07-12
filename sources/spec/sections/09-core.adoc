@@ -382,6 +382,8 @@ Properties are defined for associating <<Class: geo:Feature, `geo:Feature`>> ins
 
 
 [#req_geometry-extension_feature-properties]
+[requirement,type="class",label="http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/feature-properties",obligation="requirement"]
+[%unnumbered]
 |===
 | *Req {counter:req}* Implementations shall allow the properties 
 <<Property: geo:hasGeometry, `geo:hasGeometry`>>, 

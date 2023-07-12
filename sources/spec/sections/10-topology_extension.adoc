@@ -15,6 +15,8 @@ The following parameter is defined for the _Topology Vocabulary Extension_ Requi
 This clause defines Requirements for the _Simple Features_ relation family.
 
 [#req_topology-vocab-extension_sf-spatial-relations]
+[requirement,type="class",label="http://www.opengis.net/spec/geosparql/1.0/req/topology-vocab-extension/sf-spatial-relations",obligation="requirement"]
+[%unnumbered]
 |===
 | *Req {counter:req}* Implementations shall allow the properties 
 <<Property: geo:sfEquals, `geo:sfEquals`>>, 
@@ -52,6 +54,8 @@ L/A+`; `+(0********) for L/L+`
 This clause defines Requirements for the 9-intersection model for the binary topological relations (_Egenhofer_) relation family. The reader should consult references <<FORMAL>> and <<CATEG>> for a more detailed discussion of _Egenhofer_ relations.
 
 [#req_topology-vocab-extension_eh-spatial-relations]
+[requirement,type="class",label="http://www.opengis.net/spec/geosparql/1.0/req/topology-vocab-extension/eh-spatial-relations",obligation="requirement"]
+[%unnumbered]
 |===
 | *Req {counter:req}* Implementations shall allow the properties 
 <<Property: geo:ehEquals, `geo:ehEquals`>>, 
@@ -88,6 +92,8 @@ Topological relations in the _Egenhofer_ family are summarized in <<egenhofer_re
 This clause defines Requirements for the region connection calculus basic 8 (_RCC8_) relation family. The reader should consult references <<QUAL>> and <<LOGIC>> for a more detailed discussion of _RCC8_ relations.
 
 [#req_topology-vocab-extension_rcc8-spatial-relations]
+[requirement,type="class",label="http://www.opengis.net/spec/geosparql/1.0/req/topology-vocab-extension/rcc8-spatial-relations",obligation="requirement"]
+[%unnumbered]
 |===
 | *Req {counter:req}* Implementations shall allow the properties 
 <<Property: geo:rcc8eq, `geo:rcc8eq`>>, 
