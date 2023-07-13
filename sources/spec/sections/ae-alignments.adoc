@@ -2,7 +2,11 @@
 
 == Alignments
 
+:sectnums!:
+
 === E.0 Overview
+
+:sectnums:
 
 This Annex provides alignments of GeoSPARQL to other well known ontologies that are either commonly used with GeoSPARQL or could be.
 
@@ -174,6 +178,7 @@ and
 
 OWL TIME sets no domain for https://www.w3.org/TR/owl-time/hasTime[`time:hasTime`] thus this property may be used with anything, including a GeoSPARQL <<Class: geo:Feature, `geo:Feature`>> so that a spatio-temporal Feature may be indicated like this:
 
+[%unnumbered]
 ```turtle
 :flooded-area-x
     a geo:Feature ;
@@ -197,7 +202,7 @@ In the above example, `:flooded-area-x` is a spatio-temporal Feature that has bo
 
 Another possible use of TIME with GeoSPARQL is to assign temporality to individual <<Class: geo:Geometry, `geo:Geometry`>> instances. This is allowed given https://www.w3.org/TR/owl-time/hasTime[`time:hasTime`]'s open domain:
 
-
+[%unnumbered]
 ```turtle
 :flooded-area-x
     a geo:Feature ;
@@ -270,6 +275,7 @@ DCTERMS-related geometry literals, such as the _DCMI Box Encoding Scheme_ footno
 could be indicated as GeoSPARQL geometry literals if a literal datatype were created for each. For example, the _DCMI Point Encoding Scheme_ example of "The highest point in Australia" with the literal value 
 `east=148.26218; north=-36.45746; elevation=2228; name=Mt. Kosciusko` might be encoded in GeoSPARQL like this:
 
+[%unnumbered]
 ```turtle
 :mt-kosciusko
     a geo:Feature ;
@@ -299,7 +305,8 @@ From GeoSPARQL's point of view, PROV is an "upper" ontology - one dealing with m
 * The PROV property http://www.w3.org/ns/prov#atLocation[`prov:atLocation`] indicates http://www.w3.org/ns/prov#Location[`prov:Location`] instances, which may be <<Class: geo:Feature, `geo:Feature`>> instances, but GeoSPARQL has no property to indicate a <<Class: geo:Feature, `geo:Feature`>>, so no mapping is possible. Indicating features is commonly done in ontologies which use GeoSPARQL but not within GeoSPARQL.
 
 * Derivative relations between GeoSPARQL objects could be modelled using PROV, for instance a BoundingBox may be indicated as having been derived from a Polygon like this:
-+
+
+[%unnumbered]
 ```turtle
 :bounding-box-y prov:wasDerivedFrom :polygon-x .
 ```

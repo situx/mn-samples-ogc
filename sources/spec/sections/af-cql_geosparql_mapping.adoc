@@ -2,7 +2,11 @@
 
 == CQL / GeoSPARQL Mapping
 
+:sectnums!:
+
 === F.0 Overview
+
+:sectnums:
 
 This annex presents a mapping between the Common Query Language(CQL) <<CQLDEF>> and GeoSPARQL as well as generic SPARQL <<SPARQL>>. This is likely of relevance to the delivery of GeoSPARQL data via systems such as the OGC's Web Feature Service <<WFS>> and OGC API Features <<OGCAPIF>> which implement CQL.
 
@@ -13,6 +17,7 @@ They may have one or more <<Property: geo:hasGeometry, `geo:hasGeometry`>> prope
 
 The following example SPARQL query retrieves all Features within the Feature Collection with the IRI `ex:x` within a given SPARQL endpoint.
 
+[%unnumbered]
 ```turtle
 SELECT ?fcollection ?item ?rel ?val ?geom 
 WHERE {
@@ -30,6 +35,7 @@ Some CQL-implementing systems, such as OGC API, have fixed notions of Feature Co
 
 An extension to the above can retrieve any Geometry serializations for the Features within Feature Collection `ex:x`:
 
+[%unnumbered]
 ```turtle
 SELECT ?fcollection ?item ?rel ?val ?geom 
 WHERE {

@@ -2,7 +2,11 @@
 
 == Functions Summary
 
+:sectnums!:
+
 === B.0 Overview
+
+:sectnums:
 
 This annex summarizes all the functions defined in GeoSPARQL, providing descriptions of their parameters and return types.
 

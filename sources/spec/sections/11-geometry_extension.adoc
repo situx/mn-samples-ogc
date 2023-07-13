@@ -725,6 +725,7 @@ geo:asKML
 
 ===== Function: geof:asKML
 
+[%unnumbered]
 ```
 geof:asKML (geom: ogc:geomLiteral): geo:kmlLiteral
 ```

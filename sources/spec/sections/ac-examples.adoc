@@ -2,7 +2,11 @@
 
 == GeoSPARQL Examples
 
+:sectnums!:
+
 === C.0 Overview
+
+:sectnums:
 
 This Annex provides examples of the GeoSPARQL ontology and functions. In addition to these, extended examples are provided separately by the GeoSPARQL 1.1 profile. See the <<GeoSPARQL Standard structure>> for the link to those examples.
 
@@ -715,6 +719,7 @@ WHERE {
 ```
 
 *Result*:
+[%unnumbered]
 |===
 |*?f*
 
@@ -750,6 +755,7 @@ WHERE {
 ```
 
 *Result*:
+[%unnumbered]
 |===
 |*?f*
 
@@ -785,6 +791,7 @@ WHERE {
 ```
 
 *Result*:
+[%unnumbered]
 |===
 |*?f*
 
@@ -816,6 +823,7 @@ LIMIT 3
 ```
 
 *Result*:
+[%unnumbered]
 |===
 |*?f*
 
@@ -850,6 +858,7 @@ WHERE {
 ```
 
 *Result*:
+[%unnumbered]
 |===
 |*?minX* | *?minY* | *?minZ* | *?maxX* | *?maxY* | *?maxZ*
 
@@ -919,6 +928,7 @@ WHERE {
 ```
 
 *Result*:
+[%unnumbered]
 |===
 |*?f*
 
