@@ -2,6 +2,7 @@
 
 = Revision History
 
+.Revision History
 |===
 |Date | Release | Author | Paragraph modified | Description
 

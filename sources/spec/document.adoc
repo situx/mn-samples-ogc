@@ -138,8 +138,6 @@ include::sections/14-query_rewrite_extension.adoc[]
 
 include::sections/15-future_work.adoc[]
 
-:sectnums!:
-
 include::sections/aa-abstract_test_suite.adoc[]
 
 include::sections/ab-functions_summary.adoc[]

@@ -4,6 +4,7 @@
 
 In this specification, the following common acronyms are used:
 
+[%unnumbered]
 [frame=none, grid=none, cols="1, 6"]
 |===
 | CRS | Coordinate Reference System
@@ -28,6 +29,7 @@ In this specification, the following common acronyms are used:
 
 The following IRI namespace prefixes are used throughout this document:
 
+[%unnumbered]
 [frame=none, grid=none, cols="1, 6"]
 |===
 | ex: | http://example.com/

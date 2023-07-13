@@ -56,6 +56,7 @@ This section presents lists of equivalences between Common Query Language (CQL2)
 
 Several query parameters may be given as parameters to the HTTP request of CD-implementing systems, such as the OGC API Features service. These parameters have an influence on the SPARQL query to be executed for the retrieval of a FeatureCollection to be exposed using an OGC API Features service.
 
+.CQL To GeoSPARQL Mappings: Query Parameters
 [cols="1,1,1,1,3"]
 |===
 | Query Parameter | Example | SPARQL Expression | Example | Comment
@@ -74,6 +75,7 @@ geo:sfIntersects())`` | ``FILTER(geo:sfIntersects(?geom, "POLYGON( (160.6 -55.95
 
 CQL2 defines literal values for a variety of datatypes. The following table shows the equivalences of these values in RDF which may be used in any GeoSPARQL query.
 
+.CQL To GeoSPARQL Mappings: Literal Values
 |===
 | CQL2 literal | Examples  | (Geo)SPARQL literal | Examples
 
@@ -89,6 +91,7 @@ CQL2 defines literal values for a variety of datatypes. The following table show
 
 CQL2 allows the referencing of properties in a Feature Collection it is targeting for filtering. A property reference is converted to a triple pattern as shown in the following example. A SPARQL variable ``?item`` is assumed to represent the Feature Collection.
 
+.CQL To GeoSPARQL Mappings: Property references
 |===
 | Property Reference  | Triple pattern
 
@@ -101,6 +104,7 @@ CQL2 allows the referencing of properties in a Feature Collection it is targetin
 
 CQL2 defines comparison predicates to compare two scalar expressions. A comparison predicate is converted to a triple pattern as shown in the following example. A SPARQL variable `?item` is assumed to represent the Feature Collection.
 
+.CQL To GeoSPARQL Mappings: Comparison Predicates
 |===
 | Comparison predicate  | Triple pattern | Comment
 
@@ -120,6 +124,7 @@ There is no direct GeoSPARQL equivalent to a CRS-based CQL filter, however certa
 
 GeoSPARQL includes equivalents of many CQL2 filter functions as can be seen in the table below.
 
+.CQL To GeoSPARQL Mappings: Spatial Operators
 |===
 | CQL2 Filter Expression  | GeoSPARQL Filter Function 
 
@@ -137,6 +142,7 @@ GeoSPARQL includes equivalents of many CQL2 filter functions as can be seen in t
 
 Temporal operators are not part of the GeoSPARQL standard. 
 
+.CQL To GeoSPARQL Mappings: Temporal Operators
 |===
 | CQL2 Filter Expression  | GeoSPARQL Filter Function 
 
@@ -161,6 +167,7 @@ As noted above in Section <<F.2.1 Query Parameters, F.2.1 Query Parameters>>, te
 
 The following table maps the functions and properties from Simple Features for SQL <<OGCSFACA>> <<ISO19125-1>> to GeoSPARQL.
 
+.CQL To GeoSPARQL Mappings: Simple Features for SQL
 [cols="3,3,3,3,3"]
 |===
 | Simple Features for SQL | GeoSPARQL Equivalent | Since GeoSPARQL | Related Property Available | Since GeoSPARQL

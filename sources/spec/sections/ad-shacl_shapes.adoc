@@ -35,6 +35,7 @@ The SHACL Shapes defined in the GeoSPARQL 1.1 standard all target the verificati
 
 == D.3 Table of SHACL Shapes
 
+.Alignment: GeoSPARQL SHACL Shapes
 [cols="1,1,1,1"]
 |===
 |SHACL Shape ID | Severity | Test purpose | Requirements tested 
