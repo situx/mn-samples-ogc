@@ -3,6 +3,8 @@ metanorma:
   source:
     files:
       - sources/spec/document.adoc
+      - sources/15-104r5/document.adoc
+      - sources/14-065r2/document.adoc
       
   collection:
     organization: "OGC: The Open Geospatial Consortium"
