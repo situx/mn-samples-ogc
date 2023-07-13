@@ -1,13 +1,14 @@
 [appendix,obligation=informative]
 
-= Alignments
+== Alignments
 
-== E.0 Overview
+=== E.0 Overview
 
 This Annex provides alignments of GeoSPARQL to other well known ontologies that are either commonly used with GeoSPARQL or could be.
 
 The prefixes used for the ontologies mapped to in all following sections are given in the following table.
 
+.Alignment: Namespaces
 [frame=none, grid=none, cols="1, 6"]
 |===
 | as: | https://www.w3.org/ns/activitystreams#
@@ -36,7 +37,7 @@ The prefixes used for the ontologies mapped to in all following sections are giv
 | wdt: | http://www.wikidata.org/entity/
 |===
 
-== E.1 ISA Programme Location Core Vocabulary (LOCN)
+=== E.1 ISA Programme Location Core Vocabulary (LOCN)
 
 LOCN Source: https://www.w3.org/ns/locn
 
