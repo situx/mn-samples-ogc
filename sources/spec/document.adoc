@@ -53,7 +53,7 @@
 :language: en
 :keywords: GeoSPARQL, Semantic Web, OGC document, OGC
 :submitting-organizations: CSIRO; Cubewerx Inc; Defence Science and Technology Laboratory (DSTL); Geonovum; Geoscape Australia; Geoscience Australia; Mainz University Of Applied Sciences; Oracle America; OSGeo; SURROUND Australia Pty Ltd.
-:imagesdir: images
+:imagesdir: figures
 :local-cache-only:
 :data-uri-image:
 

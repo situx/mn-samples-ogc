@@ -1,3 +1,4 @@
+[appendix,obligation=informative]
 
 = Annex G - Revision History
 
