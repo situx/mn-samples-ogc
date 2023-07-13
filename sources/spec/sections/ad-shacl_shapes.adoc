@@ -1,6 +1,6 @@
 [appendix,obligation=informative]
 
-= Annex D - Usage of SHACL shapes (informative)
+= Usage of SHACL shapes
 
 == D.0 Overview
 

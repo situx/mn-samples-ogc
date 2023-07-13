@@ -1,6 +1,6 @@
 [appendix,obligation=normative]
 
-= Annex B - Functions Summary (normative)
+= Functions Summary
 
 == B.0 Overview
 

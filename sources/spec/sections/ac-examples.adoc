@@ -1,6 +1,6 @@
 [appendix,obligation=informative]
 
-= Annex C - GeoSPARQL Examples (informative)
+= GeoSPARQL Examples
 
 == C.0 Overview
 

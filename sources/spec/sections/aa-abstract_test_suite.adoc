@@ -1,6 +1,6 @@
 [appendix,obligation=normative]
 
-= Annex A - Abstract Test Suite (normative)
+= Abstract Test Suite
 
 == Overview
 

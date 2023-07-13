@@ -1,6 +1,6 @@
 [appendix,obligation=informative]
 
-= Annex F - CQL / GeoSPARQL Mapping (informative)
+= CQL / GeoSPARQL Mapping
 
 == F.0 Overview
 
