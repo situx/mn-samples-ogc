@@ -31,6 +31,7 @@ Two container classes are defined: <<Class: geo:SpatialObjectCollection, Spatial
 
 The class http://www.opengis.net/ont/geosparql#SpatialObject[`geo:SpatialObject`] is defined by the following:
 
+[%unnumbered]
 ```turtle
 geo:SpatialObject 
     a rdfs:Class, owl:Class ;
@@ -50,6 +51,7 @@ geo:SpatialObject
 
 *Example:*
 
+[%unnumbered]
 ```turtle
 eg:x 
     a geo:SpatialObject ;
@@ -61,6 +63,7 @@ eg:x
 
 The class http://www.opengis.net/ont/geosparql#Feature[`geo:Feature`] is equivalent to the class `GFI_Feature` <<ISO19156>> and is defined by the following:
 
+[%unnumbered]
 ```turtle
 geo:Feature 
     a rdfs:Class, owl:Class ;
@@ -85,6 +88,7 @@ geo:Feature
 
 The class http://www.opengis.net/ont/geosparql#SpatialObjectCollection[`geo:SpatialObjectCollection`] is defined by the following:
 
+[%unnumbered]
 ```turtle
 geo:SpatialObjectCollection
   a owl:Class ;
@@ -116,6 +120,7 @@ The restriction imposed on the generic `rdfs:Container` that defines this class 
 
 The class http://www.opengis.net/ont/geosparql#FeatureCollection[`geo:FeatureCollection`] is defined by the following:
 
+[%unnumbered]
 ```turtle
 geo:FeatureCollection
   a owl:Class ;
@@ -177,6 +182,7 @@ GeoSPARQL 1.1 defines the following subproperties of this property:
 <<Property: geo:hasArea, `geo:hasArea`>> and 
 <<Property: geo:hasVolume, `geo:hasVolume`>>.
 
+[%unnumbered]
 ```turtle
 geo:hasSize 
     a rdf:Property, owl:ObjectProperty ;
@@ -199,6 +205,7 @@ GeoSPARQL 1.1 defines the following subproperties of this property:
 <<Property: geo:hasMetricArea, `geo:hasMetricArea`>> and 
 <<Property: geo:hasMetricVolume, `geo:hasMetricVolume`>>.
 
+[%unnumbered]
 ```turtle
 geo:hasMetricSize 
     a rdf:Property, owl:DatatypeProperty ;
@@ -217,6 +224,7 @@ geo:hasMetricSize
 
 The property http://www.opengis.net/ont/geosparql#hasLength[`geo:hasLength`] can be used to indicate the length of a Spatial Object if it is not possible to use the property <<Property: geo:hasMetricLength, `geo:hasMetricLength`>>. It is a subproperty of <<Property: geo:hasSize, `geo:hasSize`>>.
 
+[%unnumbered]
 ```turtle
 geo:hasLength 
     a rdf:Property, owl:ObjectProperty ;
@@ -232,6 +240,7 @@ geo:hasLength
 
 The property http://www.opengis.net/ont/geosparql#hasMetricLength[`geo:hasMetricLength`] can be used to indicate the length of a Spatial Object in meters (m). It is a subproperty of <<Property: geo:hasMetricSize, `geo:hasMetricSize`>>. This property can be used for Spatial Objects having one, two, or three dimensions.
 
+[%unnumbered]
 ```turtle
 geo:hasMetricLength 
     a rdf:Property, owl:DatatypeProperty ;
@@ -248,6 +257,7 @@ geo:hasMetricLength
 
 The property http://www.opengis.net/ont/geosparql#hasPerimeterLength[`geo:hasPerimeterLength`] can be used to indicate the length of the outer boundary of a Spatial Object if it is not possible to use the property <<Property: geo:hasMetricPerimeterLength, `geo:hasMetricPerimeterLength`>>. It is a subproperty of <<Property: geo:hasSize, `geo:hasSize`>>.
 
+[%unnumbered]
 ```turtle
 geo:hasPerimeterLength
     a rdf:Property, owl:ObjectProperty ;
@@ -262,6 +272,7 @@ geo:hasPerimeterLength
 
 The property http://www.opengis.net/ont/geosparql#hasMetricPerimeterLength[`geo:hasMetricPerimeterLength`] can be used to indicate the length of the outer boundary of a Spatial Object in meters (m). It is a subproperty of <<Property: geo:hasMetricSize, `geo:hasMetricSize`>>. Circumference is considered a type of perimeter, so this property can be used for circular or curved objects too. This property can be used for Spatial Objects having two or three dimensions.
 
+[%unnumbered]
 ```turtle
 geo:hasMetricPerimeterLength
     a rdf:Property, owl:DatatypeProperty ;
@@ -276,6 +287,7 @@ geo:hasMetricPerimeterLength
 
 TIP: A consistency check can be applied to Geometry instances indicating both this property and the property <<Property: geo:dimension, `geo:dimension`>>: if supplied, the <<Property: geo:dimension, `geo:dimension`>> property's range value must be the literal integer 2 or 3. The following SPARQL query will return `true` if applied to a graph where this is not the case for all Geometries:
 
+[%unnumbered]
 ```sparql
     PREFIX geo: <http://www.opengis.net/ont/geosparql#>
     ASK 
@@ -292,6 +304,7 @@ TIP: A consistency check can be applied to Geometry instances indicating both th
 
 The property http://www.opengis.net/ont/geosparql#hasArea[`geo:hasArea`] can be used to indicate the area of a Spatial Object if it is not possible to use the property <<Property: geo:hasMetricArea, `geo:hasMetricArea`>>. It is a subproperty of <<Property: geo:hasSize, `geo:hasSize`>>.
 
+[%unnumbered]
 ```turtle
 geo:hasArea
     a rdf:Property, owl:ObjectProperty ;
@@ -307,6 +320,7 @@ geo:hasArea
 
 The property http://www.opengis.net/ont/geosparql#hasMetricArea[`geo:hasMetricArea`] can be used to indicate the area of a Spatial Object in square meters (m^2^). It is a subproperty of <<Property: geo:hasMetricSize, `geo:hasMetricSize`>>. This property can be used for Spatial Objects having two or three dimensions.
 
+[%unnumbered]
 ```turtle
 geo:hasMetricArea
     a rdf:Property, owl:DatatypeProperty ;
@@ -320,6 +334,7 @@ geo:hasMetricArea
 ```
 TIP: A consistency check can be applied to Geometry instances indicating both this property and the property <<Property: geo:dimension, `geo:dimension`>>: if supplied, the <<Property: geo:dimension, `geo:dimension`>> property's range value must be the literal integer 2 or 3. The following SPARQL query will return `true` if applied to a graph where this is not the case for all Geometries:
 
+[%unnumbered]
 ```sparql
     PREFIX geo: <http://www.opengis.net/ont/geosparql#>
 
@@ -336,6 +351,7 @@ TIP: A consistency check can be applied to Geometry instances indicating both th
 
 The property http://www.opengis.net/ont/geosparql#hasVolume[`geo:hasVolume`] can be used to indicate the volume of a Spatial Object if it is not possible to use the property <<Property: geo:hasMetricVolume, `geo:hasMetricVolume`>>. It is a subproperty of <<Property: geo:hasSize, `geo:hasSize`>>.
 
+[%unnumbered]
 ```turtle
 geo:hasVolume
     a rdf:Property, owl:ObjectProperty ;
@@ -351,6 +367,7 @@ geo:hasVolume
 
 The property http://www.opengis.net/ont/geosparql#hasMetricVolume[`geo:hasMetricVolume`] can be used to indicate the volume of a Spatial Object in cubic meters (m^3^). It is a subproperty of <<Property: geo:hasMetricSize, `geo:hasMetricSize`>>. This property can be used for Spatial Objects having three dimensions.
 
+[%unnumbered]
 ```turtle
 geo:hasMetricVolume
     a rdf:Property, owl:DatatypeProperty ;
@@ -364,6 +381,7 @@ geo:hasMetricVolume
 ```
 TIP: A consistency check can be applied to Geometries indicating both this property and the property <<Property: geo:dimension, `geo:dimension`>>: if supplied, the property <<Property: geo:dimension, `geo:dimension`>> property's range value must be the literal integer 3. The following SPARQL query will return `true` if applied to a graph where this is not the case for all Geometries:
 
+[%unnumbered]
 ```sparql
     PREFIX geo: <http://www.opengis.net/ont/geosparql#>
 
@@ -398,6 +416,7 @@ to be used in SPARQL graph patterns.
 
 The property http://www.opengis.net/ont/geosparql#hasGeometry[`geo:hasGeometry`] is used to link a Feature with a Geometry that represents its spatial extent. A given Feature may have many associated geometries.
 
+[%unnumbered]
 ```turtle
 geo:hasGeometry 
     a rdf:Property, owl:ObjectProperty ;
@@ -413,6 +432,7 @@ geo:hasGeometry
 
 The property http://www.opengis.net/ont/geosparql#hasDefaultGeometry[`geo:hasDefaultGeometry`] is used to link a Feature with its default Geometry. The default geometry is the Geometry that should be used for spatial calculations in the absence of a request for a specific geometry (e.g. in the case of query rewrite).
 
+[%unnumbered]
 ```turtle
 geo:hasDefaultGeometry 
     a rdf:Property, owl:ObjectProperty ;
@@ -428,6 +448,7 @@ geo:hasDefaultGeometry
 
 GeoSPARQL does not restrict the cardinality of the <<Property: geo:hasDefaultGeometry, has default geometry>> property. It is thus possible for a Feature to have more than one distinct default geometry or to have no default geometry. This situation does not result in a query processing error; SPARQL graph pattern matching simply proceeds as normal. Certain queries may, however, give logically inconsistent results. For example, if a Feature `my:f1` has two asserted default geometries, and those two geometries are disjoint polygons, the query below could return a non-zero count on a system supporting the GeoSPARQL Query Rewrite Extension (rule http://www.opengis.net/def/rule/geosparql/sfDisjoint[`geor:sfDisjoint`]).
 
+[%unnumbered]
 ```sparql
 PREFIX geo: <http://www.opengis.net/ont/geosparql#>
 
@@ -441,6 +462,7 @@ Such cases are application-specific data modeling errors and are therefore outsi
 
 The property http://www.opengis.net/ont/geosparql#hasBoundingBox[`geo:hasBoundingBox`] is used to link a Feature with a simplified geometry-representation corresponding to the envelope of its geometry. Bounding-boxes are typically uses in indexing and discovery.
 
+[%unnumbered]
 ```turtle
 geo:hasBoundingBox 
     a rdf:Property, owl:ObjectProperty ;
@@ -462,6 +484,7 @@ GeoSPARQL does not restrict the cardinality of the <<Property: geo:hasBoundingBo
 
 The property http://www.opengis.net/ont/geosparql#hasCentroid[`geo:hasCentroid`] is used to link a Feature with a point geometry corresponding with the centroid of its geometry. The centroid is typically used to show location on a low-resolution image, and for some indexing and discovery functions. 
 
+[%unnumbered]
 ```turtle
 geo:hasCentroid 
     a rdf:Property, owl:ObjectProperty ;
