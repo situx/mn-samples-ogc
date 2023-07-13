@@ -672,7 +672,7 @@ The example <<RDFS Datatype: geo:kmlLiteral, KML Literal>> below encodes a point
 
 The property http://www.opengis.net/ont/geosparql#asKML[`geo:asKML`] is defined to link a Geometry with its KML serialization.
 
-[#req_geometry_extension_kml-literal-empty]
+[#req_geometry_extension_geometry-as-kml-literal]
 [requirement,type="class",label="http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/geometry-as-kml-literal",obligation="requirement"]
 [%unnumbered]
 |===
