@@ -942,7 +942,7 @@ as a SPARQL extension functions.
 // .. *Test Type*: Capabilities
 
 // === A.3.DGGS.5 KML Serialization
-// ==== A.3.DGGS.5.1 `/req/geometry-extension/kml-literal`
+// ==== A.3.DGGS.5.1 `/conf/geometry-extension/kml-literal`
 // *Requirement*: `/req/geometry-extension/kml-literal`
 
 // All <<RDFS Datatype: geo:kmlLiteral, `geo:kmlLiteral`>> instances shall consist of a valid element from the KML schema that implements a `kml:AbstractObjectGroup` as defined in <<OGCKML>>.
@@ -952,7 +952,7 @@ as a SPARQL extension functions.
 // .. *Reference*: <<_rdfs_datatype_geokmlliteral>>
 // .. *Test Type*: Capabilities
 
-// ==== A.3.DGGS.5.2 `/req/geometry-extension/kml-literal-srs`
+// ==== A.3.DGGS.5.2 `/conf/geometry-extension/kml-literal-srs`
 // *Requirement*: `/req/geometry-extension/kml-literal-default-srs`
 
 // The IRI http://www.opengis.net/def/crs/OGC/1.3/CRS84[<http://www.opengis.net/def/crs/OGC/1.3/CRS84>] shall be assumed as the SRS for <<RDFS Datatype: geo:kmlLiteral, `geo:kmlLiteral`>> instances that do not specify an explicit SRS IRI.
@@ -962,7 +962,7 @@ as a SPARQL extension functions.
 // .. *Reference*: <<_rdfs_datatype_geokmlliteral>>
 // .. *Test Type*: Capabilities
 
-// ==== A.3.DGGS.5.3 `/req/geometry-extension/kml-literal-empty`
+// ==== A.3.DGGS.5.3 `/conf/geometry-extension/kml-literal-empty`
 // *Requirement*: `/req/geometry-extension/kml-literal-empty`
 
 // An empty <<RDFS Datatype: geo:kmlLiteral, `geo:kmlLiteral`>> shall be interpreted as an empty geometry.
@@ -972,7 +972,7 @@ as a SPARQL extension functions.
 // .. *Reference*: <<_rdfs_datatype_geokmlliteral>>
 // .. *Test Type*: Capabilities
 
-// ==== A.3.DGGS.5.4 `/req/geometry-extension/geometry-as-kml-literal`
+// ==== A.3.DGGS.5.4 `/conf/geometry-extension/geometry-as-kml-literal`
 // *Requirement*: `/req/geometry-extension/geometry-as-kml-literal` 
 
 // Implementations shall allow the RDF property <<Property: geo:asKML, `geo:asKML`>> to be used in SPARQL graph patterns.
@@ -982,7 +982,7 @@ as a SPARQL extension functions.
 // .. *Reference*: <<_property_geoaskml>>
 // .. *Test Type*: Capabilities
 
-// ==== A.3.DGGS.5.5 `/req/geometry-extension/asKML-function`
+// ==== A.3.DGGS.5.5 `/conf/geometry-extension/asKML-function`
 // *Requirement*: `/req/geometry-extension/asKML-function` 
 
 // Implementations shall support <<Function: geof:asKML, as KML>>, as a SPARQL extension function
