@@ -2,11 +2,8 @@
 
 == Usage of SHACL shapes
 
-:sectnums!:
-
+[discrete]
 === D.0 Overview
-
-:sectnums:
 
 This Annex provides guidance on the usage of the SHACL shapes included with GeoSPARQL 1.1. 
 

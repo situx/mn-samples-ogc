@@ -2,11 +2,8 @@
 
 == Alignments
 
-:sectnums!:
-
+[discrete]
 === E.0 Overview
-
-:sectnums:
 
 This Annex provides alignments of GeoSPARQL to other well known ontologies that are either commonly used with GeoSPARQL or could be.
 

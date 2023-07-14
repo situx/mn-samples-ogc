@@ -2,16 +2,13 @@
 
 == Abstract Test Suite
 
-:sectnums!:
-
-[%notitle]
+[discrete]
 === A.0 Overview
 
 This Annex lists tests for the Conformance Classes defined in the main body sections of this Specification with links to their Requirements and test purpose method and type.
 Conformance classes may be used to signify the compatibility of a given implementation to parts of the GeoSPARQL standard. 
 They may be stated as part of a SPARQL 1.1 Service Description <<SPARQLSERVDESC>> .
 
-:sectnums:
 
 [requirement,type="conformanceclass",label="/conf/core",subject="Core"]
 === Conformance Class: Core
