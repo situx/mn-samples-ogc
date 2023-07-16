@@ -3,7 +3,7 @@
 == Alignments
 
 [discrete]
-=== E.0 Overview
+=== E.0. Overview
 
 This Annex provides alignments of GeoSPARQL to other well known ontologies that are either commonly used with GeoSPARQL or could be.
 

@@ -3,7 +3,7 @@
 == Functions Summary
 
 [discrete]
-=== B.0 Overview
+=== B.0. Overview
 
 This annex summarizes all the functions defined in GeoSPARQL, providing descriptions of their parameters and return types.
 

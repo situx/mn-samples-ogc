@@ -3,7 +3,7 @@
 == Usage of SHACL shapes
 
 [discrete]
-=== D.0 Overview
+=== D.0. Overview
 
 This Annex provides guidance on the usage of the SHACL shapes included with GeoSPARQL 1.1. 
 
