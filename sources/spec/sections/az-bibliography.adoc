@@ -19,8 +19,6 @@
 
 [[ISO19109]] [ISO19109]:: International Organization for Standardization, _ISO 19109: Geographic information — Rules for application schemas_ (2005)
 
-[[ISO19156]] [ISO19156]:: International Organization for Standardization, _ISO 19156: Geographic information — Observations and measurements_ (2011).
-
 [[IETF5234]] [IETF5234]:: Internet Engineering Task Force, _RFC 5234: Internet Standard 68: Augmented BNF for Syntax Specifications: ABNF_. IETF Request for Comment (2008) https://tools.ietf.org/html/std68
 
 [[GEOJSON]] [GEOJSON]:: Internet Engineering Task Force, _RFC 7946: The GeoJSON Format_. IETF Request for Comment (August 2016). https://tools.ietf.org/html/rfc7946
