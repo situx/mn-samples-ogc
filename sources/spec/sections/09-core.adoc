@@ -15,8 +15,9 @@ image::ont-overview.png[GeoSPARQL Ontology overview,align="center"]
 
 [#req_core_sparql-protocol]
 [%unnumbered]
-[requirement,label="http://www.opengis.net/spec/geosparql/1.0/req/core/sparql-protocol",identifier=http://www.opengis.net/spec/geosparql/1.0/req/core/sparql-protocol,obligation="requirement"]
-==== *Req {counter:req}*
+[requirement,identifier="http://www.opengis.net/spec/geosparql/1.0/req/core/sparql-protocol"]
+==== 
+*Req {counter:req}*
 Implementations shall support the SPARQL Query Language for RDF <<SPARQL>>, the SPARQL Protocol <<SPARQLPROT>> and the SPARQL Query Results XML <<SPARQLRESX>> and JSON <<SPARQLRESJ>> Formats.
 ====
 
@@ -41,9 +42,10 @@ geo:SpatialObject
                     and geometry"@en .
 ```
 [#req_core_spatial_object_class]
-[requirement,label="http://www.opengis.net/spec/geosparql/1.0/req/core/spatial-object-class",identifier=http://www.opengis.net/spec/geosparql/1.0/req/core/spatial-object-class,obligation="requirement"]
+[requirement,identifier=http://www.opengis.net/spec/geosparql/1.0/req/core/spatial-object-class]
 [%unnumbered]
-==== *Req {counter:req}*
+==== 
+*Req {counter:req}*
 Implementations shall allow the RDFS class <<Class: geo:SpatialObject, `geo:SpatialObject`>> to be used in SPARQL graph patterns.
 ====
 
