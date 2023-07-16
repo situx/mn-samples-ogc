@@ -19,7 +19,6 @@ image::ont-overview.png[GeoSPARQL Ontology overview,align="center"]
 [#req_core_sparql-protocol]
 [requirement,identifier="/req/core/sparql-protocol"]
 ==== 
-*Req {counter:req}*
 Implementations shall support the SPARQL Query Language for RDF <<SPARQL>>, the SPARQL Protocol <<SPARQLPROT>> and the SPARQL Query Results XML <<SPARQLRESX>> and JSON <<SPARQLRESJ>> Formats.
 ====
 
@@ -46,7 +45,6 @@ geo:SpatialObject
 [#req_core_spatial_object_class]
 [requirement,identifier="/req/core/spatial-object-class"]
 ==== 
-*Req {counter:req}*
 Implementations shall allow the RDFS class <<Class: geo:SpatialObject, `geo:SpatialObject`>> to be used in SPARQL graph patterns.
 ====
 
@@ -80,7 +78,6 @@ geo:Feature
 [#req_core_feature-class]
 [requirement,identifier="/req/core/feature-class"]
 ====
-*Req {counter:req}* 
 Implementations shall allow the RDFS class <<Class: geo:Feature, `geo:Feature`>> to be used in SPARQL graph patterns.
 ====
 
@@ -111,7 +108,6 @@ The restriction imposed on the generic `rdfs:Container` that defines this class 
 [#req_core_spatial-object-collection-class]
 [requirement,identifier="/req/core/spatial-object-collection-class"]
 ====
-*Req {counter:req}* 
 Implementations shall allow the RDFS class <<Class: geo:SpatialObjectCollection, `geo:SpatialObjectCollection`>> to be used in SPARQL graph patterns.
 ====
 
@@ -141,7 +137,6 @@ The restriction imposed on the more general <<Class: SpatialObjectCollection, Sp
 [#req_core_feature-collection-class]
 [requirement,label="/req/core/feature-collection-class"]
 ====
-*Req {counter:req}* 
 Implementations shall allow the RDFS class <<Class: geo:FeatureCollection, `geo:FeatureCollection`>> to be used in SPARQL graph patterns.
 ====
 
@@ -153,7 +148,6 @@ Properties are defined for associating Spatial Objects with scalar spatial measu
 [#req_geometry-extension_spatial-object-properties]
 [requirement,label="/req/core/spatial-object-properties"]
 ====
-*Req {counter:req}* 
 Implementations shall allow the properties 
 <<Property: geo:hasSize, `geo:hasSize`>>,
 <<Property: geo:hasMetricSize, `geo:hasMetricSize`>>,
@@ -397,17 +391,15 @@ Properties are defined for associating <<Class: geo:Feature, `geo:Feature`>> ins
 
 
 [#req_geometry-extension_feature-properties]
-[requirement,type="class",label="http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/feature-properties",obligation="requirement"]
-[%unnumbered]
-|===
-| *Req {counter:req}* Implementations shall allow the properties 
+[requirement,identifier="/req/geometry-extension/feature-properties"]
+====
+Implementations shall allow the properties 
 <<Property: geo:hasGeometry, `geo:hasGeometry`>>, 
 <<Property: geo:hasDefaultGeometry, `geo:hasDefaultGeometry`>>, 
 <<Property: geo:hasCentroid, `geo:hasCentroid`>> and 
 <<Property: geo:hasBoundingBox, `geo:hasBoundingBox`>>
 to be used in SPARQL graph patterns.
-|http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/feature-properties[`http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/feature-properties`]
-|===
+====
 
 ==== Property: geo:hasGeometry
 

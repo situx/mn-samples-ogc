@@ -10,14 +10,14 @@ Conformance classes may be used to signify the compatibility of a given implemen
 They may be stated as part of a SPARQL 1.1 Service Description <<SPARQLSERVDESC>> .
 
 
-[requirement,type="conformanceclass",label="/conf/core",subject="Core"]
+[requirement,type="conformanceclass",identifier="/conf/core",subject="Core"]
 === Conformance Class: Core
 
 *Conformance Class IRI*: `/conf/core` 
 
 ==== SPARQL
 
-[requirement,type="abstracttest",label="/conf/core/sparql-protocol"]
+[requirement,type="abstracttest",identifier="/conf/core/sparql-protocol"]
 ===== `/conf/core/sparql-protocol`
 
 *Requirement*: `/req/core/sparql-protocol`
@@ -34,7 +34,7 @@ include::abstract_tests/TEST_conf_core_sparql-protocol[]
 
 ==== RDF Classes & Properties
 
-[requirement,type="abstracttest",label="/conf/core/spatial-object-class"]
+[requirement,type="abstracttest",identifier="/conf/core/spatial-object-class"]
 ===== `/conf/core/spatial-object-class`
 
 *Requirement*: `/req/core/spatial-object-class`
@@ -48,7 +48,7 @@ patterns.
 .. *Test Type*: Capabilities
 
 
-[requirement,type="abstracttest",label="/conf/core/feature-class"]
+[requirement,type="abstracttest",identifier="/conf/core/feature-class"]
 ===== `/conf/core/feature-class`
 
 *Requirement*: `/req/core/feature-class`
@@ -60,7 +60,7 @@ Implementations shall allow the RDFS class <<Class: geo:Feature, `geo:Feature`>>
 .. *Test Type*: Capabilities
 
 
-[requirement,type="abstracttest",label="/conf/core/spatial-object-collection-class"]
+[requirement,type="abstracttest",identifier="/conf/core/spatial-object-collection-class"]
 ===== `/conf/core/spatial-object-collection-class`
 
 *Requirement*: `/req/core/spatial-object-collection-class`
@@ -74,7 +74,7 @@ patterns.
 .. *Test Type*: Capabilities
 
 
-[requirement,type="abstracttest",label="/conf/core/feature-collection-class"]
+[requirement,type="abstracttest",identifier="/conf/core/feature-collection-class"]
 ===== `/conf/core/feature-collection-class`
 
 *Requirement*: `/req/core/feature-collection-class`
@@ -87,7 +87,7 @@ patterns.
 .. *Reference*: <<_class_geofeaturecollection>>
 .. *Test Type*: Capabilities
 
-[requirement,type="abstracttest",label="/conf/core/spatial-object-properties"]
+[requirement,type="abstracttest",identifier="/conf/core/spatial-object-properties"]
 ===== `/conf/core/spatial-object-properties`
 
 Implementations shall allow the properties 
@@ -108,14 +108,14 @@ to be used in SPARQL graph patterns.
 .. *Reference*: <<_standard_properties_for_geospatialobject>>
 .. *Test Type*: Capabilities
 
-[requirement,type="conformanceclass",label="/conf/topology-vocab-extension",subject="Topology Vocabulary"]
+[requirement,type="conformanceclass",identifier="/conf/topology-vocab-extension",subject="Topology Vocabulary"]
 === Conformance Class: Topology Vocabulary Extension
 
 *Conformance Class IRI*: `/conf/topology-vocab-extension`
 
 ==== Simple Features Relation Family
 
-[requirement,type="abstracttest",label="/conf/topology-vocab-extension/sf-spatial-relations"]
+[requirement,type="abstracttest",identifier="/conf/topology-vocab-extension/sf-spatial-relations"]
 ===== `/conf/topology-vocab-extension/sf-spatial-relations`
 *Requirement*: `/req/topology-vocab-extension/sf-spatial-relations`
 
@@ -137,7 +137,7 @@ to be used in SPARQL graph patterns.
 
 ==== Egenhofer Relation Family
 
-[requirement,type="abstracttest",label="/conf/topology-vocab-extension/eh-spatial-relations"]
+[requirement,type="abstracttest",identifier="/conf/topology-vocab-extension/eh-spatial-relations"]
 ===== `/conf/topology-vocab-extension/eh-spatial-relations`
 *Requirement*: `/req/topology-vocab-extension/eh-spatial-relations`
 
@@ -159,7 +159,7 @@ to be used in SPARQL graph patterns.
 
 ==== RCC8 Relation Family
 
-[requirement,type="abstracttest",label="/conf/topology-vocab-extension/rcc8-spatial-relations"]
+[requirement,type="abstracttest",identifier="/conf/topology-vocab-extension/rcc8-spatial-relations"]
 ===== `/conf/topology-vocab-extension/rcc8-spatial-relations`
 *Requirement*: `/req/topology-vocab-extension/rcc8-spatial-relations`
 
@@ -179,7 +179,7 @@ to be used in SPARQL graph patterns.
 .. *Reference*: <<RCC8 Relation Family>>
 .. *Test Type*: Capabilities
 
-[requirement,type="conformanceclass",label="/conf/geometry-extension",subject="Geometry"]
+[requirement,type="conformanceclass",identifier="/conf/geometry-extension",subject="Geometry"]
 === Conformance Class: Geometry Extension
 
 This Conformance Class applies to non-DGGS geometries. See <<DGGS Conformance Class: Geometry Extension - DGGS>> for DGGS geometries.
@@ -187,7 +187,7 @@ This Conformance Class applies to non-DGGS geometries. See <<DGGS Conformance Cl
 *Conformance Class IRI*: `/conf/geometry-extension`
 
 ==== Tests for all Serializations except DGGS
-[requirement,type="abstracttest",label="/conf/geometry-extension/geometry-class"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/geometry-class"]
 ===== `/conf/geometry-extension/geometry-class`
 *Requirement*: `/req/geometry-extension/geometry-class`
 
@@ -200,7 +200,7 @@ to be used in SPARQL graph patterns.
 .. *Reference*: <<_class_geogeometry>>
 .. *Test Type*: Capabilities
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/geometry-collection-class"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/geometry-collection-class"]
 ===== `/conf/geometry-extension/geometry-collection-class`
 *Requirement*: `/req/geometry-extension/geometry-collection-class`
 
@@ -213,7 +213,7 @@ to be used in SPARQL graph patterns.
 .. *Reference*: <<_class_geogeometrycollection>>
 .. *Test Type*: Capabilities
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/feature-properties"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/feature-properties"]
 ===== `/conf/geometry-extension/feature-properties`
 *Requirement*: `/req/geometry-extension/feature-properties`
 
@@ -233,7 +233,7 @@ to be used in SPARQL graph patterns.
 .. *Reference*: <<_standard_properties_for_geofeature>>
 .. *Test Type*: Capabilities
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/geometry-properties"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/geometry-properties"]
 ===== `/conf/geometry-extension/geometry-properties`
 *Requirement*: `/req/geometry-extension/geometry-properties`
 
@@ -251,7 +251,7 @@ to be used in SPARQL graph patterns.
 .. *Reference*: <<_standard_properties_for_geogeometry>>
 .. *Test Type*: Capabilities
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/query-functions"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/query-functions"]
 =====`/conf/geometry-extension/query-functions`
 *Requirement*: `/req/geometry-extension/query-functions`  
 
@@ -302,7 +302,7 @@ SPARQL extension functions.
 .. *Reference*: <<_non_topological_query_functions>>
 .. *Test Type*: Capabilities
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/srid-function"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/srid-function"]
 ===== `/conf/geometry-extension/srid-function`
 *Requirement*: `/req/geometry-extension/srid-function`
 
@@ -315,7 +315,7 @@ as a SPARQL extension function.
 .. *Reference*: <<_function_geofgetsrid>>
 .. *Test Type*: Capabilities
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/sa-functions"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/sa-functions"]
 ===== `/conf/geometry-extension/sa-functions`
 *Requirement*: `/req/geometry-extension/sa-functions`
 
@@ -335,7 +335,7 @@ as a SPARQL extension functions.
 
 ==== WKT Serialization
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/wkt-literal"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/wkt-literal"]
 ===== `/conf/geometry-extension/wkt-literal`
 *Requirement*: `/req/geometry-extension/wkt-literal`
 
@@ -346,7 +346,7 @@ All RDFS Literals of type <<RDFS Datatype: geo:wktLiteral, `geo:wktLiteral`>> sh
 .. *Reference*: <<_rdfs_datatype_geowktliteral>>
 .. *Test Type*: Capabilities
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/wkt-literal-default-srs"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/wkt-literal-default-srs"]
 ===== `/conf/geometry-extension/wkt-literal-default-srs`
 *Requirement*: `/req/geometry-extension/wkt-literal-default-srs`
 
@@ -357,7 +357,7 @@ The IRI http://www.opengis.net/def/crs/OGC/1.3/CRS84[`+<http://www.opengis.net/d
 .. *Reference*: <<_rdfs_datatype_geowktliteral>>
 .. *Test Type*: Capabilities
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/wkt-axis-order"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/wkt-axis-order"]
 ===== `/conf/geometry-extension/wkt-axis-order`
 *Requirement*: `/req/geometry-extension/wkt-axis-order`
 
@@ -368,7 +368,7 @@ Coordinate tuples within <<RDFS Datatype: geo:wktLiteral, WKT Literal>> instance
 .. *Reference*: <<_rdfs_datatype_geowktliteral>>
 .. *Test Type*: Capabilities
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/wkt-literal-empty"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/wkt-literal-empty"]
 ===== `/conf/geometry-extension/wkt-literal-empty`
 *Requirement*: `/req/geometry-extension/wkt-literal-empty`
 
@@ -379,7 +379,7 @@ An empty RDFS Literal of type <<RDFS Datatype: geo:wktLiteral, WKT Literal>> sha
 .. *Reference*: <<_rdfs_datatype_geowktliteral>>
 .. *Test Type*: Capabilities
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/geometry-as-wkt-literal"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/geometry-as-wkt-literal"]
 ===== `/conf/geometry-extension/geometry-as-wkt-literal`
 *Requirement*: `/req/geometry-extension/geometry-as-wkt-literal`
 
@@ -390,7 +390,7 @@ Implementations shall allow the RDF property <<Property: geo:asWKT, `geo:asWKT`>
 .. *Reference*: <<_property_geoaswkt>>
 .. *Test Type*: Capabilities
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/asWKT-function"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/asWKT-function"]
 ===== `/conf/geometry-extension/asWKT-function`
 *Requirement*: `/req/geometry-extension/asWKT-function` 
 
@@ -403,7 +403,7 @@ Implementations shall support <<Function: geof:asWKT, `geof:asWKT`>>, as a SPARQ
 
 ==== GML Serialization
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/gml-literal"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/gml-literal"]
 ===== `/conf/geometry-extension/gml-literal`
 *Requirement*: `/req/geometry-extension/gml-literal`
 
@@ -414,7 +414,7 @@ All <<RDFS Datatype: geo:gmlLiteral, `geo:gmlLiteral`>> instances shall consist 
 .. *Reference*: <<_rdfs_datatype_geogmlliteral>>
 .. *Test Type*: Capabilities
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/gml-literal-empty"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/gml-literal-empty"]
 ===== `/conf/geometry-extension/gml-literal-empty`
 *Requirement*: `/req/geometry-extension/gml-literal-empty`
 
@@ -425,7 +425,7 @@ An empty <<RDFS Datatype: geo:gmlLiteral, `geo:gmlLiteral`>> shall be interprete
 .. *Reference*: <<_rdfs_datatype_geogmlliteral>>
 .. *Test Type*: Capabilities
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/gml-profile"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/gml-profile"]
 ===== `/conf/geometry-extension/gml-profile`
 *Requirement*: `/req/geometry-extension/gml-profile`
 
@@ -436,7 +436,7 @@ Implementations shall document supported GML profiles.
 .. *Reference*: <<_rdfs_datatype_geogmlliteral>>
 .. *Test Type*: Documentation
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/geometry-as-gml-literal"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/geometry-as-gml-literal"]
 ===== `/conf/geometry-extension/geometry-as-gml-literal`
 *Requirement*: `/req/geometry-extension/geometry-as-gml-literal` 
 
@@ -447,7 +447,7 @@ Implementations shall allow the RDF property <<Property: geo:asWKT, `geo:asGML`>
 .. *Reference*: <<_property_geoasgml>>
 .. *Test Type*: Capabilities
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/asGML-function"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/asGML-function"]
 ===== `/conf/geometry-extension/asGML-function`
 *Requirement*: `/req/geometry-extension/asGML-function` 
 
@@ -460,7 +460,7 @@ Implementations shall support <<Function: geof:asGML, `geof:asGML`>>, as a SPARQ
 
 ==== GeoJSON Serialization
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/geojson-literal"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/geojson-literal"]
 ===== `/conf/geometry-extension/geojson-literal`
 *Requirement*: `/req/geometry-extension/geojson-literal`
 
@@ -471,7 +471,7 @@ All <<RDFS Datatype: geo:geoJSONLiteral, `geo:geoJSONLiteral`>> instances shall 
 .. *Reference*: <<_rdfs_datatype_geogeojsonliteral>>
 .. *Test Type*: Capabilities
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/geojson-literal-srs"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/geojson-literal-srs"]
 ===== `/conf/geometry-extension/geojson-literal-srs`
 *Requirement*: `/req/geometry-extension/geojson-literal-default-srs`
 
@@ -482,7 +482,7 @@ The IRI http://www.opengis.net/def/crs/OGC/1.3/CRS84[<http://www.opengis.net/def
 .. *Reference*: <<_rdfs_datatype_geogeojsonliteral>>
 .. *Test Type*: Capabilities
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/geojson-literal-empty"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/geojson-literal-empty"]
 ===== `/conf/geometry-extension/geojson-literal-empty`
 *Requirement*: `/req/geometry-extension/geojson-literal-empty`
 
@@ -493,7 +493,7 @@ An empty <<RDFS Datatype: geo:geoJSONLiteral, `geo:geoJSONLiteral`>> shall be in
 .. *Reference*: <<_rdfs_datatype_geogeojsonliteral>>
 .. *Test Type*: Capabilities
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/geometry-as-geojson-literal"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/geometry-as-geojson-literal"]
 ===== `/conf/geometry-extension/geometry-as-geojson-literal`
 *Requirement*: `/req/geometry-extension/geometry-as-geojson-literal` 
 
@@ -504,7 +504,7 @@ Implementations shall allow the RDF property <<Property: geo:asGeoJSON, `geo:asG
 .. *Reference*: <<_property_geoasgeojson>>
 .. *Test Type*: Capabilities
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/asGeoJSON-function"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/asGeoJSON-function"]
 ===== `/conf/geometry-extension/asGeoJSON-function`
 *Requirement*: `/req/geometry-extension/asGeoJSON-function` 
 
@@ -517,7 +517,7 @@ Implementations shall support <<Function: geof:asGeoJSON, `geof:asGeoJSON`>>, as
 
 ==== KML Serialization
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/kml-literal"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/kml-literal"]
 ===== `/conf/geometry-extension/kml-literal`
 *Requirement*: `/req/geometry-extension/kml-literal`
 
@@ -528,7 +528,7 @@ All <<RDFS Datatype: geo:kmlLiteral, `geo:kmlLiteral`>> instances shall consist 
 .. *Reference*: <<_rdfs_datatype_geokmlliteral>>
 .. *Test Type*: Capabilities
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/kml-literal-srs"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/kml-literal-srs"]
 ===== `/conf/geometry-extension/kml-literal-srs`
 *Requirement*: `/req/geometry-extension/kml-literal-default-srs`
 
@@ -539,7 +539,7 @@ The IRI http://www.opengis.net/def/crs/OGC/1.3/CRS84[<http://www.opengis.net/def
 .. *Reference*: <<_rdfs_datatype_geokmlliteral>>
 .. *Test Type*: Capabilities
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/kml-literal-empty"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/kml-literal-empty"]
 ===== `/conf/geometry-extension/kml-literal-empty`
 *Requirement*: `/req/geometry-extension/kml-literal-empty`
 
@@ -550,7 +550,7 @@ An empty <<RDFS Datatype: geo:kmlLiteral, `geo:kmlLiteral`>> shall be interprete
 .. *Reference*: <<_rdfs_datatype_geokmlliteral>>
 .. *Test Type*: Capabilities
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/geometry-as-kml-literal"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/geometry-as-kml-literal"]
 ===== `/conf/geometry-extension/geometry-as-kml-literal`
 *Requirement*: `/req/geometry-extension/geometry-as-kml-literal` 
 
@@ -561,7 +561,7 @@ Implementations shall allow the RDF property <<Property: geo:asKML, `geo:asKML`>
 .. *Reference*: <<_property_geoaskml>>
 .. *Test Type*: Capabilities
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/asKML-function"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/asKML-function"]
 =====`/conf/geometry-extension/asKML-function`
 *Requirement*: `/req/geometry-extension/asKML-function` 
 
@@ -574,7 +574,7 @@ Implementations shall support <<Function: geof:asKML, `geof:asKML`>>, as a SPARQ
 
 ==== DGGS Serialization
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/dggs-literal"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/dggs-literal"]
 ===== `/conf/geometry-extension/dggs-literal`
 *Requirement*: `/req/geometry-extension/dggs-literal`
 
@@ -586,7 +586,7 @@ All RDFS Literals of type <<RDFS Datatype: geo:dggsLiteral, `geo:dggsLiteral`>> 
 .. *Test Type*: Capabilities
 
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/dggs-literal-empty"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/dggs-literal-empty"]
 ===== `/conf/geometry-extension/dggs-literal-empty`
 *Requirement*: `/req/geometry-extension/dggs-literal-empty`
 
@@ -597,7 +597,7 @@ An empty RDFS Literal of type <<RDFS Datatype: geo:dggsLiteral, `geo:dggsLiteral
 .. *Reference*: <<_rdfs_datatype_geodggsliteral>>
 .. *Test Type*: Capabilities
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/geometry-as-dggs-literal"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/geometry-as-dggs-literal"]
 ===== `/conf/geometry-extension/geometry-as-dggs-literal`
 *Requirement*: `/req/geometry-extension/geometry-as-dggs-literal` 
 
@@ -608,7 +608,7 @@ Implementations shall allow the RDF property <<Property: geo:asDGGS, `geo:asDGGS
 .. *Reference*: <<_property_geoasdggs>>
 .. *Test Type*: Capabilities
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/asDGGS-function"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/asDGGS-function"]
 ===== `/conf/geometry-extension/asDGGS-function`
 *Requirement*: `/req/geometry-extension/asDGGS-function` 
 
@@ -620,7 +620,7 @@ Implementations shall support <<Function: geof:asDGGS, `geof:asDGGS`>>, as a SPA
 .. *Test Type*: Capabilities
 
 
-[requirement,type="conformanceclass",label="/conf/geometry-extension",subject="DGGS"]
+[requirement,type="conformanceclass",identifier="/conf/geometry-extension",subject="DGGS"]
 === DGGS Conformance Class: Geometry Extension - DGGS
 
 This conformance Class applies only to DGGS geometries. See <<Conformance Class: Geometry Extension>> for other geometries.
@@ -629,7 +629,7 @@ This conformance Class applies only to DGGS geometries. See <<Conformance Class:
 
 ==== DGGS.1 Tests for DGGS Serializations
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/geometry-class"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/geometry-class"]
 ===== DGGS.1.1 `/conf/geometry-extension/geometry-class`
 *Requirement*: `/req/geometry-extension/geometry-class`
 
@@ -642,7 +642,7 @@ to be used in SPARQL graph patterns.
 .. *Reference*: <<_class_geogeometry>>
 .. *Test Type*: Capabilities
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/geometry-collection-class"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/geometry-collection-class"]
 ===== DGGS.1.2 `/conf/geometry-extension/geometry-collection-class`
 *Requirement*: `/req/geometry-extension/geometry-collection-class`
 
@@ -656,7 +656,7 @@ to be used in SPARQL graph patterns.
 .. *Test Type*: Capabilities
 
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/feature-properties"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/feature-properties"]
 ===== DGGS.1.3 `/conf/geometry-extension/feature-properties`
 *Requirement*: `/req/geometry-extension/feature-properties`
 
@@ -676,7 +676,7 @@ to be used in SPARQL graph patterns.
 .. *Reference*: <<_standard_properties_for_geofeature>>
 .. *Test Type*: Capabilities
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/geometry-properties"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/geometry-properties"]
 ===== DGGS.1.4 `/conf/geometry-extension/geometry-properties`
 *Requirement*: `/req/geometry-extension/geometry-properties`
 
@@ -694,7 +694,7 @@ to be used in SPARQL graph patterns.
 .. *Reference*: <<_standard_properties_for_geogeometry>>
 .. *Test Type*: Capabilities
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/query-functions"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/query-functions"]
 ===== DGGS.1.5 `/conf/geometry-extension/query-functions`
 *Requirement*: `/req/geometry-extension/query-functions`  
 
@@ -747,7 +747,7 @@ as SPARQL extension functions
 .. *Reference*: <<_non_topological_query_functions>>
 .. *Test Type*: Capabilities
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/srid-function"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/srid-function"]
 ===== DGGS.1.6 `/conf/geometry-extension/srid-function`
 *Requirement*: `/req/geometry-extension/srid-function`
 
@@ -760,7 +760,7 @@ as a SPARQL extension function.
 .. *Reference*: <<_function_geofgetsrid>>
 .. *Test Type*: Capabilities
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/sa-functions"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/sa-functions"]
 ===== DGGS.1.7 `/conf/geometry-extension/sa-functions`
 *Requirement*: `/req/geometry-extension/sa-functions`
 
@@ -996,7 +996,7 @@ as a SPARQL extension functions.
 
 ==== DGGS.2 DGGS Serialization
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/dggs-literal"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/dggs-literal"]
 ===== DGGS.2.1 `/conf/geometry-extension/dggs-literal`
 *Requirement*: `/req/geometry-extension/dggs-literal`
 
@@ -1007,7 +1007,7 @@ All RDFS Literals of type <<RDFS Datatype: geo:dggsLiteral, `geo:dggsLiteral`>> 
 .. *Reference*: <<_rdfs_datatype_geodggsliteral>>
 .. *Test Type*: Capabilities
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/dggs-literal-empty"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/dggs-literal-empty"]
 ===== DGGS.2.2 `/conf/geometry-extension/dggs-literal-empty`
 *Requirement*: `/req/geometry-extension/dggs-literal-empty`
 
@@ -1018,7 +1018,7 @@ An empty <<RDFS Datatype: geo:dggsLiteral, `geo:dggsLiteral`>> shall be interpre
 .. *Reference*: <<_rdfs_datatype_geodggsliteral>>
 .. *Test Type*: Capabilities
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/geometry-as-dggs-literal"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/geometry-as-dggs-literal"]
 ===== DGGS.2.3 `/conf/geometry-extension/geometry-as-dggs-literal`
 *Requirement*: `/req/geometry-extension/geometry-as-dggs-literal` 
 
@@ -1029,7 +1029,7 @@ Implementations shall allow the RDF property <<Property: geo:asDGGS, `geo:asDGGS
 .. *Reference*: <<_property_geoasdggs>>
 .. *Test Type*: Capabilities
 
-[requirement,type="abstracttest",label="/conf/geometry-extension/asDGGS-function"]
+[requirement,type="abstracttest",identifier="/conf/geometry-extension/asDGGS-function"]
 ===== DGGS.2.4 `/conf/geometry-extension/asDGGS-function`
 *Requirement*: `/req/geometry-extension/asDGGS-function` 
 
@@ -1040,14 +1040,14 @@ Implementations shall support <<Function: geof:asDGGS, `geof:asDGGS`>>, as a SPA
 .. *Reference*: <<_function_geofasdggs>>
 .. *Test Type*: Capabilities
 
-[requirement,type="conformanceclass",label="/conf/geometry-topology-extension",subject="Geometry Topology"]
+[requirement,type="conformanceclass",identifier="/conf/geometry-topology-extension",subject="Geometry Topology"]
 === Conformance Class: Geometry Topology Extension
 
 *Conformance Class IRI*: `/conf/geometry-topology-extension`
 
 ==== Tests for all relation families
 
-[requirement,type="abstracttest",label="/conf/geometry-topology-extension/relate-query-function"]
+[requirement,type="abstracttest",identifier="/conf/geometry-topology-extension/relate-query-function"]
 ===== `/conf/geometry-topology-extension/relate-query-function`
 *Requirement*: `/req/geometry-topology-extension/relate-query-function`
 
@@ -1062,7 +1062,7 @@ as a SPARQL extension function, consistent with the relate operator defined in S
 
 ==== Simple Features Relation Family
 
-[requirement,type="abstracttest",label="/conf/geometry-topology-extension/sf-query-functions"]
+[requirement,type="abstracttest",identifier="/conf/geometry-topology-extension/sf-query-functions"]
 ===== `/conf/geometry-topology-extension/sf-query-functions`
 *Requirement*: `/req/geometry-topology-extension/sf-query-functions`
 
@@ -1084,7 +1084,7 @@ as SPARQL extension functions, consistent with their corresponding DE-9IM inters
 
 ==== Egenhofer Relation Family
 
-[requirement,type="abstracttest",label="/conf/geometry-topology-extension/eh-query-functions"]
+[requirement,type="abstracttest",identifier="/conf/geometry-topology-extension/eh-query-functions"]
 ===== `/conf/geometry-topology-extension/eh-query-functions`
 *Requirement*: `/req/geometry-topology-extension/eh-query-functions`
 
@@ -1106,7 +1106,7 @@ as SPARQL extension functions, consistent with their corresponding DE-9IM inters
 
 ==== RCC8 Relation Family
 
-[requirement,type="abstracttest",label="/conf/geometry-topology-extension/rcc8-query-functions"]
+[requirement,type="abstracttest",identifier="/conf/geometry-topology-extension/rcc8-query-functions"]
 ===== `/conf/geometry-topology-extension/rcc8-query-functions`
 *Requirement*: `/req/geometry-topology-extension/rcc8-query-functions`
 
@@ -1126,14 +1126,14 @@ as SPARQL extension functions, consistent with their corresponding DE-9IM inters
 .. *Reference*: <<RCC8 Relation Family>>
 .. *Test Type*: Capabilities
 
-[requirement,type="conformanceclass",label="/conf/rdfs-entailment-extension",subject="RDFS Entailment"]
+[requirement,type="conformanceclass",identifier="/conf/rdfs-entailment-extension",subject="RDFS Entailment"]
 === Conformance Class: RDFS Entailment Extension
 
 *Conformance Class IRI*: `/conf/rdfs-entailment-extension`
 
 ==== Tests for all implementations
 
-[requirement,type="abstracttest",label="/conf/rdfsentailmentextension/bgp-rdfs-ent"]
+[requirement,type="abstracttest",identifier="/conf/rdfsentailmentextension/bgp-rdfs-ent"]
 ===== `/conf/rdfsentailmentextension/bgp-rdfs-ent`
 *Requirement*: `/req/rdfs-entailment-extension/bgp-rdfs-ent`
 
@@ -1145,7 +1145,7 @@ Basic graph pattern matching shall use the semantics defined by the RDFS Entailm
 .. *Test Type*: Capabilities
 
 ==== WKT Serialization
-[requirement,type="abstracttest",label="/conf/rdfs-entailment-extension/wkt-geometry-types"]
+[requirement,type="abstracttest",identifier="/conf/rdfs-entailment-extension/wkt-geometry-types"]
 ===== `/conf/rdfs-entailment-extension/wkt-geometry-types`
 *Requirement*: `/req/rdfs-entailment-extension/wkt-geometry-types`
 
@@ -1157,7 +1157,7 @@ Implementations shall support graph patterns involving terms from an RDFS/OWL cl
 .. *Test Type*: Capabilities
 
 ==== GML Serialization
-[requirement,type="abstracttest",label="/conf/rdfs-entailment-extension/gml-geometry-types"]
+[requirement,type="abstracttest",identifier="/conf/rdfs-entailment-extension/gml-geometry-types"]
 ===== `/conf/rdfs-entailment-extension/gml-geometry-types`
 *Requirement*: `/req/rdfs-entailment-extension/gml-geometry-types` 
 
@@ -1168,13 +1168,13 @@ Implementations shall support graph patterns involving terms from an RDFS/OWL cl
 .. *Reference*: <<_geometry_class_hierarchy_2>>
 .. *Test Type*: Capabilities
 
-[requirement,type="conformanceclass",label="/conf/query-rewrite-extension",subject="RDFS Entailment"]
+[requirement,type="conformanceclass",identifier="/conf/query-rewrite-extension",subject="RDFS Entailment"]
 === Conformance Class: Query Rewrite Extension
 
 *Conformance Class IRI*: `/conf/query-rewrite-extension`
 
 ==== Simple Features Relation Family
-[requirement,type="abstracttest",label="/conf/query-rewrite-extension/sf-query-rewrite"]
+[requirement,type="abstracttest",identifier="/conf/query-rewrite-extension/sf-query-rewrite"]
 ===== `/conf/query-rewrite-extension/sf-query-rewrite`
 *Requirement*: `/req/query-rewrite-extension/sf-query-rewrite`
 
@@ -1194,7 +1194,7 @@ http://www.opengis.net/def/rule/geosparql/sfOverlaps[`geor:sfOverlaps`].
 .. *Test Type*: Capabilities
 
 ==== Egenhofer Relation Family
-[requirement,type="abstracttest",label="/conf/query-rewrite-extension/eh-query-rewrite"]
+[requirement,type="abstracttest",identifier="/conf/query-rewrite-extension/eh-query-rewrite"]
 ===== `/conf/query-rewrite-extension/eh-query-rewrite`
 *Requirement*: `/req/query-rewrite-extension/eh-query-rewrite`
 
@@ -1214,7 +1214,7 @@ http://www.opengis.net/def/rule/geosparql/ehContains[`geor:ehContains`].
 .. *Test Type*: Capabilities
 
 ==== RCC8 Relation Family
-[requirement,type="abstracttest",label="/conf/query-rewrite-extension/rcc8-query-rewrite"]
+[requirement,type="abstracttest",identifier="/conf/query-rewrite-extension/rcc8-query-rewrite"]
 ===== `/conf/query-rewrite-extension/rcc8-query-rewrite`
 *Requirement*: `/req/query-rewrite-extension/rcc8-query-rewrite`
 
