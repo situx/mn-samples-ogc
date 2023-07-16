@@ -5,28 +5,28 @@ The following normative documents contain provisions which, through reference in
 
 Items in this list are liked to their full citation <<Bibliography>>.
 
-* <<ISO19125-1>>, _ISO 19125-1: Geographic information — Simple feature access — Part 1: Common architecture_
+* [[[ISO19125-1,ISO 19125-1]]], ISO 19125-1: Geographic information — Simple feature access — Part 1: Common architecture
 
-* <<ISO19156>>, _ISO 19156: Geographic information — Observations and measurements_
+* [[[ISO19156,ISO19156]]], ISO 19156: Geographic information — Observations and measurements
 
-* <<OGC07-036>>, _OGC 07-036: Geography Markup Language (GML) Encoding Standard_
+* [[[OGC07-036,OGC07-036]]], GC 07-036: Geography Markup Language (GML) Encoding Standard
 
-* <<IETF3987>>, Internet Engineering Task Force, _RFC 3987: Internationalized Resource Identifiers (IRIs)_
+* [[[IETF3987,IETF3987]]], Internet Engineering Task Force, _RFC 3987: Internationalized Resource Identifiers (IRIs)
 
-* <<OWL2>> _OWL 2 Web Ontology Language Document Overview (Second Edition)_
+* [[[OWL2,OWL2]]], OWL 2 Web Ontology Language Document Overview (Second Edition)
 
-* <<RDF>>, _RDF 1.1 Concepts and Abstract Syntax_
+* [[[RDF,RDF]]], RDF 1.1 Concepts and Abstract Syntax
 
-* <<RDFS>> _RDF Schema 1.1_
+* [[[RDFS,RDFS]]], RDF Schema 1.1
 
-* <<RIFCORE>>, _RIF Core Dialect (Second Edition)_
+* [[[RIFCORE,RIFCORE]]], RIF Core Dialect (Second Edition)
 
-* <<SPARQL>>, _SPARQL 1.1 Query Language_
+* [[[SPARQL,SPARQL]]], SPARQL 1.1 Query Language
 
-* <<SPARQLENT>>, _SPARQL 1.1 Entailment Regimes_
+* [[[SPARQLENT,SPARQLENT]]], SPARQL 1.1 Entailment Regimes
 
-* <<SPARQLPROT>>, _SPARQL 1.1 Protocol_
+* [[[SPARQLPROT,SPARQLPROT]]], SPARQL 1.1 Protocol
 
-* <<SPARQLRESX>>, _SPARQL Query Results XML Format (Second Edition)_
+* [[[SPARQLRESX,SPARQLRESX]]], SPARQL Query Results XML Format (Second Edition)
 
-* <<SPARQLRESJ>>, _SPARQL 1.1 Query Results JSON Format_
+* [[[SPARQLRESJ,SPARQLRESJ]]], SPARQL 1.1 Query Results JSON Format

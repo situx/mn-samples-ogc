@@ -15,12 +15,10 @@ image::ont-overview.png[GeoSPARQL Ontology overview,align="center"]
 
 [#req_core_sparql-protocol]
 [%unnumbered]
-[requirement,type="class",label="http://www.opengis.net/spec/geosparql/1.0/req/core/sparql-protocol",obligation="requirement"]
-====
-[%metadata]
-identifier:: http://www.opengis.net/spec/geosparql/1.0/req/core/sparql-protocol
+[requirement,label="http://www.opengis.net/spec/geosparql/1.0/req/core/sparql-protocol",identifier=http://www.opengis.net/spec/geosparql/1.0/req/core/sparql-protocol]
+==== *Req {counter:req}*
 
-*Req {counter:req}* Implementations shall support the SPARQL Query Language for RDF <<SPARQL>>, the SPARQL Protocol <<SPARQLPROT>> and the SPARQL Query Results XML <<SPARQLRESX>> and JSON <<SPARQLRESJ>> Formats.
+Implementations shall support the SPARQL Query Language for RDF <<SPARQL>>, the SPARQL Protocol <<SPARQLPROT>> and the SPARQL Query Results XML <<SPARQLRESX>> and JSON <<SPARQLRESJ>> Formats.
 ====
 
 === Classes
@@ -44,12 +42,11 @@ geo:SpatialObject
                     and geometry"@en .
 ```
 [#req_core_spatial_object_class]
-[requirement,type="class",label="http://www.opengis.net/spec/geosparql/1.0/req/core/spatial-object-class",obligation="requirement"]
+[requirement,label="http://www.opengis.net/spec/geosparql/1.0/req/core/spatial-object-class",identifier=http://www.opengis.net/spec/geosparql/1.0/req/core/spatial-object-class,obligation="requirement"]
 [%unnumbered]
-|===
-| *Req {counter:req}* Implementations shall allow the RDFS class <<Class: geo:SpatialObject, `geo:SpatialObject`>> to be used in SPARQL graph patterns.
-|http://www.opengis.net/spec/geosparql/1.0/req/core/spatial-object-class[`http://www.opengis.net/spec/geosparql/1.0/req/core/spatial-object-class`]
-|===
+==== *Req {counter:req}*
+Implementations shall allow the RDFS class <<Class: geo:SpatialObject, `geo:SpatialObject`>> to be used in SPARQL graph patterns.
+====
 
 *Example:*
 

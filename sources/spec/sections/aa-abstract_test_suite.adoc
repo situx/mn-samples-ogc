@@ -182,7 +182,7 @@ to be used in SPARQL graph patterns.
 [requirement,type="conformanceclass",label="/conf/geometry-extension",subject="Geometry"]
 === Conformance Class: Geometry Extension
 
-This Conformance Class applies to non-DGGS geometries. See <<A.3.DGGS Conformance Class: Geometry Extension - DGGS>> for DGGS geometries.
+This Conformance Class applies to non-DGGS geometries. See <<DGGS Conformance Class: Geometry Extension - DGGS>> for DGGS geometries.
 
 *Conformance Class IRI*: `/conf/geometry-extension`
 
@@ -621,9 +621,9 @@ Implementations shall support <<Function: geof:asDGGS, `geof:asDGGS`>>, as a SPA
 
 
 [requirement,type="conformanceclass",label="/conf/geometry-extension",subject="DGGS"]
-=== A.3.DGGS Conformance Class: Geometry Extension - DGGS
+=== DGGS Conformance Class: Geometry Extension - DGGS
 
-This conformance Class applies only to DGGS geometries. See <<A.3 Conformance Class: Geometry Extension>> for other geometries.
+This conformance Class applies only to DGGS geometries. See <<Conformance Class: Geometry Extension>> for other geometries.
 
 *Conformance Class IRI*: `/conf/geometry-extension`
 
