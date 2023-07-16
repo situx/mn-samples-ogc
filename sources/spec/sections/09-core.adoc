@@ -14,12 +14,14 @@ image::ont-overview.png[GeoSPARQL Ontology overview,align="center"]
 === SPARQL
 
 [#req_core_sparql-protocol]
-[requirement,type="class",label="http://www.opengis.net/spec/geosparql/1.0/req/core/sparql-protocol",obligation="requirement"]
 [%unnumbered]
-|===
-| *Req {counter:req}* Implementations shall support the SPARQL Query Language for RDF <<SPARQL>>, the SPARQL Protocol <<SPARQLPROT>> and the SPARQL Query Results XML <<SPARQLRESX>> and JSON <<SPARQLRESJ>> Formats.
-| http://www.opengis.net/spec/geosparql/1.0/req/core/sparql-protocol[`http://www.opengis.net/spec/geosparql/1.0/req/core/sparql-protocol`]
-|===
+[requirement,type="class",label="http://www.opengis.net/spec/geosparql/1.0/req/core/sparql-protocol",obligation="requirement"]
+====
+[%metadata]
+identifier:: http://www.opengis.net/spec/geosparql/1.0/req/core/sparql-protocol
+
+*Req {counter:req}* Implementations shall support the SPARQL Query Language for RDF <<SPARQL>>, the SPARQL Protocol <<SPARQLPROT>> and the SPARQL Query Results XML <<SPARQLRESX>> and JSON <<SPARQLRESJ>> Formats.
+====
 
 === Classes
 
