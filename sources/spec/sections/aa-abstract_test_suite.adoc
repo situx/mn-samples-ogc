@@ -20,7 +20,7 @@ target:: /req/core
 
 ==== SPARQL
 
-[abstract_test,identifier="/conf/core/sparql-protocol"]
+[abstract_test,identifier="/conf/core/sparql-protocol",conformance-class="/conf/core"]
 ====
 [%metadata]
 target:: /req/core/sparql-protocol
@@ -31,7 +31,7 @@ test-method-type:: Capabilities
 
 ==== RDF Classes & Properties
 
-[abstract_test,identifier="/conf/core/spatial-object-class"]
+[abstract_test,identifier="/conf/core/spatial-object-class",conformance-class="/conf/core"]
 ====
 [%metadata]
 target:: /req/core/spatial-object-class
