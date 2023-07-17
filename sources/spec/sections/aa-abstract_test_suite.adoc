@@ -10,7 +10,6 @@ Conformance classes may be used to signify the compatibility of a given implemen
 They may be stated as part of a SPARQL 1.1 Service Description <<SPARQLSERVDESC>> .
 
 
-[conformance_class,identifier="/conf/core",subject="Core"]
 === Conformance Class: Core
 
 [conformance_class,identifier="/conf/core"]
@@ -505,7 +504,11 @@ test-method-type:: Capabilities
 
 This conformance Class applies only to DGGS geometries. See <<Conformance Class: Geometry Extension>> for other geometries.
 
-*Conformance Class IRI*: `/conf/geometry-extension`
+[conformance_class,identifier="/conf/geometry-extension"]
+====
+[%metadata]
+target:: /req/geometry-extension
+====
 
 ==== DGGS.1 Tests for DGGS Serializations
 
@@ -920,10 +923,13 @@ Implementations shall support <<Function: geof:asDGGS, `geof:asDGGS`>>, as a SPA
 .. *Reference*: <<_function_geofasdggs>>
 .. *Test Type*: Capabilities
 
-[conformance_class,identifier="/conf/geometry-topology-extension",subject="Geometry Topology"]
 === Conformance Class: Geometry Topology Extension
 
-*Conformance Class IRI*: `/conf/geometry-topology-extension`
+[conformance_class,identifier="/conf/geometry-topology-extension"]
+====
+[%metadata]
+target:: /req/geometry-topology-extension
+====
 
 ==== Tests for all relation families
 
@@ -969,10 +975,13 @@ test-method:: Verify that a set of SPARQL queries involving each of the followin
 test-method-type:: Capabilities
 ====
 
-[conformance_class,identifier="/conf/rdfs-entailment-extension",subject="RDFS Entailment"]
 === Conformance Class: RDFS Entailment Extension
 
-*Conformance Class IRI*: `/conf/rdfs-entailment-extension`
+[conformance_class,identifier="/conf/rdfs-entailment-extension"]
+====
+[%metadata]
+target:: /req/rdfs-entailment-extension
+====
 
 ==== Tests for all implementations
 
@@ -1005,10 +1014,13 @@ test-method:: Verify that a set of SPARQL queries involving GML Geometry types r
 test-method-type:: Capabilities
 ====
 
-[conformance_class,identifier="/conf/query-rewrite-extension",subject="RDFS Entailment"]
 === Conformance Class: Query Rewrite Extension
 
-*Conformance Class IRI*: `/conf/query-rewrite-extension`
+[conformance_class,identifier="/conf/query-rewrite-extension"]
+====
+[%metadata]
+target:: /req/query-rewrite-extension
+====
 
 ==== Simple Features Relation Family
 [abstract_test,identifier="/conf/query-rewrite-extension/sf-query-rewrite"]
