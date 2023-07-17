@@ -504,7 +504,7 @@ test-method-type:: Capabilities
 
 This conformance Class applies only to DGGS geometries. See <<Conformance Class: Geometry Extension>> for other geometries.
 
-[conformance_class,identifier="/conf/geometry-extension"]
+[conformance_class,identifier="/conf/geometry-extension-dggs"]
 ====
 [%metadata]
 target:: /req/geometry-extension
