@@ -108,8 +108,6 @@ toc::[]
 
 include::sections/01-preface.adoc[]
 
-include::sections/02-introduction.adoc[]
-
 include::sections/03-scope.adoc[]
 
 :sectnums:
@@ -118,7 +116,11 @@ include::sections/04-conformance.adoc[]
 
 include::sections/05-references.adoc[]
 
+include::sections/06-terms_and_definitions.adoc[]
+
 include::sections/07-conventions.adoc[]
+
+include::sections/02-introduction.adoc[]
 
 include::sections/09-core.adoc[]
 

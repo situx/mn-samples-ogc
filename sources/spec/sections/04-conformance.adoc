@@ -27,7 +27,7 @@ Many conformance classes are parameterized. For parameterized conformance classe
 
 (serialization, version, relation_family) 
 
-| Defines topological query functions for geometry objects | xref:/conf/geometry-topolggy-extension[]
+| Defines topological query functions for geometry objects | xref:/conf/geometry-topology-extension[]
 |RDFS Entailment Extension 
 
 (serialization, version , relation_family) 

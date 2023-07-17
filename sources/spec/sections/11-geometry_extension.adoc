@@ -5,10 +5,37 @@ This clause defines the _Geometry Extension_ parameterized Requirements class wi
 [requirements_class,identifier="/req/geometry-extension/",subject="Implementation Specification"]
 ====
 requirement:: /req/geometry-extension/geometry-class
+requirement:: /req/geometry-extension/geometry-collection-class
+requirement:: /req/geometry-extension/feature-properties
 requirement:: /req/geometry-extension/geometry-properties
+requirement:: /req/geometry-extension/query-functions
+requirement:: /req/geometry-extension/srid-function
+requirement:: /req/geometry-extension/sa-functions
 requirement:: /req/geometry-extension/wkt-literal
-requirement:: /req/geometry-extension/wkt-literal-srs
+requirement:: /req/geometry-extension/wkt-literal-default-srs
+requirement:: /req/geometry-extension/wkt-axis-order
 requirement:: /req/geometry-extension/wkt-literal-empty
+requirement:: /req/geometry-extension/geometry-as-wkt-literal
+requirement:: /req/geometry-extension/asWKT-function
+requirement:: /req/geometry-extension/gml-literal
+requirement:: /req/geometry-extension/gml-literal-empty
+requirement:: /req/geometry-extension/gml-profile
+requirement:: /req/geometry-extension/geometry-as-gml-literal
+requirement:: /req/geometry-extension/asGML-function
+requirement:: /req/geometry-extension/geojson-literal
+requirement:: /req/geometry-extension/geojson-literal-srs
+requirement:: /req/geometry-extension/geojson-literal-empty
+requirement:: /req/geometry-extension/geometry-as-geojson-literal
+requirement:: /req/geometry-extension/asGeoJSON-function
+requirement:: /req/geometry-extension/kml-literal
+requirement:: /req/geometry-extension/kml-literal-srs
+requirement:: /req/geometry-extension/kml-literal-empty
+requirement:: /req/geometry-extension/geometry-as-kml-literal
+requirement:: /req/geometry-extension/asKML-function
+requirement:: /req/geometry-extension/dggs-literal
+requirement:: /req/geometry-extension/dggs-literal-empty
+requirement:: /req/geometry-extension/geometry-as-dggs-literal
+requirement:: /req/geometry-extension/asDGGS-function
 ====
 
 As part of the vocabulary, RDFS datatypes are defined for encoding detailed geometry information as a literal value. A literal representation of a geometry is needed so that geometric values may be treated as a single unit. Such a representation allows geometries to be passed to external functions for computations and to be returned from a query.

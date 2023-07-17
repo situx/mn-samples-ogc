@@ -20,6 +20,8 @@ abstract-test:: /conf/core/sparql-protocol
 abstract-test:: /conf/core/spatial-object-class
 abstract-test:: /conf/core/feature-class
 abstract-test:: /conf/core/spatial-object-collection-class
+abstract-test:: /conf/core/feature-collection-class
+abstract-test:: /conf/core/spatial-object-properties
 ====
 
 ==== SPARQL
@@ -98,6 +100,9 @@ test-method-type:: Capabilities
 ====
 [%metadata]
 target:: /req/topology-vocabulary-extension
+abstract-test:: /conf/topology-vocab-extension/sf-spatial-relations
+abstract-test:: /conf/topology-vocab-extension/eh-spatial-relations
+abstract-test:: /conf/topology-vocab-extension/rcc8-spatial-relations
 ====
 
 ==== Simple Features Relation Family
@@ -159,10 +164,42 @@ test-method-type:: Capabilities
 
 === Conformance Class: Geometry Extension
 
-[conformance_class,identifier="/conf/geometry-extension",subejct="Geometry"]
+[conformance_class,identifier="/conf/geometry-extension",subject="Geometry"]
 ====
 [%metadata]
 target:: /req/geometry-extension
+abstract-test:: /conf/geometry-extension/geometry-class
+abstract-test:: /conf/geometry-extension/geometry-collection-class
+abstract-test:: /conf/geometry-extension/feature-properties
+abstract-test:: /conf/geometry-extension/geometry-properties
+abstract-test:: /conf/geometry-extension/query-functions
+abstract-test:: /conf/geometry-extension/srid-function
+abstract-test:: /conf/geometry-extension/sa-functions
+abstract-test:: /conf/geometry-extension/wkt-literal
+abstract-test:: /conf/geometry-extension/wkt-literal-default-srs
+abstract-test:: /conf/geometry-extension/wkt-axis-order
+abstract-test:: /conf/geometry-extension/wkt-literal-empty
+abstract-test:: /conf/geometry-extension/geometry-as-wkt-literal
+abstract-test:: /conf/geometry-extension/asWKT-function
+abstract-test:: /conf/geometry-extension/gml-literal
+abstract-test:: /conf/geometry-extension/gml-literal-empty
+abstract-test:: /conf/geometry-extension/gml-profile
+abstract-test:: /conf/geometry-extension/geometry-as-gml-literal
+abstract-test:: /conf/geometry-extension/asGML-function
+abstract-test:: /conf/geometry-extension/geojson-literal
+abstract-test:: /conf/geometry-extension/geojson-literal-srs
+abstract-test:: /conf/geometry-extension/geojson-literal-empty
+abstract-test:: /conf/geometry-extension/geometry-as-geojson-literal
+abstract-test:: /conf/geometry-extension/asGeoJSON-function
+abstract-test:: /conf/geometry-extension/kml-literal
+abstract-test:: /conf/geometry-extension/kml-literal-srs
+abstract-test:: /conf/geometry-extension/kml-literal-empty
+abstract-test:: /conf/geometry-extension/geometry-as-kml-literal
+abstract-test:: /conf/geometry-extension/asKML-function
+abstract-test:: /conf/geometry-extension/dggs-literal
+abstract-test:: /conf/geometry-extension/dggs-literal-empty
+abstract-test:: /conf/geometry-extension/geometry-as-dggs-literal
+abstract-test:: /conf/geometry-extension/asDGGS-function
 ====
 
 This Conformance Class applies to non-DGGS geometries. See <<DGGS Conformance Class: Geometry Extension - DGGS>> for DGGS geometries.
@@ -933,6 +970,10 @@ Implementations shall support <<Function: geof:asDGGS, `geof:asDGGS`>>, as a SPA
 ====
 [%metadata]
 target:: /req/geometry-topology-extension
+abstract-test:: /conf/geometry-topology-extension/relate-query-function
+abstract-test:: /conf/geometry-topology-extension/sf-query-functions
+abstract-test:: /conf/geometry-topology-extension/eh-query-functions
+abstract-test:: /conf/geometry-topology-extension/rcc8-query-functions
 ====
 
 ==== Tests for all relation families
@@ -985,6 +1026,9 @@ test-method-type:: Capabilities
 ====
 [%metadata]
 target:: /req/rdfs-entailment-extension
+abstract-test:: /conf/rdfs-entailment-extension/bgp-rdfs-ent
+abstract-test:: /conf/rdfs-entailment-extension/wkt-geometry-types
+abstract-test:: /conf/rdfs-entailment-extension/gml-geometry-types
 ====
 
 ==== Tests for all implementations
@@ -1024,6 +1068,9 @@ test-method-type:: Capabilities
 ====
 [%metadata]
 target:: /req/query-rewrite-extension
+abstract-test:: /conf/query-rewrite-extension/sf-query-rewrite
+abstract-test:: /conf/query-rewrite-extension/eh-query-rewrite
+abstract-test:: /conf/query-rewrite-extension/rcc8-query-rewrite
 ====
 
 ==== Simple Features Relation Family
