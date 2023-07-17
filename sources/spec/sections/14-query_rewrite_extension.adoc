@@ -58,7 +58,7 @@ Forall ?so1 ?so2 ?g1 ?g2 ?g1Serial ?g2Serial (
 
 This clause defines Requirements for the _Simple Features_ relation family. <<sf_query_transformation_rules>> specifies the function and property substitutions for each rule in the _Simple Features_ relation family.
 
-[#req_query-rewrite-extension_sf-query-rewrite]
+[[req_query-rewrite-extension_sf-query-rewrite]]
 [requirement,identifier="/req/query-rewrite-extension/sf-query-rewrite"]
 ====
 Basic graph pattern matching shall use the semantics defined by the RIF Core Entailment Regime <<SPARQLENT>> for the RIF rules <<RIFCORE>> 
@@ -72,7 +72,7 @@ http://www.opengis.net/def/rule/geosparql/sfContains[`geor:sfContains`] and
 http://www.opengis.net/def/rule/geosparql/sfOverlaps[`geor:sfOverlaps`].
 ====
 
-[#sf_query_transformation_rules]
+[[sf_query_transformation_rules]]
 .Simple Features Query Transformation Rules
 |===
 |Rule | ogc:relation | ogc:function
@@ -91,7 +91,7 @@ http://www.opengis.net/def/rule/geosparql/sfOverlaps[`geor:sfOverlaps`].
 
 This clause defines Requirements for the _Egenhofer_ relation family. <<eh_query_transformation_rules>> specifies the function and property substitutions for each rule in the _Egenhofer_ relation family.
 
-[#req_query-rewrite-extension_eh-query-rewrite]
+[[req_query-rewrite-extension_eh-query-rewrite]]
 [requirement,identifier="/req/query-rewrite-extension/eh-query-rewrite"]
 ====
 Basic graph pattern matching shall use the semantics defined by the RIF Core Entailment Regime <<SPARQLENT>> for the RIF rules <<RIFCORE>> 
@@ -124,7 +124,7 @@ http://www.opengis.net/def/rule/geosparql/ehContains[`geor:ehContains`].
 
 This clause defines Requirements for the _RCC8_ relation family. <<rcc8_query_transformation_rules>> specifies the function and property substitutions for each rule in the _RCC8_ relation family.
 
-[#req_query-rewrite-extension_rcc8-query-rewrite]
+[[req_query-rewrite-extension_rcc8-query-rewrite]]
 [requirement,identifier="/req/query-rewrite-extension/rcc8-query-rewrite"]
 ====
 Basic graph pattern matching shall use the semantics defined by the RIF Core Entailment Regime <<SPARQLENT>> for the RIF rules <<RIFCORE>> 
@@ -138,7 +138,7 @@ http://www.opengis.net/def/rule/geosparql/rcc8ntpp[`geor:rcc8ntpp`] and
 http://www.opengis.net/def/rule/geosparql/rcc8ntppi[`geor:rcc8ntppi`].
 ====
 
-[#rcc8_query_transformation_rules]
+[[rcc8_query_transformation_rules]]
 .RCC8 Query Transformation Rules
 |===
 |Rule | ogc:relation | ogc:function

@@ -19,7 +19,7 @@ requirement:: /req/rdfs-entailment-extension/gml-geometry-types
 
 The basic mechanism for supporting RDFS entailment has been defined by the W3C SPARQL 1.1 RDFS Entailment Regime <<SPARQLENT>>.
 
-[#req_rdfs_entailment_extension_bgp-rdfs-ent]
+[[req_rdfs_entailment_extension_bgp-rdfs-ent]]
 [requirement,identifier="/req/rdfs-entailment-extension/bgp-rdfs-ent"]
 ====
 Basic graph pattern matching shall use the semantics defined by the RDFS Entailment Regime <<SPARQLENT>>.
@@ -70,7 +70,7 @@ sf:Polygon
 .
 ```
 
-[#req_rdfs_entailment_extension_wkt-geometry-types]
+[[req_rdfs_entailment_extension_wkt-geometry-types]]
 [requirement,identifier="/req/rdfs-entailment-extension/wkt-geometry-types"]
 ====
 Implementations shall support graph patterns involving terms from an RDFS/OWL class hierarchy of geometry types consistent with the one in the specified version of Simple Features <<OGCSFACA>> <<ISO19125-1>>.
@@ -96,7 +96,7 @@ gml:Polygon
                     more interior boundaries."@en ;
 .
 ```
-[#req_rdfs_entailment_extension_gml-geometry-types]
+[[req_rdfs_entailment_extension_gml-geometry-types]]
 [requirement,identifier="/req/rdfs-entailment-extension/gml-geometry-types"]
 ====
 Implementations shall support graph patterns involving terms from an RDFS/OWL class hierarchy of geometry types consistent with the GML schema that implements `GM_Object` using the specified _version_ of GML <<OGC07-036>>.
