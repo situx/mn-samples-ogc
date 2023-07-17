@@ -79,7 +79,7 @@ The SHACL Shapes defined in the GeoSPARQL 1.1 standard all target the verificati
 |http://www.opengis.net/def/geosparql/validator/S4-hasSerialization-literal[Shape 4]
 | Violation
 | The target of a <<Property: geo:hasSerialization, geo:hasSerialization>> property, or a specialization of, it should be an RDF literal
-| <<req_geometry-extension_geometry-properties>>
+| xref:/req/geometry-extension/geometry-properties[]
 
 |http://www.opengis.net/def/geosparql/validator/S5-asWKT-wktLiteral[Shape 5]
 | Violation
