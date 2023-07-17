@@ -135,7 +135,7 @@ geo:FeatureCollection
 The restriction imposed on the more general <<Class: SpatialObjectCollection, Spatial Object Collection>> that defines this class is that only instances of <<Class: Feature, Feature>> are allowed to be members of it and these are to be indicated with the `rdfs:member` property.
 
 [#req_core_feature-collection-class]
-[requirement,label="/req/core/feature-collection-class"]
+[requirement,identifier="/req/core/feature-collection-class"]
 ====
 Implementations shall allow the RDFS class <<Class: geo:FeatureCollection, `geo:FeatureCollection`>> to be used in SPARQL graph patterns.
 ====

@@ -427,9 +427,9 @@ geof:asWKT (geom: ogc:geomLiteral): geo:wktLiteral
 The function http://www.opengis.net/def/function/geosparql/asWKT[`geof:asWKT`] converts `geom` to an equivalent WKT representation preserving the spatial reference system. 
 
 [#req_geometry_extension_asWKT-function]
-[requirement,label="/req/geometry-extension/asWKT-function"]
+[requirement,identifier="/req/geometry-extension/asWKT-function"]
 ====
-Implementations shall support <<Property: geo:asWKT, `geo:asWKT`>> as a SPARQL extension function.
+Implementations shall support <<Function: geof:asWKT, `geof:asWKT`>> as a SPARQL extension function.
 ====
 
 ==== Geography Markup Language
@@ -629,7 +629,7 @@ Valid <<RDFS Datatype: geo:kmlLiteral, KML Literal>> instances are formed by enc
 
 
 [#req_geometry_extension_kml-literal]
-[requirement,label="/req/geometry-extension/kml-literal"]
+[requirement,identifier="/req/geometry-extension/kml-literal"]
 ====
 All <<RDFS Datatype: geo:kmlLiteral, `geo:kmlLiteral`>> instances shall consist of the Geometry objects as defined in the KML specification <<OGCKML>>.
 ====
@@ -801,7 +801,7 @@ geof:asDGGS (geom: ogc:geomLiteral, specificDggsDatatype: xsd:anyURI): geo:DggsL
 The function http://www.opengis.net/def/function/geosparql/asDGGS[`geof:asDGGS`] converts `geom` to an equivalent DGGS representation, formulated according to the specific DGGS literal indicated by the IRI required to be present in the DGGS literal.
 
 [#req_geometry_extension_asDGGS-function]
-[requirement,label="/req/geometry-extension/asDGGS-function"]
+[requirement,identifier="/req/geometry-extension/asDGGS-function"]
 ====
 Implementations shall support <<Function: geof:asDGGS, `geof:asDGGS`>>  as a SPARQL extension function.
 ====
