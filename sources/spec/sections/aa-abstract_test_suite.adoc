@@ -44,6 +44,7 @@ target:: /req/core/spatial-object-class
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that queries involving <<Class: geo:SpatialObject, `geo:SpatialObject`>> return the correct result on a test dataset.
 test-method-type:: Capabilities
+reference:: <<Class: geo:SpatialObject>>
 ====
 
 [abstract_test,identifier="/conf/core/feature-class"]
@@ -53,6 +54,7 @@ target:: /req/core/feature-class
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that queries involving <<Class: geo:Feature, `geo:Feature`>> return the correct result on a test dataset.
 test-method-type:: Capabilities
+reference:: <<Class: geo:Feature>>
 ====
 
 
@@ -63,6 +65,7 @@ target:: /req/core/spatial-object-collection-class
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that queries involving <<Class: geo:SpatialObjectCollection, `geo:SpatialObjectCollection`>> return the correct result on a test dataset.
 test-method-type:: Capabilities
+reference:: <<Class: geo:SpatialObjectCollection>>
 ====
 
 
@@ -73,6 +76,7 @@ target:: /req/core/feature-collection-class
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that queries involving <<Class: geo:FeatureCollection, `geo:FeatureCollection`>> return the correct result on a test dataset.
 test-method-type:: Capabilities
+reference:: <<Class: geo:FeatureCollection>>
 ====
 
 [abstract_test,identifier="/conf/core/spatial-object-properties"]
