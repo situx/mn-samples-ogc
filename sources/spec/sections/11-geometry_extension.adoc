@@ -2,6 +2,10 @@
 
 This clause defines the _Geometry Extension_ parameterized Requirements class with the base IRI `/req/geometry-extension`. There is a single corresponding conformance class _Geometry Extension_, with the IRI `/conf/geometry-extension`. These Requirements define a vocabulary for asserting and querying information about geometry data, and define query functions for operating on geometry data.
 
+[requirements_class,identifier="/req/geometry-extension/",subject="Implementation Specification"]
+====
+====
+
 As part of the vocabulary, RDFS datatypes are defined for encoding detailed geometry information as a literal value. A literal representation of a geometry is needed so that geometric values may be treated as a single unit. Such a representation allows geometries to be passed to external functions for computations and to be returned from a query.
 
 === Rationale
