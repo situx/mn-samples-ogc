@@ -74,7 +74,10 @@ The following parameters are defined for the _Geometry Extension_ Requirements.
 
 serialization:: Specifies the serialization standard to use when generating geometry literals as well as the supported geometry types.
 
-NOTE: A serialization strongly affects the geometry conceptualization. The WKT serialization aligns the geometry types with _ISO 19125 Simple Features_ <<OGCSFACA>> <<ISO19125-1>>; the GML serialization aligns the geometry types with _ISO 19107 Spatial Schema_ <<ISO19107>>.
+[NOTE,keep-separate=true]
+====
+A serialization strongly affects the geometry conceptualization. The WKT serialization aligns the geometry types with _ISO 19125 Simple Features_ <<OGCSFACA>> <<ISO19125-1>>; the GML serialization aligns the geometry types with _ISO 19107 Spatial Schema_ <<ISO19107>>.
+====
 
 version:: Specifies the version of the serialization format used.
 
@@ -237,7 +240,11 @@ geo:hasSpatialResolution
     rdfs:domain geo:Geometry ;
 .
 ```
-NOTE: See the <<Recommendation for specification of units of measurement>>.
+
+[NOTE,keep-separate=true]
+====
+See the <<Recommendation for specification of units of measurement>>.
+====
 
 ==== Property: geo:hasMetricSpatialResolution
 
@@ -270,7 +277,11 @@ geo:hasSpatialAccuracy
     rdfs:domain geo:Geometry ;
 .
 ```
-NOTE: See the <<Recommendation for specification of units of measurement>>.
+
+[NOTE,keep-separate=true]
+====
+See the <<Recommendation for specification of units of measurement>>.
+====
 
 ==== Property: geo:hasMetricSpatialAccuracy
 
@@ -339,7 +350,10 @@ geo:hasSerialization
 .
 ```
 
-NOTE: this property is the generic property used to connect a Geometry with its serialization. GeoSPARQL also contains a number of sub properties of this property for connecting serializations of common types with geometries, for example <<Property: geo:asGeoJSON, as GeoJSON>> which can be used for GeoJSON <<GEOJSON>> literals.
+[NOTE,keep-separate=true]
+====
+this property is the generic property used to connect a Geometry with its serialization. GeoSPARQL also contains a number of sub properties of this property for connecting serializations of common types with geometries, for example <<Property: geo:asGeoJSON, as GeoJSON>> which can be used for GeoJSON <<GEOJSON>> literals.
+====
 
 === Geometry Serializations
 This section establishes the Requirements class for representing Geometry data in RDF literals, according to different non-RDF systems.
@@ -779,7 +793,10 @@ An example of a DGGS literal for the AusPIX DGGS could be:
 
 Where AusPIX is identified with the IRI `+https://w3id.org/dggs/auspix+` and `CELL (R3234)` is the representation of a geometry according to AusPIX.
 
-NOTE: What `R3234` means, or the meaning of any other element within a DGGS' geometry data is not handled by GeoSPARQL, just as GeoPSARQL does not delve into the internals of other Geometry formats such as WKT or GeoJSON.
+[NOTE,keep-separate=true]
+====
+What `R3234` means, or the meaning of any other element within a DGGS' geometry data is not handled by GeoSPARQL, just as GeoPSARQL does not delve into the internals of other Geometry formats such as WKT or GeoJSON.
+====
 
 [[req_geometry_extension_dggs-literal-empty]]
 [requirement,identifier="/req/geometry-extension/dggs-literal-empty"]
@@ -894,10 +911,12 @@ Implementations shall support the functions
 as SPARQL extension functions which are defined in this standard, for non-DGGS geometry literals.
 ====
 
-NOTE: The Requirements to support non-topological query functions for DGGS geometry literals are separated from the Requirements to support them for traditional 
+[NOTE,keep-separate=true]
+====
+The Requirements to support non-topological query functions for DGGS geometry literals are separated from the Requirements to support them for traditional 
 geometry literals as it is expected that implementing these functions for DGGS literals will be significantly more difficult. This is due to the novelty of DGGS 
 literals and thus the lack of existing software libraries for their manipulation.
-
+====
 
 [[req_geometry_extension_query-functions-dggs]]
 [requirement,identifier="/req/geometry-extension/query-functions-dggs"]
@@ -944,7 +963,10 @@ SPARQL language extensions may provide additional associations between operators
 
 This extension mechanism enables GeoSPARQL implementations to simultaneously support multiple geometry serializations. For example, a system that supports <<RDFS Datatype: geo:wktLiteral, WKT Literal>> serializations may also support <<RDFS Datatype: geo:gmlLiteral, GML Literal>> serializations and consequently would not raise an error if it encounters multiple geometry datatypes while processing a given query.
 
-NOTE: Several non-topological query functions use a unit of measure IRI. See the <<Recommendation for specification of units of measurement,  Recommendation for specification of units of measurement>>. Also, the OGC has recommended units of measure vocabularies for use, see the OGC Definitions Serverfootnote:[https://www.ogc.org/def-server].
+[NOTE,keep-separate=true]
+====
+Several non-topological query functions use a unit of measure IRI. See the <<Recommendation for specification of units of measurement,  Recommendation for specification of units of measurement>>. Also, the OGC has recommended units of measure vocabularies for use, see the OGC Definitions Serverfootnote:[https://www.ogc.org/def-server].
+====
 
 ==== Function: geof:metricArea
 
@@ -964,7 +986,10 @@ geof:area (geom: ogc:geomLiteral, units: xsd:anyURI): rdf:Resource
 
 The function http://www.opengis.net/def/function/geosparql/area[`geof:area`] returns the area of `geom`. Must return zero for all geometry types other than Polygon. This function is similar to <<Function: geof:metricArea, `geof:metricArea`>>, which does not need a specification of measurement unit.
 
-NOTE: See the <<Recommendation for specification of units of measurement, Recommendation for specification of units of measurement>>.
+[NOTE,keep-separate=true]
+====
+See the <<Recommendation for specification of units of measurement, Recommendation for specification of units of measurement>>.
+====
 
 ==== Function: geof:boundary
 
@@ -1005,7 +1030,10 @@ geof:buffer (geom: ogc:geomLiteral,
 
 The function http://www.opengis.net/def/function/geosparql/buffer[`geof:buffer`] returns a geometric object that represents all Points whose distance from `geom` is less than or equal to the `radius` measured in `units`. Calculations are in the spatial reference system of `geom`. This function is similar to <<Function: geof:metricBuffer, `geof:metricBuffer`>>, which does not need a specification of measurement unit.
 
-NOTE: See the <<Recommendation for specification of units of measurement, Recommendation for specification of units of measurement>>.
+[NOTE,keep-separate=true]
+====
+See the <<Recommendation for specification of units of measurement, Recommendation for specification of units of measurement>>.
+====
 
 ==== Function: geof:centroid
 
@@ -1084,7 +1112,10 @@ geof:distance (geom1: ogc:geomLiteral,
 
 The function http://www.opengis.net/def/function/geosparql/distance[`geof:distance`] returns the shortest distance in `units` between any two Points in the two geometric objects. Calculations are in the spatial reference system of `geom1`. This function is similar to <<Function: geof:metricDistance, `geof:metricDistance`>>, which does not need a specification of measurement unit.
 
-NOTE: See the <<Recommendation for specification of units of measurement, Recommendation for specification of units of measurement>>.
+[NOTE,keep-separate=true]
+====
+See the <<Recommendation for specification of units of measurement, Recommendation for specification of units of measurement>>.
+====
 
 ==== Function: geof:envelope
 
@@ -1186,7 +1217,10 @@ geof:length (geom: ogc:geomLiteral, units: xsd:anyURI): xsd:double
 
 The function http://www.opengis.net/def/function/geosparql/length[`geof:length`] returns the length of `geom`. The longest length from any one dimension is returned. This function is similar to <<Function: geof:metricLength, `geof:metricLength`>>, which does not need a specification of measurement unit.
 
-NOTE: See the <<Recommendation for specification of units of measurement, Recommendation for specification of units of measurement>>.
+[NOTE,keep-separate=true]
+====
+See the <<Recommendation for specification of units of measurement, Recommendation for specification of units of measurement>>.
+====
 
 ==== Function: geof:maxX
 
@@ -1298,7 +1332,10 @@ geof:transform (geom: ogc:geomLiteral, srsIRI: xsd:anyURI): ogc:geomLiteral
 
 The function http://www.opengis.net/def/function/geosparql/transform[geof:transform] converts `geom` to a spatial reference system defined by srsIRI. The function raises an error if a transformation is not mathematically possible.
 
-NOTE: We recommend that implementers use the same literal type as a result of this function as the type of the input literal.
+[NOTE,keep-separate=true]
+====
+We recommend that implementers use the same literal type as a result of this function as the type of the input literal.
+====
 
 ==== Function: geof:union
 
@@ -1373,7 +1410,10 @@ geof:aggConvexHull (geom: ogc:geomLiteral): ogc:geomLiteral
 
 The function http://www.opengis.net/def/function/geosparql/aggConvexHull[`geof:aggConvexHull`] calculates the convex hull of the set of given geometries.
 
-NOTE: This function is similar in name to <<Function: geof:convexHull, geof:convexHull>> used to calculate the convex hull of just one geometry.
+[NOTE,keep-separate=true]
+====
+This function is similar in name to <<Function: geof:convexHull, geof:convexHull>> used to calculate the convex hull of just one geometry.
+====
 
 ==== Function: geof:aggUnion
 

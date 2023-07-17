@@ -99,7 +99,7 @@ test-method-type:: Capabilities
 [conformance_class,identifier="/conf/topology-vocab-extension"]
 ====
 [%metadata]
-target:: /req/topology-vocabulary-extension
+target:: /req/topology-vocab-extension
 abstract-test:: /conf/topology-vocab-extension/sf-spatial-relations
 abstract-test:: /conf/topology-vocab-extension/eh-spatial-relations
 abstract-test:: /conf/topology-vocab-extension/rcc8-spatial-relations
