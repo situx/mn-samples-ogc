@@ -96,6 +96,7 @@ test-method:: Verify that queries involving these following properties return th
 <<Property: geo:hasVolume, `geo:hasVolume`>> and
 <<Property: geo:hasMetricVolume, `geo:hasMetricVolume`>>
 test-method-type:: Capabilities
+reference:: <<spatial-object-properties>>
 ====
 
 === Conformance Class: Topology Vocabulary Extension
@@ -126,6 +127,7 @@ test-method:: Verify that queries involving the following properties return the 
 <<Property: geo:sfContains, `geo:sfContains`>> and 
 <<Property: geo:sfOverlaps, `geo:sfOverlaps`>> 
 test-method-type:: Capabilities
+reference:: <<sf-relations>>
 ====
 
 ==== Egenhofer Relation Family
@@ -145,6 +147,7 @@ test-method:: Verify that queries involving the following properties return the 
 <<Property: geo:ehInside, `geo:ehInside`>> and
 <<Property: geo:ehContains, `geo:ehContains`>> 
 test-method-type:: Capabilities
+reference:: <<egenhofer-relations>>
 ====
 
 ==== RCC8 Relation Family
@@ -164,6 +167,7 @@ test-method:: Verify that queries involving the following properties return the 
 <<Property: geo:rcc8ntpp, `geo:rcc8ntpp`>>, 
 <<Property: geo:rcc8ntppi, `geo:rcc8ntppi`>> 
 test-method-type:: Capabilities
+reference:: <<rcc8-relations>>
 ====
 
 === Conformance Class: Geometry Extension
@@ -217,6 +221,7 @@ target:: /req/geometry-extension/geometry-class
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that queries involving <<Class: geo:Geometry, `geo:Geometry`>> return the correct result on a test dataset
 test-method-type:: Capabilities
+reference:: <<Class: geo:Geometry>>
 ====
 
 [abstract_test,identifier="/conf/geometry-extension/geometry-collection-class"]
@@ -226,6 +231,7 @@ target:: /req/geometry-extension/geometry-collection-class
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that queries involving <<Class: geo:GeometryCollection, Geometry Collection>> return the correct result on a test dataset
 test-method-type:: Capabilities
+reference:: <<Class: geo:GeometryCollection>>
 ====
 
 [abstract_test,identifier="/conf/geometry-extension/feature-properties"]
@@ -292,6 +298,7 @@ target:: /req/geometry-extension/srid-function
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that a SPARQL query involving the <<Function: geof:getSRID, get SRID>> function returns the correct result for a test dataset when using the specified serialization and version.
 test-method-type:: Capabilities
+reference:: <<Function: geof:getSRID>>
 ====
 
 [abstract_test,identifier="/conf/geometry-extension/sa-functions"]
@@ -318,6 +325,7 @@ target:: /req/geometry-extension/wkt-literal
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that queries involving  <<RDFS Datatype: geo:wktLiteral, WKT Literal>> values return the correct result for a test dataset.
 test-method-type:: Capabilities
+reference:: <<RDFS Datatype: geo:wktLiteral>>
 ====
 
 [abstract_test,identifier="/conf/geometry-extension/wkt-literal-default-srs"]

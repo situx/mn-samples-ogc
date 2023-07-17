@@ -38,7 +38,7 @@ to be used in SPARQL graph patterns.
 
 Topological relations in the _Simple Features_ family are summarized in <<sf_relations>>. Multi-row intersection patterns should be interpreted as a logical `OR` of each row.
 
-[#sf_relations]
+[[sf_relations]]
 .Simple Features Topological Relations
 |===
 |Relation Name | Relation IRI | Domain/Range | Applies To Geometry Types | DE-9IM Intersection Pattern
@@ -75,7 +75,7 @@ to be used in SPARQL graph patterns.
 
 Topological relations in the _Egenhofer_ family are summarized in <<egenhofer_relations>>. Multi-row intersection patterns should be interpreted as a logical `OR` of each row.
 
-[#egenhofer_relations]
+[[egenhofer_relations]]
 .Egenhofer Topological Relations
 |===
 |Relation Name | Relation IRI | Domain/Range | Applies To Geometry Types | DE-9IM Intersection Pattern
@@ -111,7 +111,7 @@ to be used in SPARQL graph patterns.
 
 Topological relations in the _RCC8_ family are summarized in <<rcc8_relations>>.
 
-[#rcc8_relations]
+[[rcc8_relations]]
 .RCC8 Topological Relations
 |===
 |Relation Name | Relation IRI | Domain/Range | Applies To Geometry Types | DE-9IM Intersection Pattern

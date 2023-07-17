@@ -147,6 +147,7 @@ The restriction imposed on the more general <<Class: SpatialObjectCollection, Sp
 Implementations shall allow the RDFS class <<Class: geo:FeatureCollection, `geo:FeatureCollection`>> to be used in SPARQL graph patterns.
 ====
 
+[[spatial-object-properties]]
 === Standard Properties for geo:SpatialObject
 
 Properties are defined for associating Spatial Objects with scalar spatial measurements (sizes) .
