@@ -16,6 +16,10 @@ They may be stated as part of a SPARQL 1.1 Service Description <<SPARQLSERVDESC>
 ====
 [%metadata]
 target:: /req/core
+abstract-test:: /conf/core/sparql-protocol
+abstract-test:: /conf/core/spatial-object-class
+abstract-test:: /conf/core/feature-class
+abstract-test:: /conf/core/spatial-object-collection-class
 ====
 
 ==== SPARQL
