@@ -17,6 +17,7 @@ requirement:: /req/core/spatial-object-class
 requirement:: /req/core/feature-class
 requirement:: /req/core/spatial-object-collection-class
 requirement:: /req/core/feature-collection-class
+requirement:: /req/core/geometry-collection-class
 requirement:: /req/core/spatial-object-properties
 ====
 

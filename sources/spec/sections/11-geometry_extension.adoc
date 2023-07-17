@@ -4,6 +4,11 @@ This clause defines the _Geometry Extension_ parameterized Requirements class wi
 
 [requirements_class,identifier="/req/geometry-extension/",subject="Implementation Specification"]
 ====
+requirement:: /req/geometry-extension/geometry-class
+requirement:: /req/geometry-extension/geometry-properties
+requirement:: /req/geometry-extension/wkt-literal
+requirement:: /req/geometry-extension/wkt-literal-srs
+requirement:: /req/geometry-extension/wkt-literal-empty
 ====
 
 As part of the vocabulary, RDFS datatypes are defined for encoding detailed geometry information as a literal value. A literal representation of a geometry is needed so that geometric values may be treated as a single unit. Such a representation allows geometries to be passed to external functions for computations and to be returned from a query.
@@ -120,7 +125,7 @@ Implementations shall allow the RDFS class <<Class: geo:GeometryCollection, `geo
 
 Properties are defined for describing geometry metadata.
 
-[requirement,identifier="req/geometry-extension/geometry-properties"]
+[requirement,identifier="/req/geometry-extension/geometry-properties"]
 ====
 Implementations shall allow the properties 
 <<Property: geo:dimension, `geo:dimension`>>, 

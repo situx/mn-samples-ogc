@@ -14,6 +14,10 @@ In the following descriptions, the notation `X/Y` is used to denote applying a s
 
 [requirements_class,identifier="/req/geometry-topology-extension/",subject="Implementation Specification"]
 ====
+requirement:: /req/geometry-topology-extension/relate-query-function
+requirement:: /req/geometry-topology-extension/sf-query-functions
+requirement:: /req/geometry-topology-extension/eh-query-functions
+requirement:: /req/geometry-topology-extension/rcc8-query-functions
 ====
 
 === Parameters
