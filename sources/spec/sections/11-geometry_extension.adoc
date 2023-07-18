@@ -151,6 +151,7 @@ As per the expected use of http://www.opengis.net/ont/sf#GeometryCollection[`sf:
 Implementations shall allow the RDFS class <<Class: geo:GeometryCollection, `geo:GeometryCollection`>> to be used in SPARQL graph patterns.
 ====
 
+[[geometry_properties]]
 === Standard Properties for geo:Geometry
 
 Properties are defined for describing geometry metadata.
@@ -440,6 +441,7 @@ A second example below encodes the same point as encoded in the example above bu
 An empty RDFS Literal of type <<RDFS Datatype: geo:wktLiteral, `geo:wktLiteral`>> shall be interpreted as an empty Geometry.
 ====
 
+[[geo_aswkt]]
 ===== Property: geo:asWKT
 
 The property http://www.opengis.net/ont/geosparql#asWKT[`geo:asWKT`] is defined to link a Geometry with its WKT serialization.
@@ -855,6 +857,7 @@ The function http://www.opengis.net/def/function/geosparql/asDGGS[`geof:asDGGS`]
 Implementations shall support <<Function: geof:asDGGS, `geof:asDGGS`>>  as a SPARQL extension function.
 ====
 
+[[query_functions]]
 === Non-topological Query Functions
 
 This Requirements class defines SPARQL functions for performing non-topological spatial operations.
@@ -877,7 +880,6 @@ Implementations shall support the functions
 <<Function: geof:distance, `geof:distance`>>, 
 <<Function: geof:envelope, `geof:envelope`>>,
 <<Function: geof:geometryType, `geof:geometryType`>>, 
-<<Function: geof:getSRID, `geof:getSRID`>>, 
 <<Function: geof:intersection, `geof:intersection`>>, 
 <<Function: geof:is3D, `geof:is3D`>>, 
 <<Function: geof:isEmpty, `geof:isEmpty`>>, 
@@ -1144,15 +1146,6 @@ geof:geometryType (geom: ogc:geomLiteral): xsd:anyURI
 
 The function http://www.opengis.net/def/function/geosparql/geometryType[`geof:geometryType`] returns the URI of the subtype of Geometry of which this geometric object is an member. No attempt to reconcile different geometry subtypes across all support literals need be made.
 
-==== Function: geof:getSRID
-
-[%unnumbered]
-```
-geof:getSRID (geom: ogc:geomLiteral): xsd:anyURI
-```
-
-The function http://www.opengis.net/def/function/geosparql/getSRID[`geof:getSRID`] returns the spatial reference system IRI for `geom`.
-
 ==== Function: geof:intersection
 
 [%unnumbered]
@@ -1353,6 +1346,16 @@ This function http://www.opengis.net/def/function/geosparql/union[`geof:union`] 
 Implementations shall support http://www.opengis.net/def/function/geosparql/getSRID[`geof:getSRID`] as a SPARQL extension function.
 ====
 
+==== Function: geof:getSRID
+
+[%unnumbered]
+```
+geof:getSRID (geom: ogc:geomLiteral): xsd:anyURI
+```
+
+The function http://www.opengis.net/def/function/geosparql/getSRID[`geof:getSRID`] returns the spatial reference system IRI for `geom`.
+
+[[sa_functions]]
 === Spatial Aggregate Functions
 This clause defines SPARQL functions for performing spatial aggregations of data.
 

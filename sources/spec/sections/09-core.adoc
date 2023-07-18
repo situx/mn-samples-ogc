@@ -21,6 +21,7 @@ requirement:: /req/core/geometry-collection-class
 requirement:: /req/core/spatial-object-properties
 ====
 
+[[sparql_protocol]]
 === SPARQL
 
 [[req_core_sparql-protocol]]
@@ -393,6 +394,7 @@ TIP: A consistency check can be applied to Geometries indicating both this prope
     }
 ```
 
+[[feature_properties]]
 === Standard Properties for geo:Feature
 
 Properties are defined for associating <<Class: geo:Feature, `geo:Feature`>> instances with <<Class: geo:Geometry, `geo:Geometry`>> instances.
