@@ -371,6 +371,7 @@ target:: /req/geometry-extension/asWKT-function
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that a set of SPARQL queries involving the <<Function: geof:asWKT, `geof:asWKT`>> function returns the correct result for a test dataset when using the specified serialization and version.
 test-method-type:: Capabilities
+reference:: <<Function: geof:asWKT >>
 ====
 
 ==== GML Serialization
@@ -419,6 +420,7 @@ target:: /req/geometry-extension/asGML-function
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that a set of SPARQL queries involving the <<Function: geof:asGML, `geof:asGML`>> function returns the correct result for a test dataset when using the specified serialization and version.
 test-method-type:: Capabilities
+reference:: <<Function: geof:asGML >>
 ====
 
 ==== GeoJSON Serialization
@@ -467,6 +469,7 @@ target:: /req/geometry-extension/asGeoJSON-function
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that a set of SPARQL queries involving the <<Function: geof:asGeoJSON, `geof:asGeoJSON`>> function returns the correct result for a test dataset when using the specified serialization and version.
 test-method-type:: Capabilities
+reference:: <<Function: geof:asGeoJSON >>
 ====
 
 ==== KML Serialization
@@ -515,6 +518,7 @@ target:: /req/geometry-extension/asKML-function
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that a set of SPARQL queries involving the <<Function: geof:asKML, `geof:asKML`>> function returns the correct result for a test dataset when using the specified serialization and version.
 test-method-type:: Capabilities
+reference:: <<Function: geof:asKML >>
 ====
 
 ==== DGGS Serialization
@@ -554,6 +558,7 @@ target:: /req/geometry-extension/asDGGS-function
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that a set of SPARQL queries involving the <<Function: geof:asDGGS, `geof:asDGGS`>> function returns the correct result for a test dataset when using the specified serialization and version.
 test-method-type:: Capabilities
+reference:: <<Function: geof:asDGGS >>
 ====
 
 [conformance_class,identifier="/conf/geometry-extension",subject="DGGS"]
@@ -1001,6 +1006,7 @@ target:: /req/geometry-topoology-extension/relate-query-function
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that a set of SPARQL queries involving the http://www.opengis.net/def/function/geosparql/relate[`geof:relate`] function returns the correct result for a test dataset when using the specified serialization and version.
 test-method-type:: Capabilities
+reference:: <<Function: geof:relate>>
 ====
 
 ==== Simple Features Relation Family
@@ -1070,7 +1076,7 @@ target:: /req/rdfs-entailment-extension/wkt-geometry-types
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that a set of SPARQL queries involving WKT Geometry types returns the correct result for a test dataset using the specified version of Simple Features. 
 test-method-type:: Capabilities
-reference:: [[rdfse_wkt]]
+reference:: <<rdfse_wkt>>
 ====
 
 ==== GML Serialization
@@ -1081,7 +1087,7 @@ target:: /req/rdfs-entailment-extension/gml-geometry-types
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that a set of SPARQL queries involving GML Geometry types returns the correct result for a test dataset using the specified version of GML.
 test-method-type:: Capabilities
-reference:: [[rdfse_gml]]
+reference:: <<rdfse_gml>>
 ====
 
 === Conformance Class: Query Rewrite Extension
