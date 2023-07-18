@@ -481,7 +481,7 @@ reference:: <<req_geometry_extension_geojson-literal-empty>>
 [abstract_test,identifier="/conf/geometry-extension/geometry-as-geojson-literal"]
 ====
 [%metadata]
-target:: /req/geometry-extension/geojson-as-geojson-literal
+target:: /req/geometry-extension/geometry-as-geojson-literal
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that queries involving the <<Property: geo:asGeoJSON, `geo:asGeoJSON`>> property return the correct result for a test dataset.
 test-method-type:: Capabilities
@@ -772,7 +772,7 @@ abstract-test:: /conf/geometry-topology-extension/rcc8-query-functions
 [abstract_test,identifier="/conf/geometry-topology-extension/relate-query-function"]
 ====
 [%metadata]
-target:: /req/geometry-topoology-extension/relate-query-function
+target:: /req/geometry-topology-extension/relate-query-function
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that a set of SPARQL queries involving the http://www.opengis.net/def/function/geosparql/relate[`geof:relate`] function returns the correct result for a test dataset when using the specified serialization and version.
 test-method-type:: Capabilities
