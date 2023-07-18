@@ -24,12 +24,13 @@ The `SpatialObject` class is defined in <<Class: geo:SpatialObject>>.
 Basic use (as per the example in the class definition)
 
 [%unnumbered]
-```turtle
+[source,turtle]
+----
 eg:x 
     a geo:SpatialObject ;
     skos:prefLabel "Object X";
 .
-```
+----
 
 NOTE: It is unlikely that users of GeoSPARQL will create many instances of <<Class: geo:SpatialObject, `geo:SpatialObject`>> as its two more concrete subclasses, <<Class: geo:Feature, `geo:Feature`>> & <<Class: geo:Geometry, `geo:Geometry`>>, are more directly relatable to real-world phenomena and use.
 
@@ -49,7 +50,8 @@ The "size" properties - <<Property: geo:hasSize, `geo:hasSize`>>,
 <<Property: geo:hasMetricVolume, `geo:hasMetricVolume`>> - are all applicable to instances of <<Class: geo:SpatialObject, `geo:SpatialObject`>> although, as per the note in the section above, they are likely to be used with <<Class: geo:Feature, `geo:Feature`>> & <<Class: geo:Geometry, `geo:Geometry`>> instances.
 
 [%unnumbered]
-```turtle
+[source,turtle]
+----
 @prefix qudt: <http://qudt.org/schema/qudt/> .
 @prefix unit: <http://qudt.org/vocab/unit/> .
 
@@ -65,7 +67,7 @@ eg:moreton-island
     ];
     geo:hasMetricPerimeterLength "92367"^^xsd:double ;
 .
-```
+----
 
 Here a spatial object, Moreton Island, has the distance of its coastline given with two properties: <<Property: geo:hasPerimeterLength, `geo:hasPerimeterLength`>> & <<Property: geo:hasMetricPerimeterLength, `geo:hasMetricPerimeterLength`>>. The object for the first is a Blank Node with a QUDT value property of 92.367 and a QUDT unit property of `unit:KiloM` (kilometre). The object for the second is the literal `92367` (a double) which is, by the property's definition, a number of metres.
 
@@ -81,12 +83,13 @@ The `Feature` class is defined in <<Class: geo:Feature>>.
 ====== Basic use
 
 [%unnumbered]
-```turtle
+[source,turtle]
+----
 eg:x 
     a geo:Feature ;
     skos:prefLabel "Feature X" ;
 .
-```
+----
 
 Here a `Feature` is declared and given a preferred label.
 
@@ -95,7 +98,8 @@ Here a `Feature` is declared and given a preferred label.
 ====== A `Feature` related to a `Geometry`
 
 [%unnumbered]
-```turtle
+[source,turtle]
+----
 eg:x 
     a geo:Feature ;
     skos:prefLabel "Feature X" ;
@@ -103,7 +107,7 @@ eg:x
         geo:asWKT "MULTIPOLYGON (((149.06016 -35.23610, 149.06062 -35.23604, ... , 149.06016 -35.23610)))"^^geo:wktLiteral ;
     ] ;
 .
-```
+----
 
 Here a <<Class: geo:Feature, `geo:Feature`>> is declared, given a preferred label and a Geometry for that <<Class: geo:Feature, `geo:Feature`>> is indicated with the use of <<Property: geo:hasGeometry, `geo:hasGeometry`>>. The `Geometry` indicated is described using a _Well-Known Text_ literal value, indicated by the property <<Property: geo:asWKT, `geo:asWKT`>> and the literal type `geo:wktLiteral`.
 
@@ -113,7 +117,8 @@ Here a <<Class: geo:Feature, `geo:Feature`>> is declared, given a preferred labe
 ====== `Feature` with `Geometry` and size (area)
 
 [%unnumbered]
-```turtle
+[source,turtle]
+----
 eg:x 
     a geo:Feature ;
     skos:prefLabel "Feature X" ;
@@ -122,7 +127,7 @@ eg:x
     ] ;
     geo:hasMetricArea "8.9E4"^^xsd:double ;
 .
-```
+----
 This example and the example below (B 1.1.2.4) show the same <<Class: geo:Feature, `geo:Feature`>>, but with a different specification of its area. This example shows the recommended way to express size: by using a subproperty of <<Property: geo:hasMetricSize, `geo:hasMetricSize`>> (in this case, <<Property: geo:MetricArea>>). These subproperties have fixed units based on meter (the unit of distance in the International System of Units).
 
 [[C.1.1.2.4]]
@@ -130,7 +135,8 @@ This example and the example below (B 1.1.2.4) show the same <<Class: geo:Featur
 ====== `Feature` with `Geometry` and non-metric size
 
 [%unnumbered]
-```turtle
+[source,turtle]
+----
 @prefix qudt: <http://qudt.org/schema/qudt/> .
 
 eg:x 
@@ -144,7 +150,7 @@ eg:x
         qudt:unit <http://qudt.org/vocab/unit/AC> ;  # international acre
     ] ;
 .
-```
+----
 
 Here a <<Class: geo:Feature, `geo:Feature`>> is described as per the previous example but its area is expressed in non-metric units: the acre.
 
@@ -154,7 +160,8 @@ Here a <<Class: geo:Feature, `geo:Feature`>> is described as per the previous ex
 ====== `Feature` with two different `Geometry` instances indicated
 
 [%unnumbered]
-```turtle
+[source,turtle]
+----
 
 eg:x 
     a geo:Feature ;
@@ -170,7 +177,7 @@ eg:x
         geo:asWKT "MULTIPOLYGON (((149.06016 -35.23610, 149.06062 -35.23604, ... , 149.06016 -35.23610)))"^^geo:wktLiteral ;
     ] ;
 .
-```
+----
 
 In this example, `Feature X` has two different `Geometry` instances indicated with their difference explained in annotation properties. No GeoSPARQL ontology properties are used to indicate a difference in these `Geometry` instances thus machine use of this `Feature` woud not be easily able to differentiate them.
 
@@ -179,7 +186,8 @@ In this example, `Feature X` has two different `Geometry` instances indicated wi
 ====== `Feature` with two different `Geometry` instances with different property values
 
 [%unnumbered]
-```turtle
+[source,turtle]
+----
 
 eg:x 
     a geo:Feature ;
@@ -193,7 +201,7 @@ eg:x
         geo:asWKT "MULTIPOLYGON (((149.06016 -35.23610, 149.06062 -35.23604, ... , 149.06016 -35.23610)))"^^geo:wktLiteral ;
     ] ;
 .
-```
+----
 
 In this example, `Feature X` has two different `Geometry` instances indicated with different spatial resolutions. 
 Machine use of this `Feature` would be able to differentiate the two `Geometry` instances based on this use of <<Property: geo:hasMetricSpatialResolution, `geo:hasMetricSpatialResolution`>>.
@@ -203,7 +211,8 @@ Machine use of this `Feature` would be able to differentiate the two `Geometry` 
 ====== `Feature` with non-metric size
 
 [%unnumbered]
-```turtle
+[source,turtle]
+----
 @prefix dbp: <http://dbpedia.org/resource/> .
 @prefix qudt: <http://qudt.org/schema/qudt/> .
 
@@ -219,7 +228,7 @@ ex:Schoenus
   a qudt:Unit;
   skos:exactMatch dbp:Schoenus;
 .
-```
+----
 
 In this example it is not possible to convert the length of the feature to meters, because the historical length unit does not have a known precise conversion factor. 
 
@@ -228,7 +237,8 @@ In this example it is not possible to convert the length of the feature to meter
 ====== `Feature` with two different types of `Geometry` instances
 
 [%unnumbered]
-```turtle
+[source,turtle]
+----
 eg:x 
     a geo:Feature ;
     skos:prefLabel "Feature X";
@@ -239,7 +249,7 @@ eg:x
         geo:asWKT "POINT (149.06017784 -35.23612321)"^^geo:WktLiteral ;
     ] ;
 .
-```
+----
 
 Here a `Feature` instance has two geometries, one indicated with the general property `hasGeometry` and a second indicated with the specialized property `hasCentroid` which suggests the role that the indicated geometry plays. Note that while `hasGeometry` may indicate any type of `Geometry`, `hasCentroid` should only be used to indicate a point geometry. It may be informally inferred that the polygonal geometry is the `Feature` instance's boundary.
 
@@ -248,7 +258,8 @@ Here a `Feature` instance has two geometries, one indicated with the general pro
 ====== `Feature` with multiple sizes
 
 [%unnumbered]
-```turtle
+[source,turtle]
+----
 ex:lake-x
     a geo:Feature ;
     skos:prefLabel "Lake X" ;
@@ -256,7 +267,7 @@ ex:lake-x
     geo:hasMetricArea "9.26E4"^^xsd:double ;
     geo:hasMetricVolume "6E5"^^xsd:double ;
 .
-```
+----
 
 This example shows a `Feature` instance with area and volume declared. A categorization of the Feature is given through the use of the `eg:hasFeatureCategory` dummy property which, along with the Feature's preferred label, indicate that this Feature is a lake. Having both an area and a volume makes sense for a lake.
 
@@ -268,24 +279,26 @@ The `Geometry` class is defined in <<Class: geo:Geometry>>.
 ====== Basic Use
 
 [%unnumbered]
-```turtle
+[source,turtle]
+----
 eg:y a geo:Geometry ;
     skos:prefLabel "Geometry Y";
 .
-```
+----
 
 Here a `Geometry` is declared and given a preferred label. 
 
 From GeoSPARQL 1.0 use, the most commonly observed use of a `Geometry` is in relation to a `Feature` as per the example in <<B 1.1.2.2 A `Feature` related to a `Geometry`>> and often the `Geometry` is indirectly declared by the use of `hasGeometry` on the `Feature` instance indicating a Blank Node. However, it is entirely possible to declare `Geometry` instances without any `Feature` instances. The next basic example declares a `Geometry` instance with an absolute URI and data.
 
 [%unnumbered]
-```turtle
+[source,turtle]
+----
 <https://example.com/geometry/y> 
     a geo:Geometry ;
     skos:prefLabel "Geometry Y";
     geo:asWKT "MULTIPOLYGON (((149.06016 -35.23610, 149.060620 -35.236043, ... , 149.06016 -35.23610)))"^^geo:wktLiteral ;
 .
-```
+----
 
 Here the `Geometry` instance has data in WKT form and, since no CRS is declared, WGS84 is the assumed, default, CRS.
 
@@ -295,7 +308,8 @@ Here the `Geometry` instance has data in WKT form and, since no CRS is declared,
 ====== A `Geometry` with multiple serializations
 
 [%unnumbered]
-```turtle
+[source,turtle]
+----
 eg:x
     a geo:Feature ;
     skos:prefLabel "Feature X";
@@ -304,7 +318,7 @@ eg:x
         geo:asDGGS "<https://w3id.org/dggs/auspix> CELLLIST ((R1234 R1235 R1236 ... R1256))"^^geo:dggsLiteral ;
     ] ;
 .
-```
+----
 
 Here a single `Geometry`, linked to a `Feature` instance, is expressed using two different serializations: Well-known Text and the DGGS with the AusPIX DGGS indicated by its IRI.
 
@@ -313,7 +327,8 @@ Here a single `Geometry`, linked to a `Feature` instance, is expressed using two
 ====== `Geometry` with scalar spatial property
 
 [%unnumbered]
-```turtle
+[source,turtle]
+----
 eg:x 
     a geo:Feature ;
     skos:prefLabel "Feature X";
@@ -325,7 +340,7 @@ eg:x-geo
     geo:asWKT "MULTIPOLYGON (((149.06016 -35.23610, 149.060620 -35.236043, ... , 149.06016 -35.23610)))"^^geo:wktLiteral ;
     geo:hasMetricArea "8.7E4"^^xsd:double;
 .
-```
+----
 This example shows a Feature, `eg:x`, with a Geometry, `eg:x-geo`, which has both a serialization (WKT) indicated with the predicate <<Property: geo:asWKT, `geo:asWKT`>> and a scalar area indicated with the predicate <<Property: geo:hasMetricArea, `geo:hasMetricArea`>>. While it is entirely possible that scalar areas can be calculated from polygons, it may be efficient to store a pre-calculated scalar area in addition to the polygon. Perhaps the polygon is large and detailed and a one-time calculation with results stored is efficient for repeated use.
 
 This use of a scalar spatial measurement property with a Geometry, here <<Property: geo:hasMetricArea, `geo:hasMetricArea`>>, is possible since the domain of such properties is <<Class: geo:SpatialObject, `geo:SpatialObject`>>, the superclass of both <<Class: geo:Feature, `geo:Feature`>> and <<Class: geo:Geometry, `geo:Geometry`>>.
@@ -341,7 +356,8 @@ This use of a scalar spatial measurement property with a Geometry, here <<Proper
 This example shows a `FeatureCollection` instance containing 3 `Feature` instances.
 
 [%unnumbered]
-```turtle
+[source,turtle]
+----
 ex:fc-x
     a geo:FeatureCollection ;
     dcterms:title "Feature Collection X" ;
@@ -350,7 +366,7 @@ ex:fc-x
         ex:feature-other ,
         ex:feature-another ;
 .
-```
+----
 
 All of the GeoSPARQL collection classes are unordered since they are subclasses of the generic http://www.w3.org/2000/01/rdf-schema#Container[`rdfs:Container`], however implementers should consider that there are many ways to order the members of a `FeatureCollection` such as the `Feature` instance labels, their areas, geometries or any other property.
 
@@ -360,7 +376,8 @@ All of the GeoSPARQL collection classes are unordered since they are subclasses 
 This example shows a `GeometryCollection` instance containing 3 `Geometry` instances.
 
 [%unnumbered]
-```turtle
+[source,turtle]
+----
 ex:gc-x
     a geo:GeometryCollection ;
     dcterms:title "Geometry Collection X" ;
@@ -369,7 +386,7 @@ ex:gc-x
         ex:geometry-othershape ,
         ex:geometry-anothershape ;
 .
-```
+----
 
 As per `FeatureCollection`, the `GeometryCollection` itself doesn't impose any ordering on its member `Geometry` instances, however there are many ways to order them, based on their own properties.
 
@@ -383,7 +400,8 @@ It may be appropriate to use these specialized forms of Geometry in circumstance
 The following example shows a `Feature` instance with two `Geometry` instances where the _Simple Features Vocabulary_ classes are used to indicate the Geometry type:
 
 [%unnumbered]
-```turtle
+[source,turtle]
+----
 ex:x
     a geo:Feature ;
     rdfs:label "Feature X" ;
@@ -397,7 +415,7 @@ ex:x
         geo:asWKT "POLYGON((...))" ;
         rdfs:comment "A polygon geometry for Feature X" ;
     ] ;    
-```
+----
 
 There are several GeoSPARQL properties that suggest they could be used with particular _Simple Features Vocabulary_ geometry types, for instance, <<Property: geo:hasCentroid, `geo:hasCentroid`>> indicates is could be used with a http://www.opengis.net/ont/sf#Point[`sf:Point`] and <<Property: geo:hasBoundingBox, `geo:hasBoundingBox`>> indicates use with an `sf:Envelope`.
 
@@ -414,7 +432,8 @@ This example shows a <<Class: geo:Feature, `geo:Feature`>> instance with each of
 <<Property: geo:hasMetricSize, `geo:hasMetricSize`>> and <<Property: geo:hasSize, `geo:hasSize`>>, that are intended to be used through their subproperties and <<Property: geo:hasMetricPerimeterLength, `geo:hasMetricPerimeterLength`>> and <<Property: geo:hasPerimeterLength, `geo:hasPerimeterLength`>> which are examplified in <<C.1.1.1.2 Size Properties>>.
 
 [%unnumbered]
-```turtle
+[source,turtle]
+----
 @prefix qudt: <http://qudt.org/schema/qudt/> .
 
 eg:x
@@ -453,7 +472,7 @@ eg:x
         qudt:unit <http://qudt.org/vocab/unit/M> ;  # meter
     ] ;
 .
-```
+----
 
 The properties defined for this example's `Feature` instance are vaguely aligned in that the values are not real but are not unrealistic either. It is outside the scope of GeoSPARQL to validate `Feature` instances' property values.
 
@@ -465,7 +484,8 @@ Note that this `Feature` has a 2D `Geometry` and yet a property indicating a sca
 This example shows a `Geometry` instance, a Blank Node, declared in relation to a `Feature` instance, with each of the properties defined in <<Standard Properties for geo:Geometry>> used.
 
 [%unnumbered]
-```turtle
+[source,turtle]
+----
 @prefix qudt: <http://qudt.org/schema/qudt/> .
 @prefix unit: <http://qudt.org/vocab/unit/> .
 
@@ -486,7 +506,7 @@ eg:x
         geo:hasMetricSpatialAccuracy "0.3"^^xsd:double ;
     ] ;
 . 
-```
+----
 
 In this example, each of the properties defined for a `Geometry` instance has realistic values. For example, the <<Property: geo:isEmpty, is empty>> property is set to `false` since the `Geometry` contains information.
 
@@ -498,7 +518,8 @@ This section shows a `Geometry` instance for a `Feature` instance which is repre
 Note that the concrete DGGS serialization used is for example purposes only as it is not formally defined in GeoSPARQL.
 
 [%unnumbered]
-```turtle
+[source,turtle]
+----
 eg:x
     a geo:Feature ;
     geo:hasGeometry [
@@ -606,7 +627,7 @@ eg:x
             R834630276 R834630502))"""^^geo:dggsLiteral ;
     ] ;
 .
-```
+----
 
 [example]
 === Example SPARQL Queries & Rules 
@@ -624,7 +645,8 @@ All the following examples use the parameter values relation_family = Simple Fea
 image::03.png[600,400,align="center"]
 
 [%unnumbered]
-```turtle
+[source,turtle]
+----
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix my: <http://example.org/ApplicationSchema#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -706,7 +728,7 @@ my:EExactGeom a sf:LineString ;
 my:FExactGeom a sf:Point ;
     geo:asWKT """<http://www.opengis.net/def/crs/OGC/1.3/CRS84>
                  Point(-83.4 34.4)"""^^geo:wktLiteral.
-```
+----
 
 ==== Example Queries
 
@@ -719,7 +741,8 @@ This Section illustrates the use of GeoSPARQL functions through a series of exam
 _Find all features that feature `my:A` contains, where spatial calculations are based on_ `my:hasExactGeometry`.
 
 [%unnumbered]
-```sparql
+[source,sparql]
+----
 PREFIX my: <http://example.org/ApplicationSchema#>
 PREFIX geo: <http://www.opengis.net/ont/geosparql#>
 PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
@@ -736,7 +759,7 @@ WHERE {
             !sameTerm(?aGeom, ?fGeom)
         )
 )
-```
+----
 
 *Result*:
 [%unnumbered]
@@ -754,7 +777,8 @@ WHERE {
 _Find all features that are within a transient bounding box geometry, where spatial calculations are based on_ `my:hasPointGeometry`.
 
 [%unnumbered]
-```sparql
+[source,sparql]
+----
 PREFIX my: <http://example.org/ApplicationSchema#>
 PREFIX geo: <http://www.opengis.net/ont/geosparql#>
 PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
@@ -773,7 +797,7 @@ WHERE {
         )
     )
 }
-```
+----
 
 *Result*:
 [%unnumbered]
@@ -790,7 +814,8 @@ WHERE {
 _Find all features that touch the union of feature `my:A` and feature `my:D`, where computations are based on_ `my:hasExactGeometry`.
 
 [%unnumbered]
-```sparql
+[source,sparql]
+----
 PREFIX my: <http://example.org/ApplicationSchema#>
 PREFIX geo: <http://www.opengis.net/ont/geosparql#>
 PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
@@ -810,7 +835,7 @@ WHERE {
         )
     )
 }
-```
+----
 
 *Result*:
 [%unnumbered]
@@ -827,7 +852,8 @@ WHERE {
 _Find the 3 closest features to feature my:C, where computations are based on_ `my:hasExactGeometry`.
 
 [%unnumbered]
-```sparql
+[source,sparql]
+----
 PREFIX uom: <http://www.opengis.net/def/uom/OGC/1.0/> 
 PREFIX my: <http://example.org/ApplicationSchema#>
 PREFIX geo: <http://www.opengis.net/ont/geosparql#>
@@ -843,7 +869,7 @@ WHERE {
 }
 ORDER BY ASC (geof:distance(?cWKT, ?fWKT, uom:metre)) 
 LIMIT 3
-```
+----
 
 *Result*:
 [%unnumbered]
@@ -862,7 +888,8 @@ LIMIT 3
 _Find the maximum and minimum coordinates of a given set of geometries._
 
 [%unnumbered]
-```sparql
+[source,sparql]
+----
 PREFIX geo: <http://www.opengis.net/ont/geosparql#>
 PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
 
@@ -879,7 +906,7 @@ WHERE {
     BIND(geof:maxZ(?testgeom) AS ?maxZ)
     BIND(geof:minZ(?testgeom) AS ?minZ)
 }
-```
+----
 
 *Result*:
 [%unnumbered]
@@ -903,17 +930,19 @@ _Find all features or geometries that overlap feature_ `my:A`.
 *Original Query*:
 
 [%unnumbered]
-```sparql
+[source,sparql]
+----
 PREFIX geo: <http://www.opengis.net/ont/geosparql#>
 
 SELECT ?f
 WHERE { ?f geo:sfOverlaps my:A }
-```
+----
 
 *Transformed Query (application of transformation rule geor:sfOverlaps)*:
 
 [%unnumbered]
-```sparql
+[source,sparql]
+----
 PREFIX my: <http://example.org/ApplicationSchema#>
 PREFIX geo: <http://www.opengis.net/ont/geosparql#>
 PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
@@ -950,7 +979,7 @@ WHERE {
         my:A geo:asWKT ?aSerial .
         FILTER (geof:sfOverlaps(?fSerial, ?aSerial)) 
     } 
-```
+----
 
 *Result*:
 [%unnumbered]
