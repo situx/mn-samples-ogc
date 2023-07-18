@@ -15,6 +15,7 @@ requirement:: /req/rdfs-entailment-extension/gml-geometry-types
 * *serialization*: Specifies the serialization standard to use for geometry literals.  
 * *version*: Specifies the version of the serialization format used.  
 
+[[rdfse_common_reqs]]
 === Common Requirements
 
 The basic mechanism for supporting RDFS entailment has been defined by the W3C SPARQL 1.1 RDFS Entailment Regime <<SPARQLENT>>.
@@ -25,6 +26,7 @@ The basic mechanism for supporting RDFS entailment has been defined by the W3C S
 Basic graph pattern matching shall use the semantics defined by the RDFS Entailment Regime <<SPARQLENT>>.
 ====
 
+[[rdfse_wkt]]
 === WKT Serialization
 
 This section establishes the requirements for representing geometry data in RDF based on WKT as defined by Simple Features <<OGCSFACA>> <<ISO19125-1>>.
@@ -76,6 +78,7 @@ sf:Polygon
 Implementations shall support graph patterns involving terms from an RDFS/OWL class hierarchy of geometry types consistent with the one in the specified version of Simple Features <<OGCSFACA>> <<ISO19125-1>>.
 ====
 
+[[rdfse_gml]]
 === GML Serialization
 
 This section establishes Requirements for representing geometry data in RDF based on GML as defined by Geography Markup Language Encoding Standard <<OGC07-036>>.

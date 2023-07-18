@@ -382,6 +382,7 @@ target:: /req/geometry-extension/gml-literal
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that queries involving <<RDFS Datatype: geo:gmlLiteral, `geo:gmlLiteral`>> values return the correct result for a test dataset.
 test-method-type:: Capabilities
+reference:: <<RDFS Datatype: geo:gmlLiteral>>
 ====
 
 [abstract_test,identifier="/conf/geometry-extension/gml-literal-empty"]
@@ -429,6 +430,7 @@ target:: /req/geometry-extension/geojson-literal
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that queries involving <<RDFS Datatype: geo:geoJSONLiteral, `geo:geoJSONLiteral`>> values return the correct result for a test dataset.
 test-method-type:: Capabilities
+reference:: <<RDFS Datatype: geo:geoJSONLiteral>>
 ====
 
 [abstract_test,identifier="/conf/geometry-extension/geojson-literal-srs"]
@@ -476,6 +478,7 @@ target:: /req/geometry-extension/kml-literal
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that queries involving <<RDFS Datatype: geo:kmlLiteral, `geo:kmlLiteral`>> values return the correct result for a test dataset.
 test-method-type:: Capabilities
+reference:: <<RDFS Datatype: geo:kmlLiteral>>
 ====
 
 [abstract_test,identifier="/conf/geometry-extension/kml-literal-srs"]
@@ -523,6 +526,7 @@ target:: /req/geometry-extension/dggs-literal
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that queries involving empty <<RDFS Datatype: geo:dggsLiteral, `geo:dggsLiteral`>> values return the correct result for a test dataset.
 test-method-type:: Capabilities
+reference:: <<RDFS Datatype: geo:dggsLiteral>>
 ====
 
 [abstract_test,identifier="/conf/geometry-extension/dggs-literal-empty"]
@@ -1008,6 +1012,7 @@ target:: /req/geometry-topology-extension/sf-query-functions
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that a set of SPARQL queries involving each of the following functions returns the correct result for a test dataset when using the specified serialization and version: http://www.opengis.net/def/function/geosparql/sfEquals[`geof:sfEquals`], http://www.opengis.net/def/function/geosparql/sfDisjoint[`geof:sfDisjoint`], http://www.opengis.net/def/function/geosparql/efIntersects[`geof:sfIntersects`], http://www.opengis.net/def/function/geosparql/sfTouches[`geof:sfTouches`], http://www.opengis.net/def/function/geosparql/sfCrosses[`geof:sfCrosses`], http://www.opengis.net/def/function/geosparql/sfWithin[`geof:sfWithin`], http://www.opengis.net/def/function/geosparql/sfContains[`geof:sfContains`], http://www.opengis.net/def/function/geosparql/sfOverlaps[`geof:sfOverlaps`] .
 test-method-type:: Capabilities
+reference:: <<sf-query-functions>>
 ====
 
 ==== Egenhofer Relation Family
@@ -1019,6 +1024,7 @@ target:: /req/geometry-topology-extension/eh-query-functions
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that a set of SPARQL queries involving each of the following functions returns the correct result for a test dataset when using the specified serialization and version: http://www.opengis.net/def/function/geosparql/ehEquals[`geof:ehEquals`], http://www.opengis.net/def/function/geosparql/ehDisjoint[`geof:ehDisjoint`], http://www.opengis.net/def/function/geosparql/ehMeet[`geof:ehMeet`], http://www.opengis.net/def/function/geosparql/ehOverlap[`geof:ehOverlap`], http://www.opengis.net/def/function/geosparql/ehCovers[`geof:ehCovers`], http://www.opengis.net/def/function/geosparql/ehCoveredBy[`geof:ehCoveredBy`], http://www.opengis.net/def/function/geosparql/ehInside[`geof:ehInside`], http://www.opengis.net/def/function/geosparql/ehContains[`geof:ehContains`].
 test-method-type:: Capabilities
+reference:: <<eh-query-functions>>
 ====
 
 ==== RCC8 Relation Family
@@ -1030,6 +1036,7 @@ target:: /req/geometry-topology-extension/rcc8-query-functions
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that a set of SPARQL queries involving each of the following functions returns the correct result for a test dataset when using the specified serialization and version: http://www.opengis.net/def/function/geosparql/rcc8eq[`geof:rcc8eq`], http://www.opengis.net/def/function/geosparql/rcc8dc[`geof:rcc8dc`], http://www.opengis.net/def/function/geosparql/rcc8ec[`geof:rcc8ec`], http://www.opengis.net/def/function/geosparql/rcc8po[`geof:rcc8po`], http://www.opengis.net/def/function/geosparql/rcc8tppi[`geof:rcc8tppi`], http://www.opengis.net/def/function/geosparql/rcc8tpp[`geof:rcc8tpp`], http://www.opengis.net/def/function/geosparql/rcc8ntpp[`geof:rcc8ntpp`], http://www.opengis.net/def/function/geosparql/rcc8ntppi[`geof:rcc8ntppi`] .
 test-method-type:: Capabilities
+reference:: <<rcc8-query-functions>>
 ====
 
 === Conformance Class: RDFS Entailment Extension
@@ -1052,6 +1059,7 @@ target:: /req/rdfs-entailment-extension/bgp-rdfs-ent
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that a set of SPARQL queries involving entailed RDF triples returns the correct result for a test dataset using the specified serialization, version and relation_family.
 test-method-type:: Capabilities
+reference:: <<rdfse_common_reqs>>
 ====
 
 ==== WKT Serialization
@@ -1062,6 +1070,7 @@ target:: /req/rdfs-entailment-extension/wkt-geometry-types
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that a set of SPARQL queries involving WKT Geometry types returns the correct result for a test dataset using the specified version of Simple Features. 
 test-method-type:: Capabilities
+reference:: [[rdfse_wkt]]
 ====
 
 ==== GML Serialization
@@ -1072,6 +1081,7 @@ target:: /req/rdfs-entailment-extension/gml-geometry-types
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that a set of SPARQL queries involving GML Geometry types returns the correct result for a test dataset using the specified version of GML.
 test-method-type:: Capabilities
+reference:: [[rdfse_gml]]
 ====
 
 === Conformance Class: Query Rewrite Extension
@@ -1093,6 +1103,7 @@ target:: /req/query-rewrite-extension/sf-query-rewrite
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that queries involving the following query transformation rules return the correct result for a test dataset when using the specified serialization and version: http://www.opengis.net/def/rule/geosparql/sfEquals[`geor:sfEquals`], http://www.opengis.net/def/rule/geosparql/sfDisjoint[`geor:sfDisjoint`], http://www.opengis.net/def/rule/geosparql/sfIntersects[`geor:sfIntersects`], http://www.opengis.net/def/rule/geosparql/sfTouches[`geor:sfTouches`], http://www.opengis.net/def/rule/geosparql/sfCrosses[`geor:sfCrosses`], http://www.opengis.net/def/rule/geosparql/sfWithin[`geor:sfWithin`], http://www.opengis.net/def/rule/geosparql/sfContains[`geor:sfContains`] and http://www.opengis.net/def/rule/geosparql/sfOverlaps[`geor:sfOverlaps`].
 test-method-type:: Capabilities
+reference:: <<query_rewrite_sf>>
 ====
 
 ==== Egenhofer Relation Family
@@ -1103,6 +1114,7 @@ target:: /req/query-rewrite-extension/eh-query-rewrite
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that queries involving the following query transformation rules return the correct result for a test dataset when using the specified serialization and version: http://www.opengis.net/def/rule/geosparql/ehEquals[`geor:ehEquals`], http://www.opengis.net/def/rule/geosparql/ehDisjoint[`geor:ehDisjoint`], http://www.opengis.net/def/rule/geosparql/ehMeet[`geor:ehMeet`], http://www.opengis.net/def/rule/geosparql/ehOverlap[`geor:ehOverlap`], http://www.opengis.net/def/rule/geosparql/ehCovers[`geor:ehCovers`], http://www.opengis.net/def/rule/geosparql/ehCoveredBy[`geor:ehCoveredBy`], http://www.opengis.net/def/rule/geosparql/ehInside[`geor:ehInside`], http://www.opengis.net/def/rule/geosparql/ehContains[`geor:ehContains`].
 test-method-type:: Capabilities
+reference:: <<query_rewrite_eh>>
 ====
 
 ==== RCC8 Relation Family
@@ -1113,4 +1125,5 @@ target:: /req/query-rewrite-extension/rcc8-query-rewrite
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that queries involving the following query transformation rules return the correct result for a test dataset when using the specified serialization and version: http://www.opengis.net/def/rule/geosparql/rcc8eq[`geor:rcc8eq`], http://www.opengis.net/def/rule/geosparql/rcc8dc[`geor:rcc8dc`], http://www.opengis.net/def/rule/geosparql/rcc8ec[`geor:rcc8ec`], http://www.opengis.net/def/rule/geosparql/rcc8po[`geor:rcc8po`], http://www.opengis.net/def/rule/geosparql/rcc8tppi[`geor:rcc8tppi`], http://www.opengis.net/def/rule/geosparql/rcc8tpp[`geor:rcc8tpp`], http://www.opengis.net/def/rule/geosparql/rcc8ntpp[`geor:rcc8ntpp`], http://www.opengis.net/def/rule/geosparql/rcc8ntppi[`geor:rcc8ntppi`].
 test-method-type:: Capabilities
+reference:: <<query_rewrite_rcc8>>
 ====
