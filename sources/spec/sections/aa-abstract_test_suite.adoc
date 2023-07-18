@@ -393,6 +393,7 @@ target:: /req/geometry-extension/gml-literal-empty
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that queries involving empty <<RDFS Datatype: geo:gmlLiteral, `geo:gmlLiteral`>> values return the correct result for a test dataset.
 test-method-type:: Capabilities
+reference:: <<req_geometry_extension_gml-literal-empty>>
 ====
 
 [abstract_test,identifier="/conf/geometry-extension/gml-profile"]
@@ -402,6 +403,7 @@ target:: /req/geometry-extension/gml-profile
 test-purpose:: Check conformance with this requirement
 test-method:: Examine the implementation’s documentation to verify that the supported GML profiles are documented.
 test-method-type:: Capabilities
+reference:: <<req_geometry_extension_gml-profile>>
 ====
 
 [abstract_test,identifier="/conf/geometry-extension/geometry-as-gml-literal"]
@@ -411,6 +413,7 @@ target:: /req/geometry-extension/geometry-as-gml-literal
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that queries involving the <<Property: geo:asGML, `geo:asGML`>> property return the correct result for a test dataset.
 test-method-type:: Capabilities
+reference:: <<req_geometry_extension_geometry-as-gml-literal>>
 ====
 
 [abstract_test,identifier="/conf/geometry-extension/asGML-function"]
@@ -442,6 +445,7 @@ target:: /req/geometry-extension/geojson-literal-srs
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that queries involving <<RDFS Datatype: geo:geoJSONLiteral, `geo:geoJSONLiteral`>> values without an explicit encoded SRS IRI return the correct result for a test dataset.
 test-method-type:: Capabilities
+reference:: <<req_geometry_extension_geojson-literal-srs>>
 ====
 
 [abstract_test,identifier="/conf/geometry-extension/geojson-literal-empty"]
@@ -451,6 +455,7 @@ target:: /req/geometry-extension/geojson-literal-empty
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that queries involving empty <<RDFS Datatype: geo:geoJSONLiteral, `geo:geoJSONLiteral`>> values return the correct result for a test dataset.
 test-method-type:: Capabilities
+reference:: <<req_geometry_extension_geojson-literal-empty>>
 ====
 
 [abstract_test,identifier="/conf/geometry-extension/geometry-as-geojson-literal"]
@@ -460,6 +465,7 @@ target:: /req/geometry-extension/geojson-as-geojson-literal
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that queries involving the <<Property: geo:asGeoJSON, `geo:asGeoJSON`>> property return the correct result for a test dataset.
 test-method-type:: Capabilities
+reference:: <<req_geometry_extension_geojson-as-geojson-literal>>
 ====
 
 [abstract_test,identifier="/conf/geometry-extension/asGeoJSON-function"]
@@ -491,6 +497,7 @@ target:: /req/geometry-extension/kml-literal-srs
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that queries involving <<RDFS Datatype: geo:kmlLiteral, `geo:kmlLiteral`>>  values without an explicit encoded SRS IRI return the correct result for a test dataset.
 test-method-type:: Capabilities
+reference:: <<req_geometry_extension_kml-literal-srs>>
 ====
 
 [abstract_test,identifier="/conf/geometry-extension/kml-literal-empty"]
@@ -500,6 +507,7 @@ target:: /req/geometry-extension/kml-literal-empty
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that queries involving empty <<RDFS Datatype: geo:kmlLiteral, `geo:kmlLiteral`>> values return the correct result for a test dataset.
 test-method-type:: Capabilities
+reference:: <<req_geometry_extension_kml-literal-empty>>
 ====
 
 [abstract_test,identifier="/conf/geometry-extension/geometry-as-kml-literal"]
@@ -509,6 +517,7 @@ target:: /req/geometry-extension/geometry-as-kml-literal
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that queries involving the <<Property: geo:asKML, `geo:asKML`>>  property return the correct result for a test dataset.
 test-method-type:: Capabilities
+reference:: <<req_geometry_extension_geometry-as-kml-literal>>
 ====
 
 [abstract_test,identifier="/conf/geometry-extension/asKML-function"]
@@ -540,6 +549,7 @@ target:: /req/geometry-extension/dggs-literal-empty
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that queries involving empty <<RDFS Datatype: geo:dggsLiteral, `geo:dggsLiteral`>> values return the correct result for a test dataset.
 test-method-type:: Capabilities
+reference:: <<req_geometry_extension_dggs-literal-empty>>
 ====
 
 [abstract_test,identifier="/conf/geometry-extension/geometry-as-dggs-literal"]
@@ -549,6 +559,7 @@ target:: /req/geometry-extension/geometry-as-dggs-literal
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that queries involving the <<Property: geo:asDGGS, `geo:asDGGS`>> property return the correct result for a test dataset.
 test-method-type:: Capabilities
+reference:: <<req_geometry_extension_geometry-as-dggs-literal>>
 ====
 
 [abstract_test,identifier="/conf/geometry-extension/asDGGS-function"]
