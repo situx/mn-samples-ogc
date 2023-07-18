@@ -34,11 +34,17 @@ Recipients of this document are requested to submit, with their comments, notifi
 
 The following organizations submitted this Document to the Open Geospatial Consortium (OGC):
 
-* Oracle America
-* SURROUND Australia Pty Ltd.
-* Mainz University Of Applied Sciences
-* GeoScape Australia
 * CSIRO
+* Cubewerx Inc
+* Defence Science and Technology Laboratory (DSTL)
+* Geonovum
+* Geoscape Australia
+* Geoscience Australia
+* Mainz University Of Applied Sciences
+* Oracle America
+* OSGeo
+* SURROUND Australia Pty Ltd.
+
 
 == Submitters
 

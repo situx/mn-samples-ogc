@@ -430,9 +430,10 @@ The example <<RDFS Datatype: geo:wktLiteral, WKT Literal>> below encodes a point
 A second example below encodes the same point as encoded in the example above but using a SRS identified by http://www.opengis.net/def/SRS/EPSG/0/4326[`+http://www.opengis.net/def/SRS/EPSG/0/4326+`]: a WGS 84 geodetic latitude-longitude spatial reference system (note that this spatial reference system defines a different axis order):
 
 [%unnumbered]
-```turtle
+[source,turtle]
+----
 "<http://www.opengis.net/def/crs/EPSG/0/4326> Point(33.95 -83.38)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>
-```
+----
 
 
 [[req_geometry_extension_wkt-literal-empty]]
@@ -453,7 +454,8 @@ Implementations shall allow the RDF property <<Property: geo:asWKT, `geo:asWKT`>
 ====
 
 [%unnumbered]
-```turtle
+[source,turtle]
+----
 geo:asWKT 
     a rdf:Property, owl:DatatypeProperty ;
     rdfs:subPropertyOf geo:hasSerialization ;
@@ -463,12 +465,13 @@ geo:asWKT
     rdfs:domain geo:Geometry ;
     rdfs:range geo:wktLiteral ;
 .
-```
+----
 
 ===== Function: geof:asWKT
 
 [%unnumbered]
-```
+[source,turtle]
+----
 geof:asWKT (geom: ogc:geomLiteral): geo:wktLiteral
 ```
 
@@ -490,14 +493,15 @@ This section establishes a Requirements class for representing Geometry data in 
 The datatype http://www.opengis.net/ont/geosparql#gmlLiteral[`geo:gmlLiteral`] is used to contain the Geography Markup Language (GML) serialization of a Geometry.
 
 [%unnumbered]
-```turtle
+[source,turtle]
+----
 geo:gmlLiteral 
     a rdfs:Datatype ;
     rdfs:isDefinedBy geo: ; 
     skos:prefLabel "GML literal"@en ;
     skos:definition "The datatype of GML literal values"@en ;
 .
-```
+----
 
 Valid <<RDFS Datatype: geo:gmlLiteral, GML Literal>> instances are formed by encoding Geometry information as a valid element from the GML schema that implements a subtype of `GM_Object`. For example, in GML 3.2.1 this is every element directly or indirectly in the substitution group of the element `{http://www.opengis.net/ont/gml/3.2}AbstractGeometry`. In GML 3.1.1 and GML 2.1.2 this is every element directly or indirectly in the substitution group of the element `{http://www.opengis.net/ont/gml}_Geometry`.
 
@@ -510,7 +514,8 @@ All <<RDFS Datatype: geo:gmlLiteral, `geo:gmlLiteral`>> instances shall consist 
 The example <<RDFS Datatype: geo:gmlLiteral, GML Literal>> below encodes a point Geometry in the WGS 84 geodetic longitude-latitude spatial reference system using GML version 3.2:
 
 [%unnumbered]
-```turtle
+[source,turtle]
+----
 """
 <gml:Point 
         srsName=\"http://www.opengis.net/def/crs/OGC/1.3/CRS84\" 
@@ -518,7 +523,7 @@ The example <<RDFS Datatype: geo:gmlLiteral, GML Literal>> below encodes a point
     <gml:pos>-83.38 33.95</gml:pos>
 </gml:Point>
 """^^<http://www.opengis.net/ont/geosparql#gmlLiteral>
-```
+----
 
 [[req_geometry_extension_gml-literal-empty]]
 [requirement,identifier="/req/geometry-extension/gml-literal-empty"]
@@ -543,7 +548,8 @@ Implementations shall allow the RDF property <<Property: geo:asGML, `geo:asGML`>
 ====
 
 [%unnumbered]
-```turtle
+[source,turtle]
+----
 geo:asGML 
     a rdf:Property ; 
     rdfs:subPropertyOf geo:hasSerialization ;
@@ -553,7 +559,7 @@ geo:asGML
     rdfs:domain geo:Geometry ;
     rdfs:range geo:gmlLiteral ;
 .
-```
+----
 
 ===== Function: geof:asGML
 
@@ -580,12 +586,13 @@ This section establishes a Requirements class for representing Geometry data in 
 The datatype http://www.opengis.net/ont/geosparql#gmlLiteral[`geo:geoJSONLiteral`] is used to contain the GeoJSON serialization of a Geometry.
 
 [%unnumbered]
-```turtle
+[source,turtle]
+----
 geo:geoJSONLiteral a rdfs:Datatype ;
     rdfs:isDefinedBy geo: ;
     skos:prefLabel "GeoJSON Literal"@en ;
     skos:definition "A GeoJSON serialization of a Geometry object."@en .
-```
+----
 
 Valid <<RDFS Datatype: geo:geoJSONLiteral, GeoJSON Literal>> instances are formed by encoding Geometry information as a Geometry object as defined in the GeoJSON specification <<GEOJSON>>.
 
@@ -604,11 +611,12 @@ RDFS Literals of type <<RDFS Datatype: geo:geoJSONLiteral, `geo:geoJSONLiteral`>
 The example <<RDFS Datatype: geo:geoJSONLiteral, GeoJSON Literal>> below encodes a point Geometry using the default WGS84 geodetic longitude-latitude spatial reference system for Simple Features 1.0:
 
 [%unnumbered]
-```turtle
+[source,turtle]
+----
 """
 {"type": "Point", "coordinates": [-83.38,33.95]}
 """^^<http://www.opengis.net/ont/geosparql#geoJSONLiteral>
-```
+----
 
 [[req_geometry_extension_geojson-literal-empty]]
 [requirement,identifier="/req/geometry-extension/geojson-literal-empty"]
@@ -627,7 +635,8 @@ Implementations shall allow the RDF property <<Property: geo:asGeoJSON, `geo:asG
 ====
 
 [%unnumbered]
-```turtle
+[source,turtle]
+----
 geo:asGeoJSON 
     a rdf:Property, owl:DatatypeProperty ;
     rdfs:subPropertyOf geo:hasSerialization ;
@@ -637,7 +646,7 @@ geo:asGeoJSON
     rdfs:domain geo:Geometry ;
     rdfs:range geo:geoJSONLiteral ;
 .
-```
+----
 
 ===== Function: geof:asGeoJSON
 
@@ -664,14 +673,15 @@ This section establishes the Requirements class for representing Geometry data i
 The datatype http://www.opengis.net/ont/geosparql#kmlLiteral[`geo:kmlLiteral`] is used to contain the Keyhole Markup Language (KML) serialization of a Geometry.
 
 [%unnumbered]
-```turtle
+[source,turtle]
+----
 geo:kmlLiteral 
     a rdfs:Datatype ;
     rdfs:isDefinedBy geo: ;
     skos:prefLabel "KML Literal"@en ;
     skos:definition "A KML serialization of a Geometry object."@en ;
 .
-```
+----
 
 Valid <<RDFS Datatype: geo:kmlLiteral, KML Literal>> instances are formed by encoding Geometry information as a Geometry object as defined in the KML specification <<OGCKML>>.
 
@@ -691,13 +701,14 @@ RDFS Literals of type <<RDFS Datatype: geo:kmlLiteral, `geo:kmlLiteral`>> do not
 The example <<RDFS Datatype: geo:kmlLiteral, KML Literal>> below encodes a point Geometry using the default WGS84 geodetic longitude-latitude spatial reference system for Simple Features 1.0:
 
 [%unnumbered]
-```turtle
+[source,turtle]
+----
 """
 <Point xmlns=\"http://www.opengis.net/kml/2.2\">
     <coordinates>-83.38,33.95</coordinates>
 </Point>
 """^^<http://www.opengis.net/ont/geosparql#kmlLiteral>
-```
+----
 
 
 [[req_geometry_extension_kml-literal-empty]]
@@ -719,7 +730,8 @@ Implementations shall allow the RDF property <<Property: geo:asKML, `geo:asKML`>
 The property <<Property: geo:asKML, as KML>> is used to link a geometric element with its KML serialization.
 
 [%unnumbered]
-```turtle
+[source,turtle]
+----
 geo:asKML 
     a rdf:Property, owl:DatatypeProperty;
     rdfs:subPropertyOf geo:hasSerialization ;
@@ -729,7 +741,7 @@ geo:asKML
     rdfs:domain geo:Geometry ;
     rdfs:range geo:kmlLiteral ;
 .
-```
+----
 
 ===== Function: geof:asKML
 
@@ -758,14 +770,15 @@ http://www.opengis.net/ont/geosparql#dggsLiteral[`http://www.opengis.net/ont/geo
 The datatype http://www.opengis.net/ont/geosparql#dggsLiteral[`geo:dggsLiteral`] is used to contain the Discrete Global Grid System (DGGS) serialization of a Geometry.
 
 [%unnumbered]
-```turtle
+[source,turtle]
+----
 geo:dggsLiteral 
     a rdfs:Datatype ;
     rdfs:isDefinedBy geo: ;
     skos:prefLabel "DGGS Literal"@en ;
     skos:definition "A textual serialization of a Discrete Global Grid System (DGGS) Geometry object."@en 
 .
-```
+----
 
 Valid <<RDFS Datatype: geo:dggsLiteral, DGGS Literal>> instances are formed by encoding Geometry information according to a specific DGGS implementation. The specific implementation should be indicated by use of a subclass of the `geo:dggsLiteral` datatype. 
 
@@ -789,9 +802,10 @@ The token `iri-and-whitespace` is an IRI and whitespace. The token `IRI` (Intern
 An example of a DGGS literal for the AusPIX DGGS could be:
 
 [%unnumbered]
-```turtle
+[source,turtle]
+----
 "<https://w3id.org/dggs/auspix> CELL (R3234)"^^geo:dggsLiteral
-```
+----
 
 Where AusPIX is identified with the IRI `+https://w3id.org/dggs/auspix+` and `CELL (R3234)` is the representation of a geometry according to AusPIX.
 
@@ -830,7 +844,8 @@ to be used in SPARQL graph patterns.
 ====
 
 [%unnumbered]
-```turtle
+[source,turtle]
+----
 geo:asDGGS 
     a rdf:Property, owl:DatatypeProperty ;
     rdfs:subPropertyOf geo:hasSerialization ;
@@ -840,7 +855,7 @@ geo:asDGGS
     rdfs:domain geo:Geometry ;
     rdfs:range geo:dggsLiteral ;
 .
-```
+----
 
 ===== Function: geof:asDGGS
 
