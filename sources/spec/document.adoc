@@ -20,25 +20,25 @@
 :committee: technical
 :workingGroup: OGC GeoSPARQL Working Group
 :fullname: Nicholas J. Car
-:role: editor
+:role: author
 :fullname_2: Timo Homburg
-:role_2: editor
+:role_2: author
 :fullname_3: Matthew Perry
-:role_3: editor
+:role_3: author
 :fullname_4: John Herring
-:role_4: editor
+:role_4: author
 :fullname_4: Frans Knibbe
-:role_4: editor
+:role_4: author
 :fullname_5: Simon J.D. Cox
-:role_5: editor
+:role_5: author
 :fullname_6: Joseph Abhayaratna
-:role_6: editor
+:role_6: author
 :fullname_7: Mathias Bonduel
-:role_7: editor
+:role_7: author
 :fullname_8: Paul J. Cripps
-:role_8: contributor
+:role_8: author
 :fullname_9: Krzysztof Janowicz
-:role_9: contributor
+:role_9: author
 :table-caption!:
 :figure-caption!:
 :docnumber: 14-065r2
