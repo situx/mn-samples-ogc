@@ -54,12 +54,14 @@ All questions regarding this submission should be directed to the editor or the 
 [frame=none, grid=none, cols="1, 3"]
 |===
 |Contact | Company
-
-| Matthew Perry | Oracle America
-| John Herring | Oracle America
-| Nicholas J. Car | SURROUND Australia Pty Ltd.
-| Timo Homburg | Mainz University Of Applied Sciences
-| Joseph Abhayaratna | GeoScape Australia
 | Simon J.D. Cox | CSIRO
+| Panagiotis (Peter) A. Vretanos | Cubewerx Inc.
+| Paul Cripps | DSTL
+| Linda van den Brink | Geonovum
+| Joseph Abhayaratna | Geoscape Australia
+| Irina Bastrakova | Geoscience Australia
+| Timo Homburg | Mainz University Of Applied Sciences
+| Matthew Perry | Oracle America
+| Nicholas J. Car | SURROUND Australia Pty Ltd.
 |===
 
