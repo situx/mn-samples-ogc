@@ -13,6 +13,7 @@ They may be stated as part of a SPARQL 1.1 Service Description <<SPARQLSERVDESC>
 === Conformance Class: Core
 
 [conformance_class,identifier="/conf/core"]
+.Core
 ====
 [%metadata]
 target:: /req/core
@@ -103,6 +104,7 @@ reference:: <<spatial-object-properties>>
 === Conformance Class: Topology Vocabulary Extension
 
 [conformance_class,identifier="/conf/topology-vocab-extension"]
+.Topology Vocabulary Extension
 ====
 [%metadata]
 target:: /req/topology-vocab-extension
@@ -174,6 +176,7 @@ reference:: <<rcc8_relations>>
 === Conformance Class: Geometry Extension
 
 [conformance_class,identifier="/conf/geometry-extension",subject="Geometry"]
+.Geometry Extension
 ====
 [%metadata]
 target:: /req/geometry-extension
@@ -598,6 +601,7 @@ reference:: <<Function: geof:asDGGS>>
 This conformance Class applies only to DGGS geometries. See <<Conformance Class: Geometry Extension>> for other geometries.
 
 [conformance_class,identifier="/conf/geometry-extension-dggs"]
+.Geometry Extension DGGS
 ====
 [%metadata]
 target:: /req/geometry-extension
@@ -758,6 +762,7 @@ as a SPARQL extension functions.
 === Conformance Class: Geometry Topology Extension
 
 [conformance_class,identifier="/conf/geometry-topology-extension"]
+.Geometry Topology Extension
 ====
 [%metadata]
 target:: /req/geometry-topology-extension
@@ -818,6 +823,7 @@ reference:: <<rcc8-query-functions>>
 === Conformance Class: RDFS Entailment Extension
 
 [conformance_class,identifier="/conf/rdfs-entailment-extension"]
+.RDFS Entailment Extension
 ====
 [%metadata]
 target:: /req/rdfs-entailment-extension
@@ -863,6 +869,7 @@ reference:: <<rdfse_gml>>
 === Conformance Class: Query Rewrite Extension
 
 [conformance_class,identifier="/conf/query-rewrite-extension"]
+.Query Rewrite Extension
 ====
 [%metadata]
 target:: /req/query-rewrite-extension
