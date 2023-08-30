@@ -11,6 +11,7 @@ The figure below overviews the classes and properties defined by GeoSPARQL in th
 image::ont-overview.png[GeoSPARQL Ontology overview,align="center"]
 
 [requirements_class,identifier="/req/core",subject="Implementation Specification"]
+.Core Extension
 ====
 requirement:: /req/core/sparql-protocol
 requirement:: /req/core/spatial-object-class
