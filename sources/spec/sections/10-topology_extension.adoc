@@ -3,6 +3,7 @@
 This clause establishes the _Topology Vocabulary Extension_ parameterized Requirements class. The IRI base is `/req/topology-vocab-extension`, which has a single corresponding Conformance Class _Topology Vocabulary Extension_, with IRI `/conf/topology-vocab-extension`. This Requirements class defines a vocabulary for asserting and querying topological relations between spatial objects. The class is parameterized so that different families of topological relations may be used, such as RCC8 and Egenhofer. These relations are generalized so that they may connect features as well as geometries.
 
 [requirements_class,identifier="/req/topology-vocab-extension",subject="Implementation Specification"]
+.Topology Vocabulary Extension
 ====
 requirement:: /req/topology-vocab-extension/sf-spatial-relations
 requirement:: /req/topology-vocab-extension/eh-spatial-relations
@@ -23,6 +24,7 @@ This clause defines Requirements for the _Simple Features_ relation family.
 
 [#req_topology-vocab-extension_sf-spatial-relations]
 [requirement,identifier="/req/topology-vocab-extension/sf-spatial-relations"]
+.Simple Feature Spatial Relations
 ====
 Implementations shall allow the properties 
 <<Property: geo:sfEquals, `geo:sfEquals`>>, 
@@ -60,6 +62,7 @@ This clause defines Requirements for the 9-intersection model for the binary top
 
 [#req_topology-vocab-extension_eh-spatial-relations]
 [requirement,identifier="/req/topology-vocab-extension/eh-spatial-relations"]
+.Egenhofer Spatial Relations
 ====
 Implementations shall allow the properties 
 <<Property: geo:ehEquals, `geo:ehEquals`>>, 
@@ -96,6 +99,7 @@ This clause defines Requirements for the region connection calculus basic 8 (_RC
 
 [#req_topology-vocab-extension_rcc8-spatial-relations]
 [requirement,identifier="/req/topology-vocab-extension/rcc8-spatial-relations"]
+.RCC8 Spatial Relations
 ====
 Implementations shall allow the properties 
 <<Property: geo:rcc8eq, `geo:rcc8eq`>>, 
