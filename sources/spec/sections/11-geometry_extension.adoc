@@ -559,6 +559,7 @@ An empty <<RDFS Datatype: geo:gmlLiteral, `geo:gmlLiteral`>> shall be interprete
 
 [[req_geometry_extension_gml-profile]]
 [requirement,identifier="/req/geometry-extension/gml-profile"]
+.GML Profile
 ====
 Implementations shall document supported GML profiles.
 ====
