@@ -26,7 +26,8 @@ requirement:: /req/core/spatial-object-properties
 
 [[req_core_sparql-protocol]]
 [requirement,identifier="/req/core/sparql-protocol",abstract-test="/conf/core/sparql-protocol"]
-==== 
+.SPARQL Protocol
+====
 Implementations shall support the SPARQL Query Language for RDF <<SPARQL>>, the SPARQL Protocol <<SPARQLPROT>> and the SPARQL Query Results XML <<SPARQLRESX>> and JSON <<SPARQLRESJ>> Formats.
 ====
 
@@ -53,6 +54,7 @@ geo:SpatialObject
 ----
 [[req_core_spatial_object_class]]
 [requirement,identifier="/req/core/spatial-object-class"]
+.Spatial Object Class
 ==== 
 Implementations shall allow the RDFS class <<Class: geo:SpatialObject, `geo:SpatialObject`>> to be used in SPARQL graph patterns.
 ====
@@ -88,6 +90,7 @@ geo:Feature
 
 [[req_core_feature-class]]
 [requirement,identifier="/req/core/feature-class"]
+.Feature Class
 ====
 Implementations shall allow the RDFS class <<Class: geo:Feature, `geo:Feature`>> to be used in SPARQL graph patterns.
 ====
@@ -119,6 +122,7 @@ The restriction imposed on the generic `rdfs:Container` that defines this class 
 
 [[req_core_spatial-object-collection-class]]
 [requirement,identifier="/req/core/spatial-object-collection-class"]
+.Spatial Object Collection Class
 ====
 Implementations shall allow the RDFS class <<Class: geo:SpatialObjectCollection, `geo:SpatialObjectCollection`>> to be used in SPARQL graph patterns.
 ====
@@ -149,6 +153,7 @@ The restriction imposed on the more general <<Class: SpatialObjectCollection, Sp
 
 [[req_core_feature-collection-class]]
 [requirement,identifier="/req/core/feature-collection-class"]
+.Feature Collection Class
 ====
 Implementations shall allow the RDFS class <<Class: geo:FeatureCollection, `geo:FeatureCollection`>> to be used in SPARQL graph patterns.
 ====
@@ -161,6 +166,7 @@ Properties are defined for associating Spatial Objects with scalar spatial measu
 
 [[req_geometry-extension_spatial-object-properties]]
 [requirement,identifier="/req/core/spatial-object-properties"]
+.Spatial Object Properties
 ====
 Implementations shall allow the properties 
 <<Property: geo:hasSize, `geo:hasSize`>>,
@@ -420,6 +426,7 @@ Properties are defined for associating <<Class: geo:Feature, `geo:Feature`>> ins
 
 [[req_geometry-extension_feature-properties]]
 [requirement,identifier="/req/geometry-extension/feature-properties"]
+.Feature Properties
 ====
 Implementations shall allow the properties 
 <<Property: geo:hasGeometry, `geo:hasGeometry`>>, 
