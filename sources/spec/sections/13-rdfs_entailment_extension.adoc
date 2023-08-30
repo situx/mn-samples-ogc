@@ -3,6 +3,7 @@
 This clause establishes the _RDFS Entailment Extension_ parameterized Requirements class with base IRI `/req/rdfs-entailment-extension`, which defines a mechanism for matching implicitly-derived RDF triples in GeoSPARQL queries. This class is parameterized to give implementations flexibility in the topological relation families and geometry types that they choose to support. These Requirements have a single corresponding conformance class _RDFS Entailment Extension_, `with IRI /conf/rdfs-entailment-extension`.
 
 [requirements_class,identifier="/req/rdfs-entailment-extension",subject="Implementation Specification"]
+.RDFS Entailment Extension
 ====
 requirement:: /req/rdfs-entailment-extension/bgp-rdfs-ent
 requirement:: /req/rdfs-entailment-extension/wkt-geometry-types
@@ -22,6 +23,7 @@ The basic mechanism for supporting RDFS entailment has been defined by the W3C S
 
 [[req_rdfs_entailment_extension_bgp-rdfs-ent]]
 [requirement,identifier="/req/rdfs-entailment-extension/bgp-rdfs-ent"]
+.Basic Graph Pattern
 ====
 Basic graph pattern matching shall use the semantics defined by the RDFS Entailment Regime <<SPARQLENT>>.
 ====
@@ -74,6 +76,7 @@ sf:Polygon
 
 [[req_rdfs_entailment_extension_wkt-geometry-types]]
 [requirement,identifier="/req/rdfs-entailment-extension/wkt-geometry-types"]
+.WKT Geometry Types
 ====
 Implementations shall support graph patterns involving terms from an RDFS/OWL class hierarchy of geometry types consistent with the one in the specified version of Simple Features <<OGCSFACA>> <<ISO19125-1>>.
 ====
@@ -101,6 +104,7 @@ gml:Polygon
 ```
 [[req_rdfs_entailment_extension_gml-geometry-types]]
 [requirement,identifier="/req/rdfs-entailment-extension/gml-geometry-types"]
+.GML Geometry Types
 ====
 Implementations shall support graph patterns involving terms from an RDFS/OWL class hierarchy of geometry types consistent with the GML schema that implements `GM_Object` using the specified _version_ of GML <<OGC07-036>>.
 ====
