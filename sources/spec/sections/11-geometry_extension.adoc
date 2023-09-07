@@ -795,7 +795,7 @@ Implementations shall support <<Function: geof:asKML, `geof:asKML`>> as a SPARQL
 
 ==== Discrete Global Grid System
 
-[requirements_class,identifier="/req/geometry-extension",subject="Implementation Specification"]
+[requirements_class,identifier="/req/geometry-extension-dggs",subject="Implementation Specification"]
 .Geometry DGGS Extension
 ====
 requirement:: /req/geometry-extension-dggs/query-functions
