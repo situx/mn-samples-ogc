@@ -33,10 +33,10 @@ requirement:: /req/geometry-extension/kml-literal-srs
 requirement:: /req/geometry-extension/kml-literal-empty
 requirement:: /req/geometry-extension/geometry-as-kml-literal
 requirement:: /req/geometry-extension/asKML-function
-requirement:: /req/geometry-extension/dggs-literal
-requirement:: /req/geometry-extension/dggs-literal-empty
-requirement:: /req/geometry-extension/geometry-as-dggs-literal
-requirement:: /req/geometry-extension/asDGGS-function
+requirement:: /req/geometry-extension-dggs/dggs-literal
+requirement:: /req/geometry-extension-dggs/dggs-literal-empty
+requirement:: /req/geometry-extension-dggs/geometry-as-dggs-literal
+requirement:: /req/geometry-extension-dggs/asDGGS-function
 ====
 
 As part of the vocabulary, RDFS datatypes are defined for encoding detailed geometry information as a literal value. A literal representation of a geometry is needed so that geometric values may be treated as a single unit. Such a representation allows geometries to be passed to external functions for computations and to be returned from a query.
@@ -822,7 +822,7 @@ geo:dggsLiteral
 Valid <<RDFS Datatype: geo:dggsLiteral, DGGS Literal>> instances are formed by encoding Geometry information according to a specific DGGS implementation. The specific implementation should be indicated by use of a subclass of the `geo:dggsLiteral` datatype. 
 
 [[req_geometry_extension_dggs-literal]]
-[requirement,identifier="/req/geometry-extension/dggs-literal"]
+[requirement,identifier="/req/geometry-extension-dggs/dggs-literal"]
 .DGGS Literal
 ====
 All RDFS Literals of type <<RDFS Datatype: geo:dggsLiteral, `geo:dggsLiteral`>> shall consist of an IRI identifying the specific DGGS and a representation of the DGGS geometry data. The IRI shall be enclosed in angled brackets (`<` & `>`) followed by whitespace as a separator, and then the DGGS geometry data, formulated according to the identified DGGS.
@@ -855,7 +855,7 @@ What `R3234` means, or the meaning of any other element within a DGGS' geometry 
 ====
 
 [[req_geometry_extension_dggs-literal-empty]]
-[requirement,identifier="/req/geometry-extension/dggs-literal-empty"]
+[requirement,identifier="/req/geometry-extension-dggs/dggs-literal-empty"]
 .Empty DGGS Literal
 ====
 An empty RDFS Literal of type <<RDFS Datatype: geo:dggsLiteral, `geo:dggsLiteral`>>, shall be interpreted as an empty `geo:Geometry`.
@@ -877,7 +877,7 @@ The tokens used above are as per the DGGS _ABNF_ above.
 The property http://www.opengis.net/ont/geosparql#asDGGS[`geo:asDGGS`] is defined to link a Geometry with its DGGS serialization.
 
 [[req_geometry_extension_geometry-as-dggs-literal]]
-[requirement,identifier="/req/geometry-extension/geometry-as-dggs-literal"]
+[requirement,identifier="/req/geometry-extension-dggs/geometry-as-dggs-literal"]
 .asDGGS Property
 ====
 Implementations shall allow the RDF property 
@@ -909,7 +909,7 @@ geof:asDGGS (geom: ogc:geomLiteral, specificDggsDatatype: xsd:anyURI): geo:DggsL
 The function http://www.opengis.net/def/function/geosparql/asDGGS[`geof:asDGGS`] converts `geom` to an equivalent DGGS representation, formulated according to the specific DGGS literal indicated by the IRI required to be present in the DGGS literal.
 
 [[req_geometry_extension_asDGGS-function]]
-[requirement,identifier="/req/geometry-extension/asDGGS-function"]
+[requirement,identifier="/req/geometry-extension-dggs/asDGGS-function"]
 .asDGGS Function
 ====
 Implementations shall support <<Function: geof:asDGGS, `geof:asDGGS`>>  as a SPARQL extension function.
@@ -921,7 +921,7 @@ Implementations shall support <<Function: geof:asDGGS, `geof:asDGGS`>>  as a SPA
 This Requirements class defines SPARQL functions for performing non-topological spatial operations.
 
 [[req_geometry_extension_query-functions]]
-[requirement,identifier="/req/geometry-extension/query-functions"]
+[requirement,identifier="/req/geometry-extension-dggs/query-functions"]
 .Non-topological Query Functions (Simple Features)
 ====
 Implementations shall support the functions 
@@ -952,7 +952,7 @@ as SPARQL extension functions, consistent with definitions of these functions in
 ====
 
 [[req_geometry_extension_query-functions-non-sf]]
-[requirement,identifier="/req/geometry-extension/query-functions-non-sf"]
+[requirement,identifier="/req/geometry-extension-dggs/query-functions-non-sf"]
 .Non-topological Query Functions (Non Simple Features)
 ====
 Implementations shall support the functions 
@@ -981,7 +981,7 @@ literals and thus the lack of existing software libraries for their manipulation
 ====
 
 [[req_geometry_extension_query-functions-dggs]]
-[requirement,identifier="/req/geometry-extension/query-functions-dggs"]
+[requirement,identifier="/req/geometry-extension-dggs/query-functions"]
 .DGGS Query Functions (Simple Features)
 ====
 Implementations shall support the functions of Requirement 39 for DGGS geometry literals
@@ -989,7 +989,7 @@ as SPARQL extension functions, in a manner which is consistent with definitions 
 ====
 
 [[req_geometry_extension_query-functions-non-sf-dggs]]
-[requirement,identifier="/req/geometry-extension/query-functions-non-sf-dggs"]
+[requirement,identifier="/req/geometry-extension-dggs/query-functions-non-sf"]
 .DGGS Query Functions (Non Simple Features)
 ====
 Implementations shall support the functions of Requirement 40 for DGGS geometry literals
