@@ -208,10 +208,6 @@ abstract-test:: /conf/geometry-extension/kml-literal-srs
 abstract-test:: /conf/geometry-extension/kml-literal-empty
 abstract-test:: /conf/geometry-extension/geometry-as-kml-literal
 abstract-test:: /conf/geometry-extension/asKML-function
-abstract-test:: /conf/geometry-extension/dggs-literal
-abstract-test:: /conf/geometry-extension/dggs-literal-empty
-abstract-test:: /conf/geometry-extension/geometry-as-dggs-literal
-abstract-test:: /conf/geometry-extension/asDGGS-function
 ====
 
 This Conformance Class applies to non-DGGS geometries. See <<DGGS Conformance Class: Geometry Extension - DGGS>> for DGGS geometries.
@@ -553,48 +549,6 @@ test-method-type:: Capabilities
 reference:: <<Function: geof:asKML>>
 ====
 
-==== DGGS Serialization
-
-[abstract_test,identifier="/conf/geometry-extension/dggs-literal"]
-====
-[%metadata]
-target:: /req/geometry-extension/dggs-literal
-test-purpose:: Check conformance with this requirement
-test-method:: Verify that queries involving empty <<RDFS Datatype: geo:dggsLiteral, `geo:dggsLiteral`>> values return the correct result for a test dataset.
-test-method-type:: Capabilities
-reference:: <<RDFS Datatype: geo:dggsLiteral>>
-====
-
-[abstract_test,identifier="/conf/geometry-extension/dggs-literal-empty"]
-====
-[%metadata]
-target:: /req/geometry-extension/dggs-literal-empty
-test-purpose:: Check conformance with this requirement
-test-method:: Verify that queries involving empty <<RDFS Datatype: geo:dggsLiteral, `geo:dggsLiteral`>> values return the correct result for a test dataset.
-test-method-type:: Capabilities
-reference:: <<req_geometry_extension_dggs-literal-empty>>
-====
-
-[abstract_test,identifier="/conf/geometry-extension/geometry-as-dggs-literal"]
-====
-[%metadata]
-target:: /req/geometry-extension/geometry-as-dggs-literal
-test-purpose:: Check conformance with this requirement
-test-method:: Verify that queries involving the <<Property: geo:asDGGS, `geo:asDGGS`>> property return the correct result for a test dataset.
-test-method-type:: Capabilities
-reference:: <<req_geometry_extension_geometry-as-dggs-literal>>
-====
-
-[abstract_test,identifier="/conf/geometry-extension/asDGGS-function"]
-====
-[%metadata]
-target:: /req/geometry-extension/asDGGS-function
-test-purpose:: Check conformance with this requirement
-test-method:: Verify that a set of SPARQL queries involving the <<Function: geof:asDGGS, `geof:asDGGS`>> function returns the correct result for a test dataset when using the specified serialization and version.
-test-method-type:: Capabilities
-reference:: <<Function: geof:asDGGS>>
-====
-
 [conformance_class,identifier="/conf/geometry-extension",subject="DGGS"]
 === DGGS Conformance Class: Geometry Extension - DGGS
 
@@ -604,160 +558,93 @@ This conformance Class applies only to DGGS geometries. See <<Conformance Class:
 .Geometry Extension DGGS
 ====
 [%metadata]
-target:: /req/geometry-extension
+target:: /req/geometry-extension-dggs
+abstract-test:: /conf/geometry-extension-dggs/query-functions
+abstract-test:: /conf/geometry-extension-dggs/query-functions-non-sf
+abstract-test:: /conf/geometry-extension-dggs/srid-function
+abstract-test:: /conf/geometry-extension-dggs/sa-functions
+abstract-test:: /conf/geometry-extension-dggs/dggs-literal
+abstract-test:: /conf/geometry-extension-dggs/dggs-literal-empty
+abstract-test:: /conf/geometry-extension-dggs/geometry-as-dggs-literal
+abstract-test:: /conf/geometry-extension-dggs/asDGGS-function
 ====
 
-==== DGGS.1 Tests for DGGS Serializations
+==== Tests for DGGS Serializations
 
-[abstract_test,identifier="/conf/geometry-extension/geometry-class"]
-===== DGGS.1.1 `/conf/geometry-extension/geometry-class`
-*Requirement*: `/req/geometry-extension/geometry-class`
+[abstract_test,identifier="/conf/geometry-extension-dggs/query-functions"]
+====
+[%metadata]
+target:: /req/geometry-extension-dggs/query-functions
+test-purpose:: Check conformance with this requirement
+test-method:: Verify that implementations support the functions of Requirement http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/query-functions for DGGS geometry literals as SPARQL extension functions, in a manner which is consistent with definitions of these functions in Simple Features [OGCSFACA] [ISO19125-1], for non-DGGS geometry literals.test-method-type:: Capabilities
+====
 
-Implementations shall allow the RDFS class 
-<<Class: geo:Geometry, `geo:Geometry`>> 
-to be used in SPARQL graph patterns.
+[abstract_test,identifier="/conf/geometry-extension-dggs/query-functions-non-sf"]
+====
+[%metadata]
+target:: /req/geometry-extension-dggs/query-functions
+test-purpose:: Check conformance with this requirement
+test-method:: Verify that implementations support the functions of Requirement http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/query-functions-non-sf for DGGS geometry literals as SPARQL extension functions which are defined in this standard, for non-DGGS geometry literals.
+====
 
-.. *Test purpose*: Check conformance with this requirement
-.. *Test method*: Verify that queries involving <<Class: geo:Geometry, `geo:Geometry`>> return the correct result on a test dataset
-.. *Reference*: <<_class_geogeometry>>
-.. *Test Type*: Capabilities
+[abstract_test,identifier="/conf/geometry-extension-dggs/srid-function"]
+====
+[%metadata]
+target:: /req/geometry-extension-dggs/srid-function
+test-purpose:: Check conformance with this requirement
+test-method:: Verify that Implementations shall support geof:getSRID as a SPARQL extension function for DGGS geometry literals.
+reference:: <<_function_geofgetsrid>>
+====
 
-[abstract_test,identifier="/conf/geometry-extension/geometry-collection-class"]
-===== DGGS.1.2 `/conf/geometry-extension/geometry-collection-class`
-*Requirement*: `/req/geometry-extension/geometry-collection-class`
+[abstract_test,identifier="/conf/geometry-extension-dggs/sa-functions"]
+[%metadata]
+target:: /req/geometry-extension-dggs/sa-functions
+test-purpose:: Check conformance with this requirement
+test-method:: Verify that implementations support the functions of Requirement A.3.1.8 /conf/geometry-extension/sa-functions as SPARQL extension functions which are defined in this standard, for DGGS geometry literals, in a manner which is consistent with definitions of these functions in Simple Features <<OGCSFACA>> <<ISO19125-1>>.
+test-method-type:: Capabilities
+reference:: <<_spatial_aggregate_functions>>
 
-Implementations shall allow the RDFS class 
-<<Class: geo:GeometryCollection, `geo:GeometryCollection`>> 
-to be used in SPARQL graph patterns.
+==== DGGS Serialization
 
-.. *Test purpose*: check conformance with this requirement
-.. *Test method*: verify that queries involving <<Class: geo:GeometryCollection, `geo:GeometryCollection`>> return the correct result on a test dataset
-.. *Reference*: <<_class_geogeometrycollection>>
-.. *Test Type*: Capabilities
+[abstract_test,identifier="/conf/geometry-extension-dggs/dggs-literal"]
+====
+[%metadata]
+target:: /req/geometry-extension-dggs/dggs-literal
+test-purpose:: Check conformance with this requirement
+test-method:: Verify that queries involving empty <<RDFS Datatype: geo:dggsLiteral, `geo:dggsLiteral`>> values return the correct result for a test dataset.
+test-method-type:: Capabilities
+reference:: <<RDFS Datatype: geo:dggsLiteral>>
+====
 
+[abstract_test,identifier="/conf/geometry-extension-dggs/dggs-literal-empty"]
+====
+[%metadata]
+target:: /req/geometry-extension/dggs-literal-empty
+test-purpose:: Check conformance with this requirement
+test-method:: Verify that queries involving empty <<RDFS Datatype: geo:dggsLiteral, `geo:dggsLiteral`>> values return the correct result for a test dataset.
+test-method-type:: Capabilities
+reference:: <<req_geometry_extension_dggs-literal-empty>>
+====
 
-[abstract_test,identifier="/conf/geometry-extension/feature-properties"]
-===== DGGS.1.3 `/conf/geometry-extension/feature-properties`
-*Requirement*: `/req/geometry-extension/feature-properties`
+[abstract_test,identifier="/conf/geometry-extension-dggs/geometry-as-dggs-literal"]
+====
+[%metadata]
+target:: /req/geometry-extension-dggs/geometry-as-dggs-literal
+test-purpose:: Check conformance with this requirement
+test-method:: Verify that queries involving the <<Property: geo:asDGGS, `geo:asDGGS`>> property return the correct result for a test dataset.
+test-method-type:: Capabilities
+reference:: <<req_geometry_extension_geometry-as-dggs-literal>>
+====
 
-Implementations shall allow the properties 
-<<Property: geo:hasGeometry, `geo:hasGeometry`>>, 
-<<Property: geo:hasDefaultGeometry, `geo:hasDefaultGeometry`>>, 
-<<Property: geo:hasLength, `geo:hasLength`>>, 
-<<Property: geo:hasArea, `geo:hasArea`>>, 
-<<Property: geo:hasVolume, `geo:hasVolume`>> 
-<<Property: geo:hasCentroid, `geo:hasCentroid`>>, 
-<<Property: geo:hasBoundingBox, `geo:hasBoundingBox`>> and 
-<<Property: geo:hasSpatialResolution, `geo:hasSpatialResolution`>> 
-to be used in SPARQL graph patterns.
-
-.. *Test purpose*: Check conformance with this requirement
-.. *Test method*: Verify that queries involving these properties return the correct result for a test dataset.
-.. *Reference*: <<_standard_properties_for_geofeature>>
-.. *Test Type*: Capabilities
-
-[abstract_test,identifier="/conf/geometry-extension/geometry-properties"]
-===== DGGS.1.4 `/conf/geometry-extension/geometry-properties`
-*Requirement*: `/req/geometry-extension/geometry-properties`
-
-Implementations shall allow the properties 
-<<Property: geo:dimension, `geo:dimension`>>, 
-// <<Property: geo:coordinateDimension, `geo:coordinateDimension`>>, 
-<<Property: geo:spatialDimension, `geo:spatialDimension`>>, 
-<<Property: geo:isEmpty, `geo:isEmpty`>>, 
-<<Property: geo:isSimple, `geo:isSimple`>> and 
-<<Property: geo:hasSerialization, `geo:hasSerialization`>> 
-to be used in SPARQL graph patterns.
-
-.. *Test purpose*: Check conformance with this requirement
-.. *Test method*: Verify that queries involving these properties return the correct result for a test dataset.
-.. *Reference*: <<_standard_properties_for_geogeometry>>
-.. *Test Type*: Capabilities
-
-[abstract_test,identifier="/conf/geometry-extension/query-functions"]
-===== DGGS.1.5 `/conf/geometry-extension/query-functions`
-*Requirement*: `/req/geometry-extension/query-functions`  
-
-Implementations shall support the functions 
-<<Function: geof:distance, `geof:distance`>>, 
-<<Function: geof:buffer, `geof:buffer`>>, 
-<<Function: geof:intersection, `geof:intersection`>>, 
-<<Function: geof:union, `geof:union`>>, 
-<<Function: geof:isEmpty, `geof:isEmpty`>>, 
-<<Function: geof:isSimple, `geof:isSimple`>>, 
-<<Function: geof:area, `geof:area`>>, 
-<<Function: geof:length, `geof:length`>>,
-<<Function: geof:numGeometries, `geof:numGeometries`>>,
-<<Function: geof:geometryN, `geof:geometryN`>>, 
-<<Function: geof:transform, `geof:transform`>>,
-<<Function: geof:dimension, `geof:dimension`>>, 
-<<Function: geof:difference, `geof:difference`>>, 
-<<Function: geof:symDifference, `geof:symDifference`>>, 
-<<Function: geof:envelope, `geof:envelope`>> and 
-<<Function: geof:boundary, `geof:boundary`>> 
-as SPARQL extension functions
-// , consistent with the definitions of their corresponding functions in Simple Features <<ISO19125-1>> (`distance`, `buffer`, `intersection`, `union`, `isEmpty`, `isSimple`, `area`, `length`, 
-// `numGeometries`, `geometryN`, `transform`, `dimension`, `difference`, `symDifference`, `envelope` and `boundary` respectively) and other attached definitions and also 
-// http://www.opengis.net/def/function/geosparql/minX[`geof:maxX`],
-// http://www.opengis.net/def/function/geosparql/maxY[`geof:maxY`], 
-// http://www.opengis.net/def/function/geosparql/maxZ[`geof:maxZ`],  
-// http://www.opengis.net/def/function/geosparql/minX[`geof:minX`], 
-// http://www.opengis.net/def/function/geosparql/minY[`geof:minY`] and
-// http://www.opengis.net/def/function/geosparql/minZ[`geof:minZ`]
-// SPARQL extension functions.
-
-.. *Test purpose*: Check conformance with this requirement
-.. *Test method*: Verify that a set of SPARQL queries involving each of the following functions returns the correct result for a test dataset when using the specified serialization and version: 
-<<Function: geof:distance, `geof:distance`>>, 
-<<Function: geof:buffer, `geof:buffer`>>, 
-<<Function: geof:intersection, `geof:intersection`>>, 
-<<Function: geof:union, `geof:union`>>, 
-<<Function: geof:isEmpty, `geof:isEmpty`>>, 
-<<Function: geof:isSimple, `geof:isSimple`>>, 
-<<Function: geof:area, `geof:area`>>, 
-<<Function: geof:length, `geof:length`>>,
-<<Function: geof:numGeometries, `geof:numGeometries`>>,
-<<Function: geof:geometryN, `geof:geometryN`>>, 
-<<Function: geof:transform, `geof:transform`>>,
-<<Function: geof:dimension, `geof:dimension`>>, 
-<<Function: geof:difference, `geof:difference`>>, 
-<<Function: geof:symDifference, `geof:symDifference`>>, 
-<<Function: geof:envelope, `geof:envelope`>> and 
-<<Function: geof:boundary, `geof:boundary`>>. 
-.. *Reference*: <<_non_topological_query_functions>>
-.. *Test Type*: Capabilities
-
-[abstract_test,identifier="/conf/geometry-extension/srid-function"]
-===== DGGS.1.6 `/conf/geometry-extension/srid-function`
-*Requirement*: `/req/geometry-extension/srid-function`
-
-Implementations shall support 
-<<Function: geof:getSRID, `geof:getSRID`>> 
-as a SPARQL extension function.
-
-.. *Test purpose*: Check conformance with this requirement
-.. *Test method*: Verify that a SPARQL query involving the <<Function: geof:getSRID, `geof:getSRID`>> function returns the correct result for a test dataset when using the specified serialization and version.
-.. *Reference*: <<_function_geofgetsrid>>
-.. *Test Type*: Capabilities
-
-[abstract_test,identifier="/conf/geometry-extension/sa-functions"]
-===== DGGS.1.7 `/conf/geometry-extension/sa-functions`
-*Requirement*: `/req/geometry-extension/sa-functions`
-
-Implementations shall support 
-<<Function: geof:aggBoundingBox,`geof:boundingBox`>>, 
-<<Function: geof:aggBoundingCircle,`geof:boundingCircle`>>, 
-<<Function: geof:aggCentroid,`geof:centroid`>>, 
-<<Function: geof:aggConcatLines,`geof:concatLines`>>, 
-<<Function: geof:aggConcaveHull,`geof:concaveHull`>>, 
-<<Function: geof:aggConvexHull,`geof:convexHull`>> and 
-<<Function: geof:aggUnion,`geof:union2`>>
-as a SPARQL extension functions.
-
-.. *Test purpose*: Check conformance with this requirement
-.. *Test method*: Verify that queries involving these functions return the correct result for a test dataset.
-.. *Reference*: <<_spatial_aggregate_functions>>
-.. *Test Type*: Capabilities
+[abstract_test,identifier="/conf/geometry-extension-dggs/asDGGS-function"]
+====
+[%metadata]
+target:: /req/geometry-extension-dggs/asDGGS-function
+test-purpose:: Check conformance with this requirement
+test-method:: Verify that a set of SPARQL queries involving the <<Function: geof:asDGGS, `geof:asDGGS`>> function returns the correct result for a test dataset when using the specified serialization and version.
+test-method-type:: Capabilities
+reference:: <<Function: geof:asDGGS>>
+====
 
 === Conformance Class: Geometry Topology Extension
 
