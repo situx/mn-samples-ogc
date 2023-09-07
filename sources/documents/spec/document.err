@@ -1,0 +1,946 @@
+/Users/runner/work/mn-samples-ogc/mn-samples-ogc/_site/documents/spec/document.err errors
+
+
+== Anchors
+
+(XML Line 000001): normalised identifier in <bibitem id="Class__SpatialObjectCollection" type="internal"/> from Class_ SpatialObjectCollection
+	<bibitem id="Class__SpatialObjectCollection" type="internal">
+	<docidentifier type="repository">Class/ SpatialObjectCollection</docidentifier>
+	</bibitem>
+(XML Line 000001): normalised identifier in <bibitem id="Class__SpatialObject" type="internal"/> from Class_ SpatialObject
+	<bibitem id="Class__SpatialObject" type="internal">
+	<docidentifier type="repository">Class/ SpatialObject</docidentifier>
+	</bibitem>
+(XML Line 000001): normalised identifier in <bibitem id="Function__geof" type="internal"/> from Function_ geof
+	<bibitem id="Function__geof" type="internal">
+	<docidentifier type="repository">Function/ geof</docidentifier>
+	</bibitem>
+(XML Line 000001): normalised identifier in <bibitem id="Property__geo" type="internal"/> from Property_ geo
+	<bibitem id="Property__geo" type="internal">
+	<docidentifier type="repository">Property/ geo</docidentifier>
+	</bibitem>
+(XML Line 000001): normalised identifier in <bibitem id="Class__Geometry" type="internal"/> from Class_ Geometry
+	<bibitem id="Class__Geometry" type="internal">
+	<docidentifier type="repository">Class/ Geometry</docidentifier>
+	</bibitem>
+(XML Line 000001): normalised identifier in <bibitem id="Class__Feature" type="internal"/> from Class_ Feature
+	<bibitem id="Class__Feature" type="internal">
+	<docidentifier type="repository">Class/ Feature</docidentifier>
+	</bibitem>
+(XML Line 000055): Crossreference target _coordinate_reference_system is undefined
+	<xref target="_coordinate_reference_system" style="short">Coordinate Reference System (CRS)</xref>
+(XML Line 000055): Crossreference target _spatial_reference_system is undefined
+	<xref target="_spatial_reference_system" style="short">Spatial Reference System (SRS)</xref>
+(XML Line 000059): normalised identifier in <xref target="Recommendation_for_specification_of_units_of_measurement" style="short"/> from Recommendation for specification of units of measurement
+	<xref target="Recommendation_for_specification_of_units_of_measurement" style="short">the specification of units of measurement</xref>
+(XML Line 000059): Crossreference target Recommendation_for_specification_of_units_of_measurement is undefined
+	<xref target="Recommendation_for_specification_of_units_of_measurement" style="short">the specification of units of measurement</xref>
+(XML Line 000061): normalised identifier in <xref target="Influence_of_Coordinate_Reference_Systems_on_geometric_computations" style="short"/> from Influence of Coordinate Reference Systems on geometric computations
+	<xref target="Influence_of_Coordinate_Reference_Systems_on_geometric_computations" style="short"/>
+(XML Line 000061): Crossreference target Influence_of_Coordinate_Reference_Systems_on_geometric_computations is undefined
+	<xref target="Influence_of_Coordinate_Reference_Systems_on_geometric_computations" style="short"/>
+(XML Line 000565): Crossreference target _owl is undefined
+	<xref target="_owl" style="short"/>
+(XML Line 000735): normalised identifier in <eref style="short" bibitemid="Class__SpatialObject" citeas=""/> from Class_ SpatialObject
+	<eref style="short" bibitemid="Class__SpatialObject" citeas="">Spatial Object</eref>
+(XML Line 000762): normalised identifier in <eref style="short" bibitemid="Class__SpatialObjectCollection" citeas=""/> from Class_ SpatialObjectCollection
+	<eref style="short" bibitemid="Class__SpatialObjectCollection" citeas="">Spatial Object Collection</eref>
+(XML Line 000762): normalised identifier in <eref style="short" bibitemid="Class__Feature" citeas=""/> from Class_ Feature
+	<eref style="short" bibitemid="Class__Feature" citeas="">Feature</eref>
+(XML Line 001134): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>sfEquals</referenceFrom></locality></localityStack>geo:sfEquals</eref>
+(XML Line 001135): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>sfDisjoint</referenceFrom></locality></localityStack>geo:sfDisjoint</eref>
+(XML Line 001136): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>sfIntersects</referenceFrom></locality></localityStack>geo:sfIntersects</eref>
+(XML Line 001137): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>sfTouches</referenceFrom></locality></localityStack>geo:sfTouches</eref>
+(XML Line 001138): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>sfCrosses</referenceFrom></locality></localityStack>geo:sfCrosses</eref>
+(XML Line 001139): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>sfWithin</referenceFrom></locality></localityStack>geo:sfWithin</eref>
+(XML Line 001140): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>sfContains</referenceFrom></locality></localityStack>geo:sfContains</eref>
+(XML Line 001141): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>sfOverlaps</referenceFrom></locality></localityStack>geo:sfOverlaps</eref>
+(XML Line 001155): normalised identifier in <bookmark id="geo_sfEquals"/> from geo:sfEquals
+	<bookmark id="geo_sfEquals"/>
+(XML Line 001160): normalised identifier in <bookmark id="geo_sfDisjoint"/> from geo:sfDisjoint
+	<bookmark id="geo_sfDisjoint"/>
+(XML Line 001165): normalised identifier in <bookmark id="geo_sfIntersects"/> from geo:sfIntersects
+	<bookmark id="geo_sfIntersects"/>
+(XML Line 001170): normalised identifier in <bookmark id="geo_sfTouches"/> from geo:sfTouches
+	<bookmark id="geo_sfTouches"/>
+(XML Line 001175): normalised identifier in <bookmark id="geo_sfWithin"/> from geo:sfWithin
+	<bookmark id="geo_sfWithin"/>
+(XML Line 001180): normalised identifier in <bookmark id="geo_sfContains"/> from geo:sfContains
+	<bookmark id="geo_sfContains"/>
+(XML Line 001185): normalised identifier in <bookmark id="geo_sfOoverlaps"/> from geo:sfOoverlaps
+	<bookmark id="geo_sfOoverlaps"/>
+(XML Line 001190): normalised identifier in <bookmark id="geo_sfCrosses"/> from geo:sfCrosses
+	<bookmark id="geo_sfCrosses"/>
+(XML Line 001207): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>ehEquals</referenceFrom></locality></localityStack>geo:ehEquals</eref>
+(XML Line 001208): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>ehDisjoint</referenceFrom></locality></localityStack>geo:ehDisjoint</eref>
+(XML Line 001209): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>ehMeet</referenceFrom></locality></localityStack>geo:ehMeet</eref>
+(XML Line 001210): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>ehOverlap</referenceFrom></locality></localityStack>geo:ehOverlap</eref>
+(XML Line 001211): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>ehCovers</referenceFrom></locality></localityStack>geo:ehCovers</eref>
+(XML Line 001212): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>ehCoveredBy</referenceFrom></locality></localityStack>geo:ehCoveredBy</eref>
+(XML Line 001213): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>ehInside</referenceFrom></locality></localityStack>geo:ehInside</eref>
+(XML Line 001214): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>ehContains</referenceFrom></locality></localityStack>geo:ehContains</eref>
+(XML Line 001228): normalised identifier in <bookmark id="geo_ehEquals"/> from geo:ehEquals
+	<bookmark id="geo_ehEquals"/>
+(XML Line 001233): normalised identifier in <bookmark id="geo_ehDisjoint"/> from geo:ehDisjoint
+	<bookmark id="geo_ehDisjoint"/>
+(XML Line 001238): normalised identifier in <bookmark id="geo_ehMeet"/> from geo:ehMeet
+	<bookmark id="geo_ehMeet"/>
+(XML Line 001243): normalised identifier in <bookmark id="geo_ehOverlap"/> from geo:ehOverlap
+	<bookmark id="geo_ehOverlap"/>
+(XML Line 001248): normalised identifier in <bookmark id="geo_ehCovers"/> from geo:ehCovers
+	<bookmark id="geo_ehCovers"/>
+(XML Line 001253): normalised identifier in <bookmark id="geo_ehCoveredBy"/> from geo:ehCoveredBy
+	<bookmark id="geo_ehCoveredBy"/>
+(XML Line 001258): normalised identifier in <bookmark id="geo_ehInside"/> from geo:ehInside
+	<bookmark id="geo_ehInside"/>
+(XML Line 001263): normalised identifier in <bookmark id="geo_ehContains"/> from geo:ehContains
+	<bookmark id="geo_ehContains"/>
+(XML Line 001279): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>rcc8eq</referenceFrom></locality></localityStack>geo:rcc8eq</eref>
+(XML Line 001280): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>rcc8dc</referenceFrom></locality></localityStack>geo:rcc8dc</eref>
+(XML Line 001281): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>rcc8ec</referenceFrom></locality></localityStack>geo:rcc8ec</eref>
+(XML Line 001282): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>rcc8po</referenceFrom></locality></localityStack>geo:rcc8po</eref>
+(XML Line 001283): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>rcc8tppi</referenceFrom></locality></localityStack>geo:rcc8tppi</eref>
+(XML Line 001284): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>rcc8tpp</referenceFrom></locality></localityStack>geo:rcc8tpp</eref>
+(XML Line 001285): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>rcc8ntpp</referenceFrom></locality></localityStack>geo:rcc8ntpp</eref>
+(XML Line 001286): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>rcc8ntppi</referenceFrom></locality></localityStack>geo:rcc8ntppi</eref>
+(XML Line 001300): normalised identifier in <bookmark id="geo_rcc8eq"/> from geo:rcc8eq
+	<bookmark id="geo_rcc8eq"/>
+(XML Line 001305): normalised identifier in <bookmark id="geo_rcc8dc"/> from geo:rcc8dc
+	<bookmark id="geo_rcc8dc"/>
+(XML Line 001310): normalised identifier in <bookmark id="geo_rcc8ec"/> from geo:rcc8ec
+	<bookmark id="geo_rcc8ec"/>
+(XML Line 001315): normalised identifier in <bookmark id="geo_rcc8po"/> from geo:rcc8po
+	<bookmark id="geo_rcc8po"/>
+(XML Line 001320): normalised identifier in <bookmark id="geo_rcc8tppi"/> from geo:rcc8tppi
+	<bookmark id="geo_rcc8tppi"/>
+(XML Line 001325): normalised identifier in <bookmark id="geo_rcc8tpp"/> from geo:rcc8tpp
+	<bookmark id="geo_rcc8tpp"/>
+(XML Line 001330): normalised identifier in <bookmark id="geo_rcc8ntpp"/> from geo:rcc8ntpp
+	<bookmark id="geo_rcc8ntpp"/>
+(XML Line 001335): normalised identifier in <bookmark id="geo_rcc8ntppi"/> from geo:rcc8ntppi
+	<bookmark id="geo_rcc8ntppi"/>
+(XML Line 001582): normalised identifier in <eref style="short" bibitemid="Class__SpatialObjectCollection" citeas=""/> from Class_ SpatialObjectCollection
+	<eref style="short" bibitemid="Class__SpatialObjectCollection" citeas="">Spatial Object Collection</eref>
+(XML Line 001582): normalised identifier in <eref style="short" bibitemid="Class__Geometry" citeas=""/> from Class_ Geometry
+	<eref style="short" bibitemid="Class__Geometry" citeas="">Geometry</eref>
+(XML Line 001685): Crossreference target Recommendation_for_specification_of_units_of_measurement is undefined
+	<xref target="Recommendation_for_specification_of_units_of_measurement" style="short"/>
+(XML Line 001685): normalised identifier in <xref target="Recommendation_for_specification_of_units_of_measurement" style="short"/> from Recommendation for specification of units of measurement
+	<xref target="Recommendation_for_specification_of_units_of_measurement" style="short"/>
+(XML Line 001717): normalised identifier in <xref target="Recommendation_for_specification_of_units_of_measurement" style="short"/> from Recommendation for specification of units of measurement
+	<xref target="Recommendation_for_specification_of_units_of_measurement" style="short"/>
+(XML Line 001717): Crossreference target Recommendation_for_specification_of_units_of_measurement is undefined
+	<xref target="Recommendation_for_specification_of_units_of_measurement" style="short"/>
+(XML Line 002373): normalised identifier in <xref target="Recommendation_for_specification_of_units_of_measurement" style="short"/> from Recommendation for specification of units of measurement
+	<xref target="Recommendation_for_specification_of_units_of_measurement" style="short">Recommendation for specification of units of measurement</xref>
+(XML Line 002373): Crossreference target Recommendation_for_specification_of_units_of_measurement is undefined
+	<xref target="Recommendation_for_specification_of_units_of_measurement" style="short">Recommendation for specification of units of measurement</xref>
+(XML Line 002393): normalised identifier in <xref target="Recommendation_for_specification_of_units_of_measurement" style="short"/> from Recommendation for specification of units of measurement
+	<xref target="Recommendation_for_specification_of_units_of_measurement" style="short">Recommendation for specification of units of measurement</xref>
+(XML Line 002393): Crossreference target Recommendation_for_specification_of_units_of_measurement is undefined
+	<xref target="Recommendation_for_specification_of_units_of_measurement" style="short">Recommendation for specification of units of measurement</xref>
+(XML Line 002431): normalised identifier in <xref target="Recommendation_for_specification_of_units_of_measurement" style="short"/> from Recommendation for specification of units of measurement
+	<xref target="Recommendation_for_specification_of_units_of_measurement" style="short">Recommendation for specification of units of measurement</xref>
+(XML Line 002431): Crossreference target Recommendation_for_specification_of_units_of_measurement is undefined
+	<xref target="Recommendation_for_specification_of_units_of_measurement" style="short">Recommendation for specification of units of measurement</xref>
+(XML Line 002502): Crossreference target Recommendation_for_specification_of_units_of_measurement is undefined
+	<xref target="Recommendation_for_specification_of_units_of_measurement" style="short">Recommendation for specification of units of measurement</xref>
+(XML Line 002502): normalised identifier in <xref target="Recommendation_for_specification_of_units_of_measurement" style="short"/> from Recommendation for specification of units of measurement
+	<xref target="Recommendation_for_specification_of_units_of_measurement" style="short">Recommendation for specification of units of measurement</xref>
+(XML Line 002586): Crossreference target Recommendation_for_specification_of_units_of_measurement is undefined
+	<xref target="Recommendation_for_specification_of_units_of_measurement" style="short">Recommendation for specification of units of measurement</xref>
+(XML Line 002586): normalised identifier in <xref target="Recommendation_for_specification_of_units_of_measurement" style="short"/> from Recommendation for specification of units of measurement
+	<xref target="Recommendation_for_specification_of_units_of_measurement" style="short">Recommendation for specification of units of measurement</xref>
+(XML Line 002837): normalised identifier in <eref style="short" bibitemid="Function__geof" citeas=""/> from Function_ geof
+	<eref style="short" bibitemid="Function__geof" citeas=""><localityStack><locality type="anchor"><referenceFrom>relate</referenceFrom></locality></localityStack>geof:relate</eref>
+(XML Line 003190): Crossreference target Simple_Features_Relation_Family__relation_family_Simple_Features_ is undefined
+	<xref target="Simple_Features_Relation_Family__relation_family_Simple_Features_" style="short">
+	  <tt>geo:sfEquals</tt>
+	</xref>
+(XML Line 003190): normalised identifier in <xref target="Simple_Features_Relation_Family__relation_family_Simple_Features_" style="short"/> from Simple Features Relation Family (relation_family=Simple Features)
+	<xref target="Simple_Features_Relation_Family__relation_family_Simple_Features_" style="short">
+	  <tt>geo:sfEquals</tt>
+	</xref>
+(XML Line 003193): Crossreference target Simple_Features_Relation_Family__relation_family_Simple_Features_ is undefined
+	<xref target="Simple_Features_Relation_Family__relation_family_Simple_Features_" style="short">
+	  <tt>geo:sfDisjoint</tt>
+	</xref>
+(XML Line 003193): normalised identifier in <xref target="Simple_Features_Relation_Family__relation_family_Simple_Features_" style="short"/> from Simple Features Relation Family (relation_family=Simple Features)
+	<xref target="Simple_Features_Relation_Family__relation_family_Simple_Features_" style="short">
+	  <tt>geo:sfDisjoint</tt>
+	</xref>
+(XML Line 003196): Crossreference target Simple_Features_Relation_Family__relation_family_Simple_Features_ is undefined
+	<xref target="Simple_Features_Relation_Family__relation_family_Simple_Features_" style="short">
+	  <tt>geo:sfIntersects</tt>
+	</xref>
+(XML Line 003196): normalised identifier in <xref target="Simple_Features_Relation_Family__relation_family_Simple_Features_" style="short"/> from Simple Features Relation Family (relation_family=Simple Features)
+	<xref target="Simple_Features_Relation_Family__relation_family_Simple_Features_" style="short">
+	  <tt>geo:sfIntersects</tt>
+	</xref>
+(XML Line 003199): normalised identifier in <xref target="Simple_Features_Relation_Family__relation_family_Simple_Features_" style="short"/> from Simple Features Relation Family (relation_family=Simple Features)
+	<xref target="Simple_Features_Relation_Family__relation_family_Simple_Features_" style="short">
+	  <tt>geo:sfTouches</tt>
+	</xref>
+(XML Line 003199): Crossreference target Simple_Features_Relation_Family__relation_family_Simple_Features_ is undefined
+	<xref target="Simple_Features_Relation_Family__relation_family_Simple_Features_" style="short">
+	  <tt>geo:sfTouches</tt>
+	</xref>
+(XML Line 003202): normalised identifier in <xref target="Simple_Features_Relation_Family__relation_family_Simple_Features_" style="short"/> from Simple Features Relation Family (relation_family=Simple Features)
+	<xref target="Simple_Features_Relation_Family__relation_family_Simple_Features_" style="short">
+	  <tt>geo:sfCrosses</tt>
+	</xref>
+(XML Line 003202): Crossreference target Simple_Features_Relation_Family__relation_family_Simple_Features_ is undefined
+	<xref target="Simple_Features_Relation_Family__relation_family_Simple_Features_" style="short">
+	  <tt>geo:sfCrosses</tt>
+	</xref>
+(XML Line 003205): Crossreference target Simple_Features_Relation_Family__relation_family_Simple_Features_ is undefined
+	<xref target="Simple_Features_Relation_Family__relation_family_Simple_Features_" style="short">
+	  <tt>geo:sfWithin</tt>
+	</xref>
+(XML Line 003205): normalised identifier in <xref target="Simple_Features_Relation_Family__relation_family_Simple_Features_" style="short"/> from Simple Features Relation Family (relation_family=Simple Features)
+	<xref target="Simple_Features_Relation_Family__relation_family_Simple_Features_" style="short">
+	  <tt>geo:sfWithin</tt>
+	</xref>
+(XML Line 003208): normalised identifier in <xref target="Simple_Features_Relation_Family__relation_family_Simple_Features_" style="short"/> from Simple Features Relation Family (relation_family=Simple Features)
+	<xref target="Simple_Features_Relation_Family__relation_family_Simple_Features_" style="short">
+	  <tt>geo:sfContains</tt>
+	</xref>
+(XML Line 003208): Crossreference target Simple_Features_Relation_Family__relation_family_Simple_Features_ is undefined
+	<xref target="Simple_Features_Relation_Family__relation_family_Simple_Features_" style="short">
+	  <tt>geo:sfContains</tt>
+	</xref>
+(XML Line 003211): normalised identifier in <xref target="Simple_Features_Relation_Family__relation_family_Simple_Features_" style="short"/> from Simple Features Relation Family (relation_family=Simple Features)
+	<xref target="Simple_Features_Relation_Family__relation_family_Simple_Features_" style="short">
+	  <tt>geo:sfOverlaps</tt>
+	</xref>
+(XML Line 003211): Crossreference target Simple_Features_Relation_Family__relation_family_Simple_Features_ is undefined
+	<xref target="Simple_Features_Relation_Family__relation_family_Simple_Features_" style="short">
+	  <tt>geo:sfOverlaps</tt>
+	</xref>
+(XML Line 003241): Crossreference target Egenhofer_Relation_Family__relation_family_Egenhofer_ is undefined
+	<xref target="Egenhofer_Relation_Family__relation_family_Egenhofer_" style="short">
+	  <tt>geo:ehEquals</tt>
+	</xref>
+(XML Line 003241): normalised identifier in <xref target="Egenhofer_Relation_Family__relation_family_Egenhofer_" style="short"/> from Egenhofer Relation Family (relation_family=Egenhofer)
+	<xref target="Egenhofer_Relation_Family__relation_family_Egenhofer_" style="short">
+	  <tt>geo:ehEquals</tt>
+	</xref>
+(XML Line 003244): Crossreference target Egenhofer_Relation_Family__relation_family_Egenhofer_ is undefined
+	<xref target="Egenhofer_Relation_Family__relation_family_Egenhofer_" style="short">
+	  <tt>geo:ehDisjoint</tt>
+	</xref>
+(XML Line 003244): normalised identifier in <xref target="Egenhofer_Relation_Family__relation_family_Egenhofer_" style="short"/> from Egenhofer Relation Family (relation_family=Egenhofer)
+	<xref target="Egenhofer_Relation_Family__relation_family_Egenhofer_" style="short">
+	  <tt>geo:ehDisjoint</tt>
+	</xref>
+(XML Line 003247): normalised identifier in <xref target="Egenhofer_Relation_Family__relation_family_Egenhofer_" style="short"/> from Egenhofer Relation Family (relation_family=Egenhofer)
+	<xref target="Egenhofer_Relation_Family__relation_family_Egenhofer_" style="short">
+	  <tt>geo:ehMeet</tt>
+	</xref>
+(XML Line 003247): Crossreference target Egenhofer_Relation_Family__relation_family_Egenhofer_ is undefined
+	<xref target="Egenhofer_Relation_Family__relation_family_Egenhofer_" style="short">
+	  <tt>geo:ehMeet</tt>
+	</xref>
+(XML Line 003250): normalised identifier in <xref target="Egenhofer_Relation_Family__relation_family_Egenhofer_" style="short"/> from Egenhofer Relation Family (relation_family=Egenhofer)
+	<xref target="Egenhofer_Relation_Family__relation_family_Egenhofer_" style="short">
+	  <tt>geo:ehOverlap</tt>
+	</xref>
+(XML Line 003250): Crossreference target Egenhofer_Relation_Family__relation_family_Egenhofer_ is undefined
+	<xref target="Egenhofer_Relation_Family__relation_family_Egenhofer_" style="short">
+	  <tt>geo:ehOverlap</tt>
+	</xref>
+(XML Line 003253): normalised identifier in <xref target="Egenhofer_Relation_Family__relation_family_Egenhofer_" style="short"/> from Egenhofer Relation Family (relation_family=Egenhofer)
+	<xref target="Egenhofer_Relation_Family__relation_family_Egenhofer_" style="short">
+	  <tt>geo:ehCovers</tt>
+	</xref>
+(XML Line 003253): Crossreference target Egenhofer_Relation_Family__relation_family_Egenhofer_ is undefined
+	<xref target="Egenhofer_Relation_Family__relation_family_Egenhofer_" style="short">
+	  <tt>geo:ehCovers</tt>
+	</xref>
+(XML Line 003256): Crossreference target Egenhofer_Relation_Family__relation_family_Egenhofer_ is undefined
+	<xref target="Egenhofer_Relation_Family__relation_family_Egenhofer_" style="short">
+	  <tt>geo:ehCoveredBy</tt>
+	</xref>
+(XML Line 003256): normalised identifier in <xref target="Egenhofer_Relation_Family__relation_family_Egenhofer_" style="short"/> from Egenhofer Relation Family (relation_family=Egenhofer)
+	<xref target="Egenhofer_Relation_Family__relation_family_Egenhofer_" style="short">
+	  <tt>geo:ehCoveredBy</tt>
+	</xref>
+(XML Line 003259): Crossreference target Egenhofer_Relation_Family__relation_family_Egenhofer_ is undefined
+	<xref target="Egenhofer_Relation_Family__relation_family_Egenhofer_" style="short">
+	  <tt>geo:ehInside</tt>
+	</xref>
+(XML Line 003259): normalised identifier in <xref target="Egenhofer_Relation_Family__relation_family_Egenhofer_" style="short"/> from Egenhofer Relation Family (relation_family=Egenhofer)
+	<xref target="Egenhofer_Relation_Family__relation_family_Egenhofer_" style="short">
+	  <tt>geo:ehInside</tt>
+	</xref>
+(XML Line 003262): Crossreference target Egenhofer_Relation_Family__relation_family_Egenhofer_ is undefined
+	<xref target="Egenhofer_Relation_Family__relation_family_Egenhofer_" style="short">
+	  <tt>geo:ehContains</tt>
+	</xref>
+(XML Line 003262): normalised identifier in <xref target="Egenhofer_Relation_Family__relation_family_Egenhofer_" style="short"/> from Egenhofer Relation Family (relation_family=Egenhofer)
+	<xref target="Egenhofer_Relation_Family__relation_family_Egenhofer_" style="short">
+	  <tt>geo:ehContains</tt>
+	</xref>
+(XML Line 003292): normalised identifier in <xref target="RCC8_Relation_Family__relation_family_RCC8_" style="short"/> from RCC8 Relation Family (relation_family=RCC8)
+	<xref target="RCC8_Relation_Family__relation_family_RCC8_" style="short">
+	  <tt>geo:rcc8eq</tt>
+	</xref>
+(XML Line 003292): Crossreference target RCC8_Relation_Family__relation_family_RCC8_ is undefined
+	<xref target="RCC8_Relation_Family__relation_family_RCC8_" style="short">
+	  <tt>geo:rcc8eq</tt>
+	</xref>
+(XML Line 003295): normalised identifier in <xref target="RCC8_Relation_Family__relation_family_RCC8_" style="short"/> from RCC8 Relation Family (relation_family=RCC8)
+	<xref target="RCC8_Relation_Family__relation_family_RCC8_" style="short">
+	  <tt>geo:rcc8dc</tt>
+	</xref>
+(XML Line 003295): Crossreference target RCC8_Relation_Family__relation_family_RCC8_ is undefined
+	<xref target="RCC8_Relation_Family__relation_family_RCC8_" style="short">
+	  <tt>geo:rcc8dc</tt>
+	</xref>
+(XML Line 003298): normalised identifier in <xref target="RCC8_Relation_Family__relation_family_RCC8_" style="short"/> from RCC8 Relation Family (relation_family=RCC8)
+	<xref target="RCC8_Relation_Family__relation_family_RCC8_" style="short">
+	  <tt>geo:rcc8ec</tt>
+	</xref>
+(XML Line 003298): Crossreference target RCC8_Relation_Family__relation_family_RCC8_ is undefined
+	<xref target="RCC8_Relation_Family__relation_family_RCC8_" style="short">
+	  <tt>geo:rcc8ec</tt>
+	</xref>
+(XML Line 003301): Crossreference target RCC8_Relation_Family__relation_family_RCC8_ is undefined
+	<xref target="RCC8_Relation_Family__relation_family_RCC8_" style="short">
+	  <tt>geo:rcc8po</tt>
+	</xref>
+(XML Line 003301): normalised identifier in <xref target="RCC8_Relation_Family__relation_family_RCC8_" style="short"/> from RCC8 Relation Family (relation_family=RCC8)
+	<xref target="RCC8_Relation_Family__relation_family_RCC8_" style="short">
+	  <tt>geo:rcc8po</tt>
+	</xref>
+(XML Line 003304): Crossreference target RCC8_Relation_Family__relation_family_RCC8_ is undefined
+	<xref target="RCC8_Relation_Family__relation_family_RCC8_" style="short">
+	  <tt>geo:rcc8tppi</tt>
+	</xref>
+(XML Line 003304): normalised identifier in <xref target="RCC8_Relation_Family__relation_family_RCC8_" style="short"/> from RCC8 Relation Family (relation_family=RCC8)
+	<xref target="RCC8_Relation_Family__relation_family_RCC8_" style="short">
+	  <tt>geo:rcc8tppi</tt>
+	</xref>
+(XML Line 003307): normalised identifier in <xref target="RCC8_Relation_Family__relation_family_RCC8_" style="short"/> from RCC8 Relation Family (relation_family=RCC8)
+	<xref target="RCC8_Relation_Family__relation_family_RCC8_" style="short">
+	  <tt>geo:rcc8tpp</tt>
+	</xref>
+(XML Line 003307): Crossreference target RCC8_Relation_Family__relation_family_RCC8_ is undefined
+	<xref target="RCC8_Relation_Family__relation_family_RCC8_" style="short">
+	  <tt>geo:rcc8tpp</tt>
+	</xref>
+(XML Line 003310): Crossreference target RCC8_Relation_Family__relation_family_RCC8_ is undefined
+	<xref target="RCC8_Relation_Family__relation_family_RCC8_" style="short">
+	  <tt>geo:rcc8ntpp</tt>
+	</xref>
+(XML Line 003310): normalised identifier in <xref target="RCC8_Relation_Family__relation_family_RCC8_" style="short"/> from RCC8 Relation Family (relation_family=RCC8)
+	<xref target="RCC8_Relation_Family__relation_family_RCC8_" style="short">
+	  <tt>geo:rcc8ntpp</tt>
+	</xref>
+(XML Line 003313): Crossreference target RCC8_Relation_Family__relation_family_RCC8_ is undefined
+	<xref target="RCC8_Relation_Family__relation_family_RCC8_" style="short">
+	  <tt>geo:rcc8ntppi</tt>
+	</xref>
+(XML Line 003313): normalised identifier in <xref target="RCC8_Relation_Family__relation_family_RCC8_" style="short"/> from RCC8 Relation Family (relation_family=RCC8)
+	<xref target="RCC8_Relation_Family__relation_family_RCC8_" style="short">
+	  <tt>geo:rcc8ntppi</tt>
+	</xref>
+(XML Line 003330): Crossreference target Simple_Features_Relation_Family__relation_family_Simple_Features_ is undefined
+	<xref target="Simple_Features_Relation_Family__relation_family_Simple_Features_" style="short">
+	  <tt>geo:sfOverlaps</tt>
+	</xref>
+(XML Line 003330): normalised identifier in <xref target="Simple_Features_Relation_Family__relation_family_Simple_Features_" style="short"/> from Simple Features Relation Family (relation_family=Simple Features)
+	<xref target="Simple_Features_Relation_Family__relation_family_Simple_Features_" style="short">
+	  <tt>geo:sfOverlaps</tt>
+	</xref>
+(XML Line 003393): Crossreference target sparql-protocol is undefined
+	<xref target="sparql-protocol" style="short"/>
+(XML Line 003532): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>sfEquals</referenceFrom></locality></localityStack>geo:sfEquals</eref>
+(XML Line 003533): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>sfDisjoint</referenceFrom></locality></localityStack>geo:sfDisjoint</eref>
+(XML Line 003534): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>sfIntersects</referenceFrom></locality></localityStack>geo:sfIntersects</eref>
+(XML Line 003535): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>sfTouches</referenceFrom></locality></localityStack>geo:sfTouches</eref>
+(XML Line 003536): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>sfCrosses</referenceFrom></locality></localityStack>geo:sfCrosses</eref>
+(XML Line 003537): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>sfWithin</referenceFrom></locality></localityStack>geo:sfWithin</eref>
+(XML Line 003538): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>sfContains</referenceFrom></locality></localityStack>geo:sfContains</eref>
+(XML Line 003539): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>sfOverlaps</referenceFrom></locality></localityStack>geo:sfOverlaps</eref>
+(XML Line 003561): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>ehEquals</referenceFrom></locality></localityStack>geo:ehEquals</eref>
+(XML Line 003562): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>ehDisjoint</referenceFrom></locality></localityStack>geo:ehDisjoint</eref>
+(XML Line 003563): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>ehMeet</referenceFrom></locality></localityStack>geo:ehMeet</eref>
+(XML Line 003564): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>ehOverlap</referenceFrom></locality></localityStack>geo:ehOverlap</eref>
+(XML Line 003565): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>ehCovers</referenceFrom></locality></localityStack>geo:ehCovers</eref>
+(XML Line 003566): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>ehCoveredBy</referenceFrom></locality></localityStack>geo:ehCoveredBy</eref>
+(XML Line 003567): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>ehInside</referenceFrom></locality></localityStack>geo:ehInside</eref>
+(XML Line 003568): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>ehContains</referenceFrom></locality></localityStack>geo:ehContains</eref>
+(XML Line 003590): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>rcc8eq</referenceFrom></locality></localityStack>geo:rcc8eq</eref>
+(XML Line 003591): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>rcc8dc</referenceFrom></locality></localityStack>geo:rcc8dc</eref>
+(XML Line 003592): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>rcc8ec</referenceFrom></locality></localityStack>geo:rcc8ec</eref>
+(XML Line 003593): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>rcc8po</referenceFrom></locality></localityStack>geo:rcc8po</eref>
+(XML Line 003594): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>rcc8tppi</referenceFrom></locality></localityStack>geo:rcc8tppi</eref>
+(XML Line 003595): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>rcc8tpp</referenceFrom></locality></localityStack>geo:rcc8tpp</eref>
+(XML Line 003596): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>rcc8ntpp</referenceFrom></locality></localityStack>geo:rcc8ntpp</eref>
+(XML Line 003597): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>rcc8ntppi</referenceFrom></locality></localityStack>geo:rcc8ntppi</eref>
+(XML Line 004362): Crossreference target _spatial_aggregate_functions is undefined
+	<xref target="_spatial_aggregate_functions" style="short"/>
+(XML Line 004481): normalised identifier in <eref style="short" bibitemid="Function__geof" citeas=""/> from Function_ geof
+	<eref style="short" bibitemid="Function__geof" citeas="">
+	  <localityStack>
+	    <locality type="anchor">
+	      <referenceFrom>relate</referenceFrom>
+	    </locality>
+(XML Line 004502): Crossreference target sf-query-functions is undefined
+	<xref target="sf-query-functions" style="short"/>
+(XML Line 004523): Crossreference target eh-query-functions is undefined
+	<xref target="eh-query-functions" style="short"/>
+(XML Line 004544): Crossreference target rcc8-query-functions is undefined
+	<xref target="rcc8-query-functions" style="short"/>
+(XML Line 005354): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas="">
+	  <localityStack>
+	    <locality type="anchor">
+	      <referenceFrom>MetricArea</referenceFrom>
+	    </locality>
+(XML Line 005485): Crossreference target B_1.1.2.2_A__lt_tt_gt_Feature_lt__tt_gt__related_to_a__lt_tt_gt_Geometry_lt__tt_gt_ is undefined
+	<xref target="B_1.1.2.2_A__lt_tt_gt_Feature_lt__tt_gt__related_to_a__lt_tt_gt_Geometry_lt__tt_gt_" style="short"/>
+(XML Line 005485): normalised identifier in <xref target="B_1.1.2.2_A__lt_tt_gt_Feature_lt__tt_gt__related_to_a__lt_tt_gt_Geometry_lt__tt_gt_" style="short"/> from B 1.1.2.2 A <tt>Feature</tt> related to a <tt>Geometry</tt>
+	<xref target="B_1.1.2.2_A__lt_tt_gt_Feature_lt__tt_gt__related_to_a__lt_tt_gt_Geometry_lt__tt_gt_" style="short"/>
+(XML Line 005603): Crossreference target C.1.1.1.2_Size_Properties is undefined
+	<xref target="C.1.1.1.2_Size_Properties" style="short"/>
+(XML Line 005603): normalised identifier in <xref target="C.1.1.1.2_Size_Properties" style="short"/> from C.1.1.1.2 Size Properties
+	<xref target="C.1.1.1.2_Size_Properties" style="short"/>
+(XML Line 005609): normalised identifier in <xref target="C.1.1.1.2_Size_Properties" style="short"/> from C.1.1.1.2 Size Properties
+	<xref target="C.1.1.1.2_Size_Properties" style="short"/>
+(XML Line 005609): Crossreference target C.1.1.1.2_Size_Properties is undefined
+	<xref target="C.1.1.1.2_Size_Properties" style="short"/>
+(XML Line 006149): normalised identifier in <xref target="C.1.2.4_Geometry_Serializations" style="short"/> from C.1.2.4 Geometry Serializations
+	<xref target="C.1.2.4_Geometry_Serializations" style="short">C.1.2.4 Geometry Serializations</xref>
+(XML Line 006149): Crossreference target C.1.2.4_Geometry_Serializations is undefined
+	<xref target="C.1.2.4_Geometry_Serializations" style="short">C.1.2.4 Geometry Serializations</xref>
+(XML Line 007245): normalised identifier in <eref style="short" bibitemid="Property__geo" citeas=""/> from Property_ geo
+	<eref style="short" bibitemid="Property__geo" citeas=""><localityStack><locality type="anchor"><referenceFrom>FeatureCollection</referenceFrom></locality></localityStack>geo:FeatureCollection</eref>
+(XML Line 007489): normalised identifier in <xref target="F.2.1_Query_Parameters" style="short"/> from F.2.1 Query Parameters
+	<xref target="F.2.1_Query_Parameters" style="short">F.2.1 Query Parameters</xref>
+(XML Line 007489): Crossreference target F.2.1_Query_Parameters is undefined
+	<xref target="F.2.1_Query_Parameters" style="short">F.2.1 Query Parameters</xref>
+
+
+== Style
+
+(): Keywords are missing!
+(): Submitting Organizations is missing!
+(): Prefatory material must be followed by (clause) Scope
+(): Scope must be followed by Conformance
+(): Normative References must be followed by Terms and Definitions
+
+
+== Metanorma XML Style Warning
+
+(XML Line 000001): Table should have title
+	<table id="_misccontainer_anchor_aliases">
+	  <tbody>
+	    <tr>
+	      <th>_591cf87e-b4bf-4863-aafd-d24ff545fcfa</th>
+	      <td>/req/core</td>
+(XML Line 000109): Table should have title
+	<table id="_b8038fb1-fbcc-afc4-e31b-a759b0ba4ba7" unnumbered="true"><colgroup><col width="25%"/><col width="75%"/></colgroup><tbody><tr><td valign="middle" align="left">Contact</td>
+	<td valign="middle" align="left">Company</td>
+	</tr><tr><td valign="middle" align="left">Simon J.D. Cox</td>
+	<td valign="middle" align="left">CSIRO</td>
+	</tr><tr><td valign="middle" align="left">Panagiotis (Peter) A. Vretanos</td>
+(XML Line 000317): Hanging paragraph in clause
+	<clause id="_terms_and_definitions_2" obligation="normative">
+	<title>Terms and definitions</title>
+	<p id="_b5d67382-5943-2f14-eda6-715dd83c0fe0">For the purposes of this document, the terms and definitions given in the above normative references apply, as well as those reproduced or created in this section.</p>
+	
+	<clause id="_semantic_web_2" obligation="normative">
+(XML Line 000321): Hanging paragraph in clause
+	<clause id="_semantic_web_2" obligation="normative">
+	<title>Semantic Web</title>
+	<p id="_5ab0963d-c023-677d-9ae8-21af8cecc7f0">The following terms and their definitions relate to Semantic Web models, tools and methods.</p>
+	
+	<clause id="_rdf_2" obligation="normative">
+(XML Line 000346): Hanging paragraph in clause
+	<clause id="_spatial_2" obligation="normative">
+	<title>Spatial</title>
+	<p id="_a3af430d-e1be-f6ca-2512-a3ace1c43a5d">The following terms and their definitions relate to spatial science and data.</p>
+	
+	<clause id="_coordinate_system_2" obligation="normative">
+(XML Line 000377): Hanging paragraph in clause
+	<clause id="_conventions" obligation="normative">
+	<title>Conventions</title>
+	<definitions id="_symbols_and_abbreviated_terms" obligation="normative">
+	<title>Symbols and abbreviated terms</title>
+	<p id="_3033d5ba-f21e-efa2-a6c8-1ad6b765cd99">In this specification, the following common acronyms are used:</p>
+(XML Line 000383): Table should have title
+	<table id="_5dc7ca92-cd1e-2218-f728-ec42a1d0bab4" unnumbered="true"><colgroup><col width="14.2857%"/><col width="85.7143%"/></colgroup><tbody><tr><td valign="middle" align="left">CRS</td>
+	<td valign="middle" align="left">Coordinate Reference System</td>
+	</tr><tr><td valign="middle" align="left">DGGS</td>
+	<td valign="middle" align="left">Discrete Global Grid System</td>
+	</tr><tr><td valign="middle" align="left">GeoJSON</td>
+(XML Line 000422): Table should have title
+	<table id="_b25d0996-2719-8796-73a5-71c51d072c06" unnumbered="true"><colgroup><col width="14.2857%"/><col width="85.7143%"/></colgroup><tbody><tr><td valign="middle" align="left">ex:</td>
+	<td valign="middle" align="left"><link target="http://example.com/"/></td>
+	</tr><tr><td valign="middle" align="left">geo:</td>
+	<td valign="middle" align="left"><link target="http://www.opengis.net/ont/geosparql#"/></td>
+	</tr><tr><td valign="middle" align="left">geof:</td>
+(XML Line 000463): Hanging paragraph in clause
+	<clause id="_introduction" obligation="normative">
+	<title>Introduction</title>
+	<p id="_44250179-1b55-e5a6-9376-ea5d2de29e7f">The W3C Semantic Web Activity is defining a collection of technologies that enables a “web of data” where information is easily shared and reused across applications. Some key pieces of this technology stack are the RDF (Resource Description Framework) data model <eref type="inline" style="short" bibitemid="RDF" citeas="RDF"/>, <eref type="inline" style="short" bibitemid="RDFS" citeas="RDFS"/>, the OWL Web Ontology Language <eref type="inline" style="short" bibitemid="OWL2" citeas="OWL2"/> and the SPARQL protocol and RDF query language <eref type="inline" style="short" bibitemid="SPARQL" citeas="SPARQL"/>.</p>
+	
+	<clause id="_rdf_3" obligation="normative">
+(XML Line 000616): Hanging paragraph in clause
+	<clause id="_core" obligation="normative">
+	<title>Core</title>
+	<p id="core">This clause establishes the <strong>core</strong> requirements class, with IRI <tt>/req/core</tt>, which has a single corresponding conformance class, <strong>core</strong>, with IRI <tt>/conf/core</tt>. This requirements class defines a set of classes and properties for representing geospatial data. The resulting vocabulary — an ontology — can be used to construct SPARQL graph patterns for querying appropriately modeled geospatial data. RDFS and OWL vocabulary have both been used so that the vocabulary can be understood by systems that support only RDFS entailment and by systems that support OWL-based reasoning.</p>
+	
+	<p id="_2a170e0c-7502-f7b4-a10b-7a0ea3bbc029">The figure below overviews the classes and properties defined by GeoSPARQL in the <strong>core</strong>, <strong>Topology Vocabulary Extension</strong> and <strong>Geometry Extension</strong>, <strong>Geometry Topology Extension</strong> and <strong>RDFS Entailment Extension</strong> requirements classes.</p>
+(XML Line 000661): Hanging paragraph in clause
+	<clause id="_classes" obligation="normative">
+	<title>Classes</title>
+	<p id="_6d25620a-0511-3653-45f5-5e37b3adaf30">Two main classes are defined: <xref target="_class_geospatialobject" style="short"><tt>geo:SpatialObject</tt></xref> and <xref target="_class_geofeature" style="short"><tt>geo:Feature</tt></xref>. The class <xref target="_class_geofeature" style="short"><tt>geo:Feature</tt></xref> is equivalent to the UML class <tt>Feature</tt> defined in <xref target="ISO19109" style="short"/>.</p>
+	
+	<p id="_b6972c7f-0ad0-3bf7-ad9c-2d4b383cbc51">Two container classes are defined: <xref target="_class_geospatialobjectcollection" style="short">Spatial Object Collection</xref> and <xref target="_class_geofeaturecollection" style="short">Feature Collection</xref>.</p>
+(XML Line 000771): Hanging paragraph in clause
+	<clause id="spatial-object-properties" obligation="normative">
+	<title>Standard Properties for geo:SpatialObject</title>
+	<p id="_af93f2be-44ac-0f48-477d-d773ee441e10">Properties are defined for associating Spatial Objects with scalar spatial measurements (sizes) .</p>
+	
+	<requirement id="req_geometry-extension_spatial-object-properties" model="ogc">
+(XML Line 001000): Hanging paragraph in clause
+	<clause id="feature_properties" obligation="normative">
+	<title>Standard Properties for geo:Feature</title>
+	<p id="_c26a468f-30b8-0712-19f1-0171fa5c26f4">Properties are defined for associating <xref target="_class_geofeature" style="short"><tt>geo:Feature</tt></xref> instances with <xref target="_class_geogeometry" style="short"><tt>geo:Geometry</tt></xref> instances.</p>
+	
+	<requirement id="req_geometry-extension_feature-properties" model="ogc">
+(XML Line 001099): Hanging paragraph in clause
+	<clause id="_topology_vocabulary_extension" obligation="normative">
+	<title>Topology Vocabulary Extension</title>
+	<p id="_3355fd0e-ba47-fe39-35d0-3ece7c6e8201">This clause establishes the <em>Topology Vocabulary Extension</em> parameterized Requirements class. The IRI base is <tt>/req/topology-vocab-extension</tt>, which has a single corresponding Conformance Class <em>Topology Vocabulary Extension</em>, with IRI <tt>/conf/topology-vocab-extension</tt>. This Requirements class defines a vocabulary for asserting and querying topological relations between spatial objects. The class is parameterized so that different families of topological relations may be used, such as RCC8 and Egenhofer. These relations are generalized so that they may connect features as well as geometries.</p>
+	
+	<requirement id="_62b0c3da-9124-a555-8283-73bdc95e4f64" model="ogc" type="class">
+(XML Line 001380): Hanging paragraph in clause
+	<clause id="_geometry_extension" obligation="normative">
+	<title>Geometry Extension</title>
+	<p id="_d09e59cc-80da-0adb-0700-1ce52d04b9c8">This clause defines the <em>Geometry Extension</em> parameterized Requirements class with the base IRI <tt>/req/geometry-extension</tt>. There is a single corresponding conformance class <em>Geometry Extension</em>, with the IRI <tt>/conf/geometry-extension</tt>. These Requirements define a vocabulary for asserting and querying information about geometry data, and define query functions for operating on geometry data.</p>
+	
+	<requirement id="_aa05aef3-375f-1708-153e-5cb970a5d9f0" model="ogc" type="class">
+(XML Line 001535): Hanging paragraph in clause
+	<clause id="_geometry_class" obligation="normative">
+	<title>Geometry Class</title>
+	<p id="_3c66a75d-997c-b80f-32d2-8b22b9cce458">A single root geometry class is defined: <xref target="_class_geogeometry" style="short"><tt>geo:Geometry</tt></xref>. In addition, properties are defined for describing geometry data and for associating geometries with features.</p>
+	
+	<p id="_1123ae3a-e0f3-a72e-c2ef-c0de78e0a041">One container class is defined: <xref target="_class_geogeometrycollection" style="short">Geometry Collection</xref>.</p>
+(XML Line 001600): Hanging paragraph in clause
+	<clause id="geometry_properties" obligation="normative">
+	<title>Standard Properties for geo:Geometry</title>
+	<p id="_e8704473-b3f2-54a0-5b5c-073bb2b73b23">Properties are defined for describing geometry metadata.</p>
+	
+	<requirement id="_75a6e829-ac70-8bfc-020c-2db61f21fcec" model="ogc">
+(XML Line 001788): Hanging paragraph in clause
+	<clause id="_geometry_serializations" obligation="normative">
+	<title>Geometry Serializations</title>
+	<p id="_72078396-4996-2082-1fd1-f780a3a9754e">This section establishes the Requirements class for representing Geometry data in RDF literals, according to different non-RDF systems.</p>
+	
+	<p id="_5ba24a76-16d8-cc06-f0c7-a2b7ee7a66f7">GeoSPARQL presents specializations of the <tt>geo:hasSerialization</tt> property for indicating particular serializations and specialized datatype literals for containing them. It does not provide comprehensive definitions of their content since these are given in standards external to GeoSPARQL, all of which are referenced.</p>
+(XML Line 001801): Hanging paragraph in clause
+	<clause id="_well_known_text" obligation="normative">
+	<title>Well-Known Text</title>
+	<p id="_5d501cd2-365a-8903-1956-860a786f1a71">This section establishes the requirements for representing Geometry data in RDF based on Well-Known Text (WKT) as defined by <em>Simple Features Access</em> <xref target="OGCSFACA" style="short"/> <eref type="inline" style="short" bibitemid="ISO19125-1" citeas="ISO 19125-1"/>. It defines one RDFS Datatype: <xref target="_rdfs_datatype_geowktliteral" style="short">WKT Literal</xref> and one property, <xref target="_function_geofaswkt" style="short">as WKT</xref>.</p>
+	
+	<clause id="_rdfs_datatype_geowktliteral" obligation="normative">
+(XML Line 001896): Hanging paragraph in clause
+	<clause id="_geography_markup_language" obligation="normative">
+	<title>Geography Markup Language</title>
+	<p id="_c290c086-61ae-3688-c6aa-a763b3fe18a4">This section establishes a Requirements class for representing Geometry data in RDF based on GML as defined by the Geography Markup Language Encoding Standard <eref type="inline" style="short" bibitemid="OGC07-036" citeas="OGC07-036"/>. It defines one RDFS Datatype:
+	<xref target="_rdfs_datatype_geogmlliteral" style="short">GML Literal</xref> and one property, <xref target="_function_geofasgml" style="short">as GML</xref>.</p>
+	
+(XML Line 001977): Hanging paragraph in clause
+	<clause id="_geojson" obligation="normative">
+	<title>GeoJSON</title>
+	<p id="_fbe3bc0d-f513-3e1b-b6d2-3fdf92e0b1dd">This section establishes a Requirements class for representing Geometry data in RDF based on Geographic JavaScript Object Notation (GeoJSON) as defined by <xref target="_geojson" style="short"/>. It defines one RDFS Datatype: <xref target="_rdfs_datatype_geogeojsonliteral" style="short">GeoJSON Literal</xref> and one property, <xref target="_function_geofasgeojson" style="short">as GeoJSON</xref>.</p>
+	
+	<clause id="_rdfs_datatype_geogeojsonliteral" obligation="normative">
+(XML Line 002051): Hanging paragraph in clause
+	<clause id="_keyhole_markup_language" obligation="normative">
+	<title>Keyhole Markup Language</title>
+	<p id="_0ee5be15-176b-b001-c31d-156db57d5fe5">This section establishes the Requirements class for representing Geometry data in RDF based on KML as defined by <xref target="OGCKML" style="short"/>. It defines one RDFS Datatype:
+	<xref target="_rdfs_datatype_geokmlliteral" style="short">KML Literal</xref> and one property, <xref target="_function_geofaskml" style="short">as KML</xref>.</p>
+	
+(XML Line 002132): Hanging paragraph in clause
+	<clause id="_discrete_global_grid_system_3" obligation="normative">
+	<title>Discrete Global Grid System</title>
+	<requirement id="_933f4600-4096-e6c1-61dc-4cce49b0315e" model="ogc" type="class">
+	<title>Geometry DGGS Extension</title> 
+	<identifier>/req/geometry-extension-dggs</identifier><subject>Implementation Specification</subject>
+(XML Line 002260): Hanging paragraph in clause
+	<clause id="query_functions" obligation="normative">
+	<title>Non-topological Query Functions</title>
+	<p id="_bdcded50-5eb8-c4a3-9cf8-81986062fac8">This Requirements class defines SPARQL functions for performing non-topological spatial operations.</p>
+	
+	<requirement id="req_geometry_extension_query-functions" model="ogc">
+(XML Line 002713): Hanging paragraph in clause
+	<clause id="sa_functions" obligation="normative">
+	<title>Spatial Aggregate Functions</title>
+	<p id="_ef48d558-71f2-02f3-b9df-7756bb9a5cfb">This clause defines SPARQL functions for performing spatial aggregations of data.</p>
+	
+	<requirement id="req_geometry_extension_sa-functions" model="ogc">
+(XML Line 002785): Hanging paragraph in clause
+	<clause id="geometry_extension" obligation="normative">
+	<title>Geometry Topology Extension</title>
+	<p id="_d834adba-c910-b404-be22-8fe68c9fec21">This clause establishes the <em>Geometry Topology Extension</em> parameterized Requirements class with base IRI <tt>/req/geometry-topology-extension</tt>, which defines a collection of topological query functions that operate on geometry literals. These Requirements are parameterized to give implementations flexibility in the topological relation families and geometry serializations that they choose to support. These Requirements have a single corresponding conformance class <em>Geometry Topology Extension</em>, with IRI <tt>/conf/geometry-topology-extension</tt>.</p>
+	
+	<p id="_a8a8e6f5-9059-c681-d306-077416e1146f">The Dimensionally Extended Nine Intersection Model (DE-9IM) <xref target="DE-9IM" style="short"/> has been used to define the relation tested by the query functions introduced in this section. Each query function is associated with a defining DE-9IM intersection pattern. Possible pattern values are:</p>
+(XML Line 002985): Hanging paragraph in clause
+	<clause id="_rdfs_entailment_extension" obligation="normative">
+	<title>RDFS Entailment Extension</title>
+	<p id="_a97b89b6-5b43-387a-9b5f-8e76f983dbd0">This clause establishes the <em>RDFS Entailment Extension</em> parameterized Requirements class with base IRI <tt>/req/rdfs-entailment-extension</tt>, which defines a mechanism for matching implicitly-derived RDF triples in GeoSPARQL queries. This class is parameterized to give implementations flexibility in the topological relation families and geometry types that they choose to support. These Requirements have a single corresponding conformance class <em>RDFS Entailment Extension</em>, <tt>with IRI /conf/rdfs-entailment-extension</tt>.</p>
+	
+	<requirement id="_2ba17c16-4639-04bb-6be6-5cc593af7eca" model="ogc" type="class">
+(XML Line 003025): Hanging paragraph in clause
+	<clause id="rdfse_wkt" obligation="normative">
+	<title>WKT Serialization</title>
+	<p id="_cf08fa3a-662e-c9e0-1b81-57b85dce45c7">This section establishes the requirements for representing geometry data in RDF based on WKT as defined by Simple Features <xref target="OGCSFACA" style="short"/> <eref type="inline" style="short" bibitemid="ISO19125-1" citeas="ISO 19125-1"/>.</p>
+	
+	<clause id="_geometry_class_hierarchy" obligation="normative">
+(XML Line 003073): Hanging paragraph in clause
+	<clause id="rdfse_gml" obligation="normative">
+	<title>GML Serialization</title>
+	<p id="_8ad23ab1-ffe2-ed6d-76f3-a1e5cddfaf62">This section establishes Requirements for representing geometry data in RDF based on GML as defined by Geography Markup Language Encoding Standard <eref type="inline" style="short" bibitemid="OGC07-036" citeas="OGC07-036"/>.</p>
+	
+	<clause id="_geometry_class_hierarchy_2" obligation="normative">
+(XML Line 003100): Hanging paragraph in clause
+	<clause id="_query_rewrite_extension" obligation="normative">
+	<title>Query Rewrite Extension</title>
+	<p id="_750a5f0c-ff97-1a80-b3cb-3145ac2c63f1">This clause establishes the <em>Query Rewrite Extension</em> parameterized Requirements class with base IRI <tt>/req/query-rewrite-extension</tt>, which has a single corresponding conformance class <em>Query Rewrite Extension</em>, with IRI <tt>/conf/query-rewrite-extension</tt>. These Requirements define a set of RIF rules <xref target="RIF" style="short"/> that use topological extension functions defined in Clause 9 to establish the existence of direct topological predicates defined in Clause 7. One possible implementation strategy is to transform a given query by expanding a triple pattern involving a direct spatial predicate into a series of triple patterns and an invocation of the corresponding extension function as specified in the RIF rule.</p>
+	
+	<requirement id="_73b3a461-200f-a4e7-3a67-a3a83c550c6a" model="ogc" type="class">
+(XML Line 003343): Hanging paragraph in clause
+	<annex id="_abstract_test_suite" obligation="normative">
+	<title>Abstract Test Suite</title>
+	<floating-title id="_a_0_overview" depth="2" type="floating-title">A. 0. Overview</floating-title>
+	<p id="_8bb79e8a-8e76-03ab-eb1d-0190c533a618">This Annex lists tests for the Conformance Classes defined in the main body sections of this Specification with links to their Requirements and test purpose method and type.
+	Conformance classes may be used to signify the compatibility of a given implementation to parts of the GeoSPARQL standard.
+(XML Line 003350): Hanging paragraph in clause
+	<clause id="_conformance_class_core" obligation="normative">
+	<title>Conformance Class: Core</title>
+	<requirement id="_13877d2f-6f62-9b82-449b-875adeb5a7de" model="ogc" type="conformanceclass">
+	<title>Core</title>
+	<identifier>/conf/core</identifier><classification><tag>target</tag><value>/req/core</value></classification><requirement id="_8daa4901-ae36-62ba-bf7d-061d80d0b868" model="ogc" type="abstracttest"> <identifier>/conf/core/sparql-protocol</identifier></requirement><requirement id="_991c79d5-6159-f9f5-302f-456715bda2db" model="ogc" type="abstracttest"> <identifier>/conf/core/spatial-object-class</identifier></requirement><requirement id="_714ef9c4-cdbf-10e3-24af-eb0a9a0ca21b" model="ogc" type="abstracttest"> <identifier>/conf/core/feature-class</identifier></requirement><requirement id="_826fabdb-abfe-bb5b-50ba-9a03c93649b2" model="ogc" type="abstracttest"> <identifier>/conf/core/spatial-object-collection-class</identifier></requirement><requirement id="_6f8f2132-5c72-e16a-0bed-424053566f20" model="ogc" type="abstracttest"> <identifier>/conf/core/feature-collection-class</identifier></requirement><requirement id="_34769ecf-4150-9814-a9fa-47e08cc68c1c" model="ogc" type="abstracttest"> <identifier>/conf/core/spatial-object-properties</identifier></requirement>
+(XML Line 003503): Hanging paragraph in clause
+	<clause id="_conformance_class_topology_vocabulary_extension" obligation="normative">
+	<title>Conformance Class: Topology Vocabulary Extension</title>
+	<requirement id="_987ef500-e5a6-8df7-fb5a-6dffe51ce61d" model="ogc" type="conformanceclass">
+	<title>Topology Vocabulary Extension</title>
+	<identifier>/conf/topology-vocab-extension</identifier><classification><tag>target</tag><value>/req/topology-vocab-extension</value></classification><requirement id="_46aba7b5-525d-7999-c760-2954c3368f4e" model="ogc" type="abstracttest"> <identifier>/conf/topology-vocab-extension/sf-spatial-relations</identifier></requirement><requirement id="_c675ff6c-f738-c83c-472f-bf0380c601de" model="ogc" type="abstracttest"> <identifier>/conf/topology-vocab-extension/eh-spatial-relations</identifier></requirement><requirement id="_d6ac9c1f-578b-005d-c9c5-8a8b38fbb8b1" model="ogc" type="abstracttest"> <identifier>/conf/topology-vocab-extension/rcc8-spatial-relations</identifier></requirement>
+(XML Line 003610): Hanging paragraph in clause
+	<clause id="_conformance_class_geometry_extension" obligation="normative">
+	<title>Conformance Class: Geometry Extension</title>
+	<requirement id="_abe77d79-fb98-61de-2ea2-f5cbb45ba3d4" model="ogc" type="conformanceclass">
+	<title>Geometry Extension</title>
+	<identifier>/conf/geometry-extension</identifier><subject>Geometry</subject><classification><tag>target</tag><value>/req/geometry-extension</value></classification><requirement id="_57813dad-ea5a-2e30-cb50-5794e1fdce83" model="ogc" type="abstracttest"> <identifier>/conf/geometry-extension/geometry-class</identifier></requirement><requirement id="_81a01e65-73d4-bdae-8f85-a1750cd43417" model="ogc" type="abstracttest"> <identifier>/conf/geometry-extension/geometry-collection-class</identifier></requirement><requirement id="_a4063a88-db37-4b70-f307-d977aa69ffcd" model="ogc" type="abstracttest"> <identifier>/conf/geometry-extension/feature-properties</identifier></requirement><requirement id="_1e80b150-fcc7-21c7-2d3e-151f2b0eb9f6" model="ogc" type="abstracttest"> <identifier>/conf/geometry-extension/geometry-properties</identifier></requirement><requirement id="_c823fd86-ea31-8dac-7194-37a038f2b21c" model="ogc" type="abstracttest"> <identifier>/conf/geometry-extension/query-functions</identifier></requirement><requirement id="_93f4a049-a166-cf1f-ae6d-a5788809e07d" model="ogc" type="abstracttest"> <identifier>/conf/geometry-extension/srid-function</identifier></requirement><requirement id="_2c407b7d-de11-ffd9-5d74-ca353409d4ad" model="ogc" type="abstracttest"> <identifier>/conf/geometry-extension/sa-functions</identifier></requirement><requirement id="_7cac17a8-4929-ec82-3663-55d850314c8b" model="ogc" type="abstracttest"> <identifier>/conf/geometry-extension/wkt-literal</identifier></requirement><requirement id="_d752e60b-0145-300b-7ec1-d22b5b8f86a4" model="ogc" type="abstracttest"> <identifier>/conf/geometry-extension/wkt-literal-default-srs</identifier></requirement><requirement id="_1b35c29b-a7a4-b66c-324d-08013221e7dc" model="ogc" type="abstracttest"> <identifier>/conf/geometry-extension/wkt-axis-order</identifier></requirement><requirement id="_3cc962b2-3103-21f2-4e11-db5dbc2d8410" model="ogc" type="abstracttest"> <identifier>/conf/geometry-extension/wkt-literal-empty</identifier></requirement><requirement id="_b3b03139-3553-c1f6-c437-d0fdb92a55af" model="ogc" type="abstracttest"> <identifier>/conf/geometry-extension/geometry-as-wkt-literal</identifier></requirement><requirement id="_55534cf8-6099-a08a-4cb3-6256370eed59" model="ogc" type="abstracttest"> <identifier>/conf/geometry-extension/asWKT-function</identifier></requirement><requirement id="_08e29c3a-428f-079b-745e-0b51475a15d3" model="ogc" type="abstracttest"> <identifier>/conf/geometry-extension/gml-literal</identifier></requirement><requirement id="_8cf64ffd-a0ed-aad6-a189-0b2b124cc07d" model="ogc" type="abstracttest"> <identifier>/conf/geometry-extension/gml-literal-empty</identifier></requirement><requirement id="_c321c905-932d-a6e1-caa9-2712760790cf" model="ogc" type="abstracttest"> <identifier>/conf/geometry-extension/gml-profile</identifier></requirement><requirement id="_8f3f9fba-9857-d1dd-4e7a-6709b321c4a0" model="ogc" type="abstracttest"> <identifier>/conf/geometry-extension/geometry-as-gml-literal</identifier></requirement><requirement id="_331aad9d-a89d-85f7-2f12-54f573c4bc76" model="ogc" type="abstracttest"> <identifier>/conf/geometry-extension/asGML-function</identifier></requirement><requirement id="_0954811b-284b-0947-4e88-89d94ef8d3b8" model="ogc" type="abstracttest"> <identifier>/conf/geometry-extension/geojson-literal</identifier></requirement><requirement id="_f35c3aa6-5d95-ecbf-7caa-a18b1dec63a2" model="ogc" type="abstracttest"> <identifier>/conf/geometry-extension/geojson-literal-srs</identifier></requirement><requirement id="_4b7e4266-7e76-af20-28a4-a0d7225f4726" model="ogc" type="abstracttest"> <identifier>/conf/geometry-extension/geojson-literal-empty</identifier></requirement><requirement id="_f4d20d47-8436-9bae-4a69-a998814e1965" model="ogc" type="abstracttest"> <identifier>/conf/geometry-extension/geometry-as-geojson-literal</identifier></requirement><requirement id="_596ab97b-1ae5-f639-eb53-8f6d109340d3" model="ogc" type="abstracttest"> <identifier>/conf/geometry-extension/asGeoJSON-function</identifier></requirement><requirement id="_4a56951d-ea4f-466c-a65c-dd56dfabff47" model="ogc" type="abstracttest"> <identifier>/conf/geometry-extension/kml-literal</identifier></requirement><requirement id="_59f69b68-1e6e-2101-e4b2-029466f2756e" model="ogc" type="abstracttest"> <identifier>/conf/geometry-extension/kml-literal-srs</identifier></requirement><requirement id="_2133a444-d71a-9bff-c7cb-d55196ef4616" model="ogc" type="abstracttest"> <identifier>/conf/geometry-extension/kml-literal-empty</identifier></requirement><requirement id="_d5dbd60a-560e-a0dd-8218-18a252969ead" model="ogc" type="abstracttest"> <identifier>/conf/geometry-extension/geometry-as-kml-literal</identifier></requirement><requirement id="_4e4c6897-2140-a1f0-8db5-3ee30e173ae0" model="ogc" type="abstracttest"> <identifier>/conf/geometry-extension/asKML-function</identifier></requirement>
+(XML Line 004272): Hanging paragraph in clause
+	<clause id="_dggs_conformance_class_geometry_extension_dggs" obligation="normative">
+	<title>DGGS Conformance Class: Geometry Extension — DGGS</title>
+	<p id="_e17a253b-87eb-bd6a-9c89-2fc19dd797dc">This conformance Class applies only to DGGS geometries. See <xref target="_conformance_class_geometry_extension" style="short"/> for other geometries.</p>
+	
+	<requirement id="_24c7be6a-08eb-4e29-22f4-f8296a5ff60b" model="ogc" type="conformanceclass">
+(XML Line 004444): Hanging paragraph in clause
+	<clause id="_conformance_class_geometry_topology_extension" obligation="normative">
+	<title>Conformance Class: Geometry Topology Extension</title>
+	<requirement id="_35dc6ac0-4485-ec91-104f-d77f8b5c30d0" model="ogc" type="conformanceclass">
+	<title>Geometry Topology Extension</title>
+	<identifier>/conf/geometry-topology-extension</identifier><classification><tag>target</tag><value>/req/geometry-topology-extension</value></classification><requirement id="_6408aa44-184c-79bf-b053-d04fb0d3c299" model="ogc" type="abstracttest"> <identifier>/conf/geometry-topology-extension/relate-query-function</identifier></requirement><requirement id="_7f894675-3799-ea61-fc09-57421d0b1cd9" model="ogc" type="abstracttest"> <identifier>/conf/geometry-topology-extension/sf-query-functions</identifier></requirement><requirement id="_468d9ed5-b5aa-3ccb-a985-e0a9e3e6504e" model="ogc" type="abstracttest"> <identifier>/conf/geometry-topology-extension/eh-query-functions</identifier></requirement><requirement id="_284aa63f-335e-b6e2-510b-d163a819e40d" model="ogc" type="abstracttest"> <identifier>/conf/geometry-topology-extension/rcc8-query-functions</identifier></requirement>
+(XML Line 004551): Hanging paragraph in clause
+	<clause id="_conformance_class_rdfs_entailment_extension" obligation="normative">
+	<title>Conformance Class: RDFS Entailment Extension</title>
+	<requirement id="_944d7618-44d6-076f-2bc0-38730ac225d9" model="ogc" type="conformanceclass">
+	<title>RDFS Entailment Extension</title>
+	<identifier>/conf/rdfs-entailment-extension</identifier><classification><tag>target</tag><value>/req/rdfs-entailment-extension</value></classification><requirement id="_3ba2d09d-5f29-1027-2c0d-c469f0873cc3" model="ogc" type="abstracttest"> <identifier>/conf/rdfs-entailment-extension/bgp-rdfs-ent</identifier></requirement><requirement id="_a8a4202d-fc15-5dc3-e312-2e6a40518c96" model="ogc" type="abstracttest"> <identifier>/conf/rdfs-entailment-extension/wkt-geometry-types</identifier></requirement><requirement id="_0994f38e-7346-e5fc-b057-5fa3a839b1ed" model="ogc" type="abstracttest"> <identifier>/conf/rdfs-entailment-extension/gml-geometry-types</identifier></requirement>
+(XML Line 004634): Hanging paragraph in clause
+	<clause id="_conformance_class_query_rewrite_extension" obligation="normative">
+	<title>Conformance Class: Query Rewrite Extension</title>
+	<requirement id="_77c04e35-fc96-5947-f224-4385ccc1126b" model="ogc" type="conformanceclass">
+	<title>Query Rewrite Extension</title>
+	<identifier>/conf/query-rewrite-extension</identifier><classification><tag>target</tag><value>/req/query-rewrite-extension</value></classification><requirement id="_1af97690-f902-bcfd-dabe-9959f44474e4" model="ogc" type="abstracttest"> <identifier>/conf/query-rewrite-extension/sf-query-rewrite</identifier></requirement><requirement id="_e96943a1-7224-f7fa-0241-32c5a9acc77d" model="ogc" type="abstracttest"> <identifier>/conf/query-rewrite-extension/eh-query-rewrite</identifier></requirement><requirement id="_00cb0fbc-6b29-dfed-0a73-202f2ab504ad" model="ogc" type="abstracttest"> <identifier>/conf/query-rewrite-extension/rcc8-query-rewrite</identifier></requirement>
+(XML Line 004718): Hanging paragraph in clause
+	<annex id="_functions_summary" obligation="normative">
+	<title>Functions Summary</title>
+	<floating-title id="_b_0_overview" depth="2" type="floating-title">B.0. Overview</floating-title>
+	<p id="_4fb2ddb5-302c-3a11-b748-c37d2242a39c">This annex summarizes all the functions defined in GeoSPARQL, providing descriptions of their parameters and return types.</p>
+	
+(XML Line 005247): Hanging paragraph in clause
+	<annex id="_geosparql_examples" obligation="informative">
+	<title>GeoSPARQL Examples</title>
+	<floating-title id="_c_0_overview" depth="2" type="floating-title">C.0. Overview</floating-title>
+	<p id="_b77e0e4e-8871-8479-0c8a-21a7486585b0">This Annex provides examples of the GeoSPARQL ontology and functions. In addition to these, extended examples are provided separately by the GeoSPARQL 1.1 profile. See the <xref target="_geosparql_standard_structure" style="short"/> for the link to those examples.</p>
+	
+(XML Line 005252): Hanging paragraph in clause
+	<clause id="_rdf_examples" obligation="informative">
+	<title>RDF Examples</title>
+	<p id="_a2b8dadc-f00f-88bd-2818-1a238a7e216a">This Section illustrates GeoSPARQL ontology modelling with extended examples.</p>
+	
+	<clause id="_classes_2" obligation="informative">
+(XML Line 005258): Hanging paragraph in clause
+	<clause id="C.1.1.1" obligation="informative">
+	<title><tt>SpatialObject</tt></title>
+	<p id="_bc61d2bc-f567-c086-f94a-2d8ff5765615">The <tt>SpatialObject</tt> class is defined in <xref target="_class_geospatialobject" style="short"/>.</p>
+	
+	<clause id="C.1.1.1.1" obligation="informative">
+(XML Line 005313): Hanging paragraph in clause
+	<clause id="C.1.1.2" obligation="informative">
+	<title><tt>Feature</tt></title>
+	<p id="_b5039ffd-7b89-2f64-cd6d-20a1fa1ea95e">The <tt>Feature</tt> class is defined in <xref target="_class_geofeature" style="short"/>.</p>
+	
+	<clause id="C.1.1.2.1" obligation="informative">
+(XML Line 005472): Hanging paragraph in clause
+	<clause id="_geometry" obligation="informative">
+	<title><tt>Geometry</tt></title>
+	<p id="_89bfde6b-4760-b87f-3801-bde01c24f610">The <tt>Geometry</tt> class is defined in <xref target="_class_geogeometry" style="short"/>.</p>
+	
+	<clause id="C.1.1.3.1" obligation="informative">
+(XML Line 005803): Hanging paragraph in clause
+	<clause id="_example_sparql_queries_rules" obligation="informative">
+	<title>Example SPARQL Queries &amp; Rules</title>
+	<p id="_52887021-34ee-2197-a900-ab5ef4a41516">This Section provides example data and then illustrates the use of GeoSPARQL functions and the application of rules with that data.</p>
+	
+	<clause id="_example_data" obligation="informative">
+(XML Line 005901): Hanging paragraph in clause
+	<clause id="_example_queries" obligation="informative">
+	<title>Example Queries</title>
+	<p id="_55aef948-7925-d562-1f93-b0152b024270">This Section illustrates the use of GeoSPARQL functions through a series of example queries.</p>
+	
+	<clause id="C.2.2.1" obligation="informative">
+(XML Line 005929): Table should have title
+	<table id="_5754ddff-a653-b2d6-1a28-f58beadc2ae4" unnumbered="true"><thead><tr><th valign="middle" align="left"><strong>?f</strong></th>
+	</tr></thead>
+	<tbody><tr><td valign="middle" align="left"><tt>my:B</tt></td>
+	</tr><tr><td valign="middle" align="left"><tt>my:F</tt></td>
+	</tr></tbody>
+(XML Line 005963): Table should have title
+	<table id="_2987fd42-a872-cb4b-41f3-f968c5ab9aeb" unnumbered="true"><thead><tr><th valign="middle" align="left"><strong>?f</strong></th>
+	</tr></thead>
+	<tbody><tr><td valign="middle" align="left"><tt>my:D</tt></td>
+	</tr></tbody>
+	</table>
+(XML Line 005997): Table should have title
+	<table id="_32ec0ddb-9f33-d673-6648-3632ac027853" unnumbered="true"><thead><tr><th valign="middle" align="left"><strong>?f</strong></th>
+	</tr></thead>
+	<tbody><tr><td valign="middle" align="left"><tt>my:C</tt></td>
+	</tr></tbody>
+	</table>
+(XML Line 006027): Table should have title
+	<table id="_fb0e2707-b6e9-5a07-4023-b44590ce209b" unnumbered="true"><thead><tr><th valign="middle" align="left"><strong>?f</strong></th>
+	</tr></thead>
+	<tbody><tr><td valign="middle" align="left"><tt>my:A</tt></td>
+	</tr><tr><td valign="middle" align="left"><tt>my:D</tt></td>
+	</tr><tr><td valign="middle" align="left"><tt>my:E</tt></td>
+(XML Line 006060): Table should have title
+	<table id="_07c3942a-1f0e-6aac-3b49-0e230925409e" unnumbered="true"><thead><tr><th valign="middle" align="left"><strong>?minX</strong></th>
+	<th valign="middle" align="left"><strong>?minY</strong></th>
+	<th valign="middle" align="left"><strong>?minZ</strong></th>
+	<th valign="middle" align="left"><strong>?maxX</strong></th>
+	<th valign="middle" align="left"><strong>?maxY</strong></th>
+(XML Line 006078): Hanging paragraph in clause
+	<clause id="_example_rule_application" obligation="informative">
+	<title>Example Rule Application</title>
+	<p id="_324de26f-91e0-4a5d-cd5b-5cba63483b6c">This section illustrates the query transformation strategy for implementing GeoSPARQL rules.</p>
+	
+	<clause id="C.2.3.1" obligation="informative">
+(XML Line 006136): Table should have title
+	<table id="_5452dfbe-6196-2f7a-4b2c-a5d56e4e8315" unnumbered="true"><thead><tr><th valign="middle" align="left"><strong>?f</strong></th>
+	</tr></thead>
+	<tbody><tr><td valign="middle" align="left"><tt>my:D</tt></td>
+	</tr><tr><td valign="middle" align="left"><tt>my:DExactGeom</tt></td>
+	</tr><tr><td valign="middle" align="left"><tt>my:E</tt></td>
+(XML Line 006156): Hanging paragraph in clause
+	<annex id="_usage_of_shacl_shapes" obligation="informative">
+	<title>Usage of SHACL shapes</title>
+	<floating-title id="_d_0_overview" depth="2" type="floating-title">D.0. Overview</floating-title>
+	<p id="_1134ea79-6329-891f-0ca5-1f6e660cfded">This Annex provides guidance on the usage of the SHACL shapes included with GeoSPARQL 1.1.</p>
+	
+(XML Line 006345): Hanging paragraph in clause
+	<annex id="_alignments" obligation="informative">
+	<title>Alignments</title>
+	<floating-title id="_e_0_overview" depth="2" type="floating-title">E.0. Overview</floating-title>
+	<p id="_1df1d736-e8ce-316e-ae97-e670d77eb3fb">This Annex provides alignments of GeoSPARQL to other well known ontologies that are either commonly used with GeoSPARQL or could be.</p>
+	
+(XML Line 006963): Hanging paragraph in clause
+	<clause id="_openstreetmap_ontologies" obligation="informative">
+	<title>OpenStreetMap Ontologies</title>
+	<p id="_4363c7cf-b67a-f73c-c5c1-63bf2ba00d6d">There are several approaches to make OpenStreetMap data accessible in the Linked Open Data cloud.</p>
+	
+	<clause id="_linkedgeodata" obligation="informative">
+(XML Line 007237): Hanging paragraph in clause
+	<annex id="_cql_geosparql_mapping" obligation="informative">
+	<title>CQL / GeoSPARQL Mapping</title>
+	<floating-title id="_f_0_overview" depth="2" type="floating-title">F.0. Overview</floating-title>
+	<p id="_b272d6d3-fb01-a74d-6fee-2456867401ad">This annex presents a mapping between the Common Query Language(CQL) <xref target="CQLDEF" style="short"/> and GeoSPARQL as well as generic SPARQL <eref type="inline" style="short" bibitemid="SPARQL" citeas="SPARQL"/>. This is likely of relevance to the delivery of GeoSPARQL data via systems such as the OGC’s Web Feature Service <xref target="WFS" style="short"/> and OGC API Features <xref target="OGCAPIF" style="short"/> which implement CQL.</p>
+	
+(XML Line 007286): Hanging paragraph in clause
+	<clause id="_mappings_from_cql2_statements_to_geosparql_queries" obligation="informative">
+	<title>Mappings from CQL2 statements to GeoSPARQL queries</title>
+	<p id="_bd914281-673a-b3f2-1ad2-2072cd2079a0">This section presents lists of equivalences between Common Query Language (CQL2) <xref target="CQLDEF" style="short"/> statements and GeoSPARQL statements.</p>
+	
+	<clause id="_query_parameters" obligation="informative">
+
+
+== Requirements
+
+(XML Line 000626): Requirement class /req/core has no corresponding Requirement
+	<requirement id="_b33e3feb-a31d-537e-ed02-f9f164518445" model="ogc" type="class">
+	<title>Core Extension</title> 
+	<identifier>/req/core</identifier><subject>Implementation Specification</subject>
+	<description><dl id="_f73e95f6-4fa0-6f93-1b3e-5b836d3787a7"><dt>requirement</dt>
+	<dd><p id="_d697fee7-4c17-689e-3830-07fbaa5a0fa9">/req/core/sparql-protocol</p>
+(XML Line 001103): Requirement class /req/topology-vocab-extension has no corresponding Requirement
+	<requirement id="_62b0c3da-9124-a555-8283-73bdc95e4f64" model="ogc" type="class">
+	<title>Topology Vocabulary Extension</title> 
+	<identifier>/req/topology-vocab-extension</identifier><subject>Implementation Specification</subject>
+	<description><dl id="_f26b6c2c-9fca-5662-d59f-30e642ec2570"><dt>requirement</dt>
+	<dd><p id="_4336536b-9918-d4c9-a2fd-ce5b15d6fada">/req/topology-vocab-extension/sf-spatial-relations</p>
+(XML Line 001384): Requirement class /req/geometry-extension has no corresponding Requirement
+	<requirement id="_aa05aef3-375f-1708-153e-5cb970a5d9f0" model="ogc" type="class">
+	<title>Geometry Extension</title> 
+	<identifier>/req/geometry-extension</identifier><subject>Implementation Specification</subject>
+	<description><dl id="_2e775f62-b169-aecc-b23a-e028c82d27d2"><dt>requirement</dt>
+	<dd><p id="_e21de35a-05e4-ca65-e0e2-64aa6d40b8e2">/req/geometry-extension/geometry-class</p>
+(XML Line 001593): Requirement /req/core/geometry-collection-class has no corresponding Conformance test
+	<requirement id="req_core_geometry-collection-class" model="ogc">
+	<title>Geometry Collection Class</title> 
+	<identifier>/req/core/geometry-collection-class</identifier><description><p id="_867d71da-381a-a494-1fe6-ccaa4f14a647">Implementations shall allow the RDFS class <xref target="_class_geogeometrycollection" style="short"><tt>geo:GeometryCollection</tt></xref> to be used in SPARQL graph patterns.</p></description>
+	</requirement>
+(XML Line 002134): Requirement class /req/geometry-extension-dggs has no corresponding Requirement
+	<requirement id="_933f4600-4096-e6c1-61dc-4cce49b0315e" model="ogc" type="class">
+	<title>Geometry DGGS Extension</title> 
+	<identifier>/req/geometry-extension-dggs</identifier><subject>Implementation Specification</subject>
+	<description><dl id="_7dfe2fd2-1691-3a25-e45d-29ceb73ba715"><dt>requirement</dt>
+	<dd><p id="_70c3b351-889b-f68d-21d7-7e7052c621e6">/req/geometry-extension-dggs/query-functions</p>
+(XML Line 002293): Requirement /req/geometry-extension/query-functions-non-sf has no corresponding Conformance test
+	<requirement id="req_geometry_extension_query-functions-non-sf" model="ogc">
+	<title>Non-topological Query Functions (Non Simple Features)</title> 
+	<identifier>/req/geometry-extension/query-functions-non-sf</identifier><description><p id="_cc64a50a-fd70-0a12-cc86-49e918545814">Implementations shall support the functions
+	<xref target="_function_geofmetriclength" style="short"><tt>geof:metricLength</tt></xref>,
+	<xref target="_function_geoflength" style="short"><tt>geof:length</tt></xref>,
+(XML Line 002803): Requirement class /req/geometry-topology-extension has no corresponding Requirement
+	<requirement id="_ea9ebdba-2038-37f1-2f2b-4358771c344c" model="ogc" type="class">
+	<title>Geometry Topology Extension</title> 
+	<identifier>/req/geometry-topology-extension</identifier><subject>Implementation Specification</subject>
+	<description><dl id="_302bca89-4019-2f2d-0971-1e2913e3d17d"><dt>requirement</dt>
+	<dd><p id="_f0dc02c0-b00b-befe-d948-e9e25ca2a403">/req/geometry-topology-extension/relate-query-function</p>
+(XML Line 002989): Requirement class /req/rdfs-entailment-extension has no corresponding Requirement
+	<requirement id="_2ba17c16-4639-04bb-6be6-5cc593af7eca" model="ogc" type="class">
+	<title>RDFS Entailment Extension</title> 
+	<identifier>/req/rdfs-entailment-extension</identifier><subject>Implementation Specification</subject>
+	<description><dl id="_90159c44-d922-2e82-14ef-f4d75cf76e15"><dt>requirement</dt>
+	<dd><p id="_15d5e4b6-ace0-2eb6-726a-48da788fdb7a">/req/rdfs-entailment-extension/bgp-rdfs-ent</p>
+(XML Line 003104): Requirement class /req/query-rewrite-extension has no corresponding Requirement
+	<requirement id="_73b3a461-200f-a4e7-3a67-a3a83c550c6a" model="ogc" type="class">
+	<title>Query Rewrite Extension</title> 
+	<identifier>/req/query-rewrite-extension</identifier><subject>Implementation Specification</subject>
+	<description><dl id="_2d86f78a-04eb-7994-4fcc-4ea5c84817c6"><dt>requirement</dt>
+	<dd><p id="_732271f1-cd9b-e158-c396-2d7a3d68c389">/req/query-rewrite-extension/sf-query-rewrite</p>
+(XML Line 003727): Conformance test /conf/geometry-extension/geometry-collection-class has no corresponding Requirement
+	<requirement id="_8a15e235-d56a-588f-4db1-eee987fe0b1d" model="ogc" type="abstracttest"> <identifier>/conf/geometry-extension/geometry-collection-class</identifier><classification><tag>target</tag><value>/req/geometry-extension/geometry-collection-class</value></classification><component class="test-purpose"><p id="_06fd0a71-70b1-206d-c92d-55c6a2a208e7">Check conformance with this requirement</p>
+	</component><component class="test-method"><p id="_dd1842ef-683d-2e2f-b852-8ce39c3170fa">Verify that queries involving <xref target="_class_geogeometrycollection" style="short">Geometry Collection</xref> return the correct result on a test dataset</p>
+	</component><component class="test-method-type"><p id="_26b06488-3ea5-aa52-30df-fccc66f500fc">Capabilities</p>
+	</component><component class="reference"><p id="_b4188294-478c-b1df-0069-95a702467808"><xref target="_class_geogeometrycollection" style="short"/></p>
+	</component>
+(XML Line 004334): Conformance test /conf/geometry-extension-dggs/srid-function has no corresponding Requirement
+	<requirement id="_ac505483-e106-7d20-1305-57f455a2b4c9" model="ogc" type="abstracttest"> <identifier>/conf/geometry-extension-dggs/srid-function</identifier><classification><tag>target</tag><value>/req/geometry-extension-dggs/srid-function</value></classification><component class="test-purpose"><p id="_98b06458-25d3-4e6e-6fd2-a06daeb1689f">Check conformance with this requirement</p>
+	</component><component class="test-method"><p id="_d237c1e1-5e2f-0e17-4d07-0f262acf7f4b">Verify that Implementations shall support geof:getSRID as a SPARQL extension function for DGGS geometry literals.</p>
+	</component><component class="reference"><p id="_5eacb503-0208-d6bb-f2b0-18d176beb6d6"><xref target="_function_geofgetsrid" style="short"/></p>
+	</component>
+	</requirement>
+(XML Line 004349): Conformance test /conf/geometry-extension-dggs/sa-functions has no corresponding Requirement
+	<requirement id="_752940ba-2212-456b-6981-38adfa4171c5" model="ogc" type="abstracttest"> <identifier>/conf/geometry-extension-dggs/sa-functions</identifier><classification><tag>target</tag><value>/req/geometry-extension-dggs/sa-functions</value></classification><component class="test-purpose"><p id="_eb719937-5936-2d77-b677-4d85baacbed5">Check conformance with this requirement</p>
+	</component><component class="test-method"><p id="_07aea768-cd90-3c5d-ed60-b0ec1f75bb64">Verify that implementations support the functions of Requirement A.3.1.8 /conf/geometry-extension/sa-functions as SPARQL extension functions which are defined in this standard, for DGGS geometry literals, in a manner which is consistent with definitions of these functions in Simple Features <xref target="OGCSFACA" style="short"/> <eref type="inline" style="short" bibitemid="ISO19125-1" citeas="ISO 19125-1"/>.</p>
+	</component><component class="test-method-type"><p id="_54cbdd20-e303-61b6-af8c-1764ed48acdb">Capabilities</p>
+	</component><component class="reference"><p id="_526a543b-a02c-5172-3764-85ebd74d0da0"><xref target="_spatial_aggregate_functions" style="short"/></p>
+	</component>
+
+
+== Document Attributes
+
+(): draft is not an allowed status for standard
+
+
+== Metanorma XML Syntax
+
+(XML Line 000005:235): character content of element "on" invalid; must be a string matching the regular expression "([\+\-]?\d{4})((-?)((0[1-9]|1[0-2])((-?)([12]\d|0[1-9]|3[01]))?|W([0-4]\d|5[0-2])(-?[1-7])?|(00[1-9]|0[1-9]\d|[12]\d{2}|3([0-5]\d|6[1-6]))))?"
+(XML Line 000005:386): character content of element "on" invalid; must be a string matching the regular expression "([\+\-]?\d{4})((-?)((0[1-9]|1[0-2])((-?)([12]\d|0[1-9]|3[01]))?|W([0-4]\d|5[0-2])(-?[1-7])?|(00[1-9]|0[1-9]\d|[12]\d{2}|3([0-5]\d|6[1-6]))))?"
+(XML Line 000111:88): element "clause" not allowed here; expected the element end-tag or element "submitters"
+(XML Line 000136:102): element "clause" not allowed here; expected the element end-tag or element "submitters"
+(XML Line 000436:15): element "definitions" incomplete; missing required element "dl"
+(XML Line 002392:440): element "fn" not allowed here; expected the element end-tag, text or element "add", "bookmark", "br", "concept", "date", "del", "em", "eref", "erefstack", "hi", "hr", "image", "index", "index-xref", "keyword", "link", "note", "pagebreak", "ruby", "smallcap", "span", "stem", "strike", "strong", "sub", "sup", "svg", "tt", "underline" or "xref"
+(XML Line 003379:68): found attribute "type", but no attributes allowed here
+(XML Line 003380:47): element "p" not allowed here; expected the element end-tag or element "clause", "definitions", "floating-title", "references" or "terms"
+(XML Line 003973:68): found attribute "type", but no attributes allowed here
+(XML Line 003974:47): element "p" not allowed here; expected the element end-tag or element "clause", "definitions", "floating-title", "references" or "terms"
+(XML Line 003976:47): element "p" not allowed here; expected the element end-tag or element "clause", "definitions", "floating-title", "references" or "terms"
+(XML Line 003978:47): element "p" not allowed here; expected the element end-tag or element "clause", "definitions", "floating-title", "references" or "terms"
+(XML Line 004500:68): found attribute "type", but no attributes allowed here
+(XML Line 004501:47): element "p" not allowed here; expected the element end-tag or element "clause", "definitions", "floating-title", "references" or "terms"
+(XML Line 005407:68): found attribute "type", but no attributes allowed here
+(XML Line 005408:47): element "p" not allowed here; expected the element end-tag or element "clause", "definitions", "floating-title", "references" or "terms"
+(XML Line 005410:47): element "p" not allowed here; expected the element end-tag or element "clause", "definitions", "floating-title", "references" or "terms"
+(XML Line 005412:47): element "p" not allowed here; expected the element end-tag or element "clause", "definitions", "floating-title", "references" or "terms"
+(XML Line 005594:68): found attribute "type", but no attributes allowed here
+(XML Line 005595:47): element "p" not allowed here; expected the element end-tag or element "clause", "definitions", "floating-title", "references" or "terms"
+(XML Line 005597:47): element "p" not allowed here; expected the element end-tag or element "clause", "definitions", "floating-title", "references" or "terms"
+(XML Line 005599:51): element "table" not allowed here; expected the element end-tag or element "clause", "definitions", "floating-title", "references" or "terms"
+(XML Line 006484:68): found attribute "type", but no attributes allowed here
+(XML Line 006485:47): element "p" not allowed here; expected the element end-tag or element "clause", "definitions", "floating-title", "references" or "terms"
+(XML Line 007191:391): element "link" not allowed here; expected the element end-tag, text or element "br", "em", "hi", "smallcap", "strike", "strong", "sub", "sup", "tt" or "underline"
+(XML Line 007194:296): element "link" not allowed here; expected the element end-tag, text or element "br", "em", "hi", "smallcap", "strike", "strong", "sub", "sup", "tt" or "underline"
+(XML Line 007246:70): attribute "hidden" not allowed here; expected attribute "id", "normative" or "obligation"
+(XML Line 007258:58): attribute "hidden" not allowed here; expected attribute "id", "normative" or "obligation"
+(XML Line 007261:58): attribute "hidden" not allowed here; expected attribute "id", "normative" or "obligation"
+(XML Line 007264:58): attribute "hidden" not allowed here; expected attribute "id", "normative" or "obligation"

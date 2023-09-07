@@ -1,5 +1,0 @@
-
-== Revisions to Volume 12: CDB Navaids Attribution and Navaids Attribution Enumeration Values
-
-=== Abstract:
-Slight re-wording of the abstract
