@@ -582,7 +582,7 @@ test-method:: Verify that implementations support the functions of Requirement h
 [abstract_test,identifier="/conf/geometry-extension-dggs/query-functions-non-sf"]
 ====
 [%metadata]
-target:: /req/geometry-extension-dggs/query-functions
+target:: /req/geometry-extension-dggs/query-functions-non-sf
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that implementations support the functions of Requirement http://www.opengis.net/spec/geosparql/1.1/req/geometry-extension/query-functions-non-sf for DGGS geometry literals as SPARQL extension functions which are defined in this standard, for non-DGGS geometry literals.
 ====
@@ -619,7 +619,7 @@ reference:: <<RDFS Datatype: geo:dggsLiteral>>
 [abstract_test,identifier="/conf/geometry-extension-dggs/dggs-literal-empty"]
 ====
 [%metadata]
-target:: /req/geometry-extension/dggs-literal-empty
+target:: /req/geometry-extension-dggs/dggs-literal-empty
 test-purpose:: Check conformance with this requirement
 test-method:: Verify that queries involving empty <<RDFS Datatype: geo:dggsLiteral, `geo:dggsLiteral`>> values return the correct result for a test dataset.
 test-method-type:: Capabilities
