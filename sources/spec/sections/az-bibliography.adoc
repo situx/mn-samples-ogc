@@ -5,7 +5,7 @@
 
 [[QUAL]] [QUAL]:: Cohn, Anthony G.; Brandon Bennett; John Gooday; Nicholas Mark Gotts: _Qualitative Spatial Representation and Reasoning with the Region Connection Calculus_, GeoInformatica, 1, 275–316 (1997) https://doi.org/10.1023/A:1009712514511
 
-[[FORMAL]] [FORMAL]:: Egenhofer: M. _A Formal Definition of Binary Topological Relationships_ (1989). In: Litwin, W. and Schek, H.J., Eds., Proceedings of the 3rd International Conference on Foundations of Data Organization and Algorithms (FODO), Paris, France, Lecture Notes in Computer Science, 367, (Springer-Verlag, New York, 1989) 457-472. (1989)
+[[FORMAL]] [FORMAL]:: Egenhofer Max: _A Formal Definition of Binary Topological Relationships_ (1989). In: Litwin, W. and Schek, H.J., Eds., Proceedings of the 3rd International Conference on Foundations of Data Organization and Algorithms (FODO), Paris, France, Lecture Notes in Computer Science, 367, (Springer-Verlag, New York, 1989) 457-472. (1989)
 
 [[CATEG]] [CATEG]:: Egenhofer, Max and J. Herring: _Categorizing Binary Topological Relations Between Regions, Lines, and Points_ (1990). Geographic Databases, Technical Report, Department of Surveying Engineering, University of Maine
 
